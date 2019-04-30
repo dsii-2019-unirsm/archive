@@ -23,7 +23,33 @@ String [] c= {"affittare",
 "operaio",
 "paracadutismo",
 "corvo",
-"scurrile"
+"scurrile",
+"amianto",
+"amaranto",
+"rosso",
+"giallo",
+"blu",
+"cinque",
+"undici",
+"cento",
+"centrino",
+"macchina",
+"automobile",
+"operaio",
+"gennaio",
+"agosto",
+"tavolino",
+"contanti",
+"ghiro",
+"volpe",
+"tonno",
+"salmone",
+"browser",
+"variabile",
+"sole",
+"pioggia",
+"fulmine",
+"calamita"
 
 };
 
@@ -47,7 +73,7 @@ background(245);
 
 
 void draw(){
-background(245);
+background(60);
 
 // bordo DX
 if (x >= (640-textWidth(testo)) && x_avanti==true){
@@ -65,7 +91,7 @@ testo = c[int(random(23))];
 if (y >= 640  && y_avanti==true){
 y_avanti = false;
 inc_y=random(4)+1;
-testo = c[int(random(23))];
+testo = c[int(random(c.length))];
 }
 // bordo ALTO
 if (y <=  textAscent()  && y_avanti==false){
