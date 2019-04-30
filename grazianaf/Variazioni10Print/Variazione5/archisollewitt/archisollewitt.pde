@@ -8,7 +8,7 @@ void setup()
 } 
  
 int res = 50;   // dimensioni delle celle della griglia
-int arcres = 48; // Resolution of the arc 
+int arcres = 48; 
  
 void draw() 
 { 
