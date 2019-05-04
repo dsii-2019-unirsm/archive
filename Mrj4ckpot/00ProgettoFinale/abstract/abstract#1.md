@@ -56,4 +56,6 @@ Questi progetti si basano sul tentativo di produrre un pensiero unico a partire 
 
 ## Ipotesi progettuali ##
 
-#### Proteus && Hive mind bots ####
+#### Beholder ####
+
+
