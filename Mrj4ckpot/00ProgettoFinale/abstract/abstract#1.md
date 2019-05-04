@@ -57,10 +57,13 @@ Questi progetti si basano sul tentativo di produrre un pensiero unico a partire 
 ## Ipotesi progettuali ##
 
 #### Beholder ####
-![Imgur](https://i.imgur.com/Ola0l8L.jpg?1)
-
-Il beholder è una storica creatura presente nei manuali di Dungeons & Dragons, essi sono dotati di 9 occhi e ognuno vede le cose in maniera diversa dagli altri. Può essere che gli occhi del beholder siano 
 
 ![Imgur](https://i.imgur.com/a89KehF.jpg?1)
 ![Imgur](https://i.imgur.com/5lJhbzZ.jpg?1)
 ![Imgur](https://i.imgur.com/EMNSJIh.png?1)
+
+Il beholder è una storica creatura presente nei manuali di Dungeons & Dragons, essi sono dotati di 9 occhi e ognuno vede le cose in maniera diversa dagli altri. Può essere che gli occhi del beholder siano 
+
+![Imgur](https://i.imgur.com/Ola0l8L.jpg?1)
+
+
