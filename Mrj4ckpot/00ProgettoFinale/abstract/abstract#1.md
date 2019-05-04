@@ -38,7 +38,7 @@ Nella critica della ragion pura, Kant descrive il modo in cui la realtà viene "
 #### Leedback ####
 ![Imgur](https://i.imgur.com/lHahyng.jpg)
 
-Due webcam, collegate a due display led, sono ognuna rivolta verso lo schermo dell'altra. Un glitch inserito appositamente nel frame buffer delle due telecamere fa si che le immagini nello schermo vengano "fraintese". In questo modo, gli schermi producono un feedback loop che produce continuamente immagini sempre differenti; allo stesso modo, le nostre opinioni su ciò che vediamo del mondo potrebbero essere modificate dalle nostre stesse azioni, influenzando un modndo che siamo noi a influenzare.
+Due webcam, collegate a due display led, sono ognuna rivolta verso lo schermo dell'altra. Un glitch inserito appositamente nel frame buffer delle due telecamere fa si che le immagini nello schermo vengano "fraintese". In questo modo, gli schermi producono un feedback loop che produce continuamente immagini sempre differenti; allo stesso modo, le nostre opinioni su ciò che vediamo del mondo potrebbero essere modificate dalle nostre stesse azioni, influenzando un mondo che siamo noi a influenzare.
 
 [Progetto](https://vimeo.com/153768243)
 
@@ -53,3 +53,7 @@ Questi progetti si basano sul tentativo di produrre un pensiero unico a partire 
 [Progetto](https://vimeo.com/269581453)
 
 [Hive mind bots](https://www.youtube.com/watch?v=7YoM-21hWRw)
+
+## Ipotesi progettuali ##
+
+#### Proteus && Hive mind bots ####
