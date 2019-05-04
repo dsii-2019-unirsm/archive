@@ -70,6 +70,8 @@ Lo scopo di questo progetto è quello di permettere al singolo di vedere le cose
 
 Il progetto prevede la fusione di più immagini che vengono catturate contemporaneamente al fine di riprodurre un singolo oggetto su più dimensioni. Attraverso lo YOLO tracking, che usa il machine learning, si individua un oggetto di interesse e si crea un riquadro attorno ad esso, dopodichè i riquadri di tutti i punti di vista vengono allineati tra loro in modo da conbaciare. Infine, tutte le immagini vengono fuse tra loro per mezzo di un algoritmo di interpolazione a mosaico. Su uno schermo o un visore viene riprodotta quindi una forma che unisce l'immagine sotto numerose prospettive, fornendo forse uno strumento in più per vederla e capirla.
 
+Affinchè possiamo assicurarci che lo strumento produca risultati significativi, potrebbe rivelarsi necessario un ulteriore passaggio per migliorare la continuità dell'immagine. Una soluzione potrebbe essere l'impiego di uno style transfer che utilizzi in qualche modo una matrice scelta in base al contesto dell'immagine o al percepito di chi visualizza.
+
 ![Imgur](https://i.imgur.com/Ola0l8L.jpg?1)
 
 
