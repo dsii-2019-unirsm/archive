@@ -57,5 +57,5 @@ Questi progetti si basano sul tentativo di produrre un pensiero unico a partire 
 ## Ipotesi progettuali ##
 
 #### Beholder ####
-
+![Imgur](https://i.imgur.com/Ola0l8L.jpg?1)
 
