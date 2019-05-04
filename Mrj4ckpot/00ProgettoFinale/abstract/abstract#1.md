@@ -9,6 +9,8 @@ Unire due o più cose tra loro. All'interno del risultato gli elementi in comune
 In narrativa, in fotografia, piuttosto che in pittura, il punto di vista è l'angolatura dalla quale si osservano gli eventi e influenza il nostro giudizio. Il punto di vista è individuale e dipende dall'esperienza e la storia dei singoli o di comunità limitate.
 #### Inconscio collettivo ####
 A prescindere da tempo e spazio, alcuni aspetti della psiche sono comuni e immutabili in molte culture. Tali aspetti sono innati e non dipendono dalle singole esperienze degli individui.
+#### Individualità ####
+La nota o il complesso di note proprie ed esclusive che caratterizzano l’individuo e lo distinguono dagli altri individui della stessa specie o dagli altri membri della stessa società. 
 
 
 ## Abstract ##
@@ -64,7 +66,9 @@ Questi progetti si basano sul tentativo di produrre un pensiero unico a partire 
 
 Il beholder è una storica creatura presente nei manuali di Dungeons & Dragons, essi sono dotati di 9 occhi e ognuno vede le cose in maniera diversa dagli altri. Può essere che gli occhi del beholder funzionino un pò come funzionano le comunità di esseri umani, che quando vivono insieme vedono e comprendono le cose in una maniera impossibile per il singolo?. 
 
-Lo scopo di questo progetto è quello di permettere al singolo di vedere le cose da più punti di vista, unendo le prospettive e le percezioni, in una maniera altrimenti impossibile per il singolo; è possibile che uno strumento del genere sia in grado di alterare anche il nostro modo di pensare al di fuori dell'influenza delle nonstre esperienze individuali? Oppure di immedesimarci nella prospettiva di comunità lontane da noi? Lo straniarci dalla prospettiva dei singoli è uno strumento per potenziare la percezione oppure ci priva dell'individualità?
+Lo scopo di questo progetto è quello di permettere al singolo di vedere le cose da più punti di vista, unendo le prospettive e le percezioni, in una maniera altrimenti impossibile per il singolo; è possibile che uno strumento del genere sia in grado di alterare anche il nostro modo di pensare al di fuori dell'influenza delle nonstre esperienze individuali? Oppure di immedesimarci nella prospettiva di comunità lontane da noi? Lo straniarci dalla prospettiva dei singoli è uno strumento per potenziare la percezione, oppure che ci priva dell'individualità?
+
+Il progetto prevede la fusione di più immagini che vengono catturate contemporaneamente al fine di riprodurre un singolo oggetto su più dimensioni. Attraverso lo YOLO tracking, che usa il machine learning, si individua un oggetto di interesse e si crea un riquadro attorno ad esso, dopodichè i riquadri di tutti i punti di vista vengono allineati tra loro in modo da conbaciare. Infine, tutte le immagini vengono fuse tra loro per mezzo di un algoritmo di interpolazione a mosaico. Su uno schermo o un visore viene riprodotta quindi una forma che unisce l'immagine sotto numerose prospettive, fornendo forse uno strumento in più per vederla e capirla.
 
 ![Imgur](https://i.imgur.com/Ola0l8L.jpg?1)
 
