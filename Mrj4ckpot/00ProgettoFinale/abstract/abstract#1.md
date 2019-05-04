@@ -24,6 +24,15 @@ Le angolazioni dalle quali percepiamo la realtà possono essere molteplici, nell
 
 Come detto in precedenza, i fattori soggettivi come le storie individuali, le esperienze, la cultura e la conoscenza possono influenzare il modo in cui vediamo quello che succede nel mondo. è possibile produrre uno strumento che possa produrre un “merging” di tali punti di vista? Significherebbe potenziare o appiattire il nostro giudizio sulla realtà?
 
+#### La teoria delle lenti colorate ####
+![Imgur](https://i.imgur.com/FVv1M4Z.jpg?1)
+![Imgur](https://i.imgur.com/eyy5Bt6.jpg?1)
+
+Nel brano "Un ottico" presente nell'album "non al denaro, non all'amore nè al cielo" Di Fabrizio de Andrè che mette in musica le poesie del libro "L'antologia di Spoon River" di Edgar Lee Masters, un ottico realizza per una clientela speciale delle lenti volutamente sbagliate, in grado di produrre visioni psichedeliche di mondi impossibili. 
+
+Nella critica della ragion pura, Kant descrive il modo in cui la realtà viene "filtrata" dalle forme a priori della mente umana, ovvero i "programmi" che usiamo per percepire le cose, dicendo che l'uomo percepisce il mondo con lenti colorate. Interpretando la differenza tra fenomeno e noumeno in termini di psicologia cognitiva, è possibile che la cultura, l'ambiente o le storie individuali delle persone influenzino in maniera importante la percezione sensoriale dell'uomo. Può anche essere vero il contrario? ovvero che le condizioni in cui si verifica la percezione del reale influenzi il ragionamento e il pensiero?
+
+
 ## Casi studio ##
 
 #### Leedback ####
