@@ -12,19 +12,19 @@ A prescindere da tempo e spazio, alcuni aspetti della psiche sono comuni e immut
 
 
 ## Abstract ##
-#### Punti di vista percettivi ####
+### Punti di vista percettivi ###
 ![Imgur](https://i.imgur.com/OSGtW5v.jpg)
 ![Imgur](https://i.imgur.com/yvqYvZY.jpg)
 
 Le angolazioni dalle quali percepiamo la realtà possono essere molteplici, nella localizzazione spazio-temporale, nella luce, nei fattori soggettivi e nell’esperienza. Che cosa succederebbe se, un device, ci permettesse di apprezzare in un’unica immagine una moltitudine di aspetti differenti della realtà?
 
-#### Punti di vista sociali ####
+### Punti di vista sociali ###
 ![Imgur](https://i.imgur.com/3pdSrVt.jpg)
 ![Imgur](https://i.imgur.com/6GVZEfH.jpg)
 
 Come detto in precedenza, i fattori soggettivi come le storie individuali, le esperienze, la cultura e la conoscenza possono influenzare il modo in cui vediamo quello che succede nel mondo. è possibile produrre uno strumento che possa produrre un “merging” di tali punti di vista? Significherebbe potenziare o appiattire il nostro giudizio sulla realtà?
 
-#### La teoria delle lenti colorate ####
+### La teoria delle lenti colorate ###
 ![Imgur](https://i.imgur.com/FVv1M4Z.jpg?1)
 ![Imgur](https://i.imgur.com/eyy5Bt6.jpg?1)
 
@@ -35,7 +35,7 @@ Nella critica della ragion pura, Kant descrive il modo in cui la realtà viene "
 
 ## Casi studio ##
 
-#### Leedback ####
+### Leedback ###
 ![Imgur](https://i.imgur.com/lHahyng.jpg)
 
 Due webcam, collegate a due display led, sono ognuna rivolta verso lo schermo dell'altra. Un glitch inserito appositamente nel frame buffer delle due telecamere fa si che le immagini nello schermo vengano "fraintese". In questo modo, gli schermi producono un feedback loop che produce continuamente immagini sempre differenti; allo stesso modo, le nostre opinioni su ciò che vediamo del mondo potrebbero essere modificate dalle nostre stesse azioni, influenzando un mondo che siamo noi a influenzare.
@@ -44,7 +44,7 @@ Due webcam, collegate a due display led, sono ognuna rivolta verso lo schermo de
 
 [Feedback loop](https://www.youtube.com/watch?v=OWnC9tSA3iA)
 
-#### Proteus && Hive mind bots ####
+### Proteus && Hive mind bots ###
 ![Imgur](https://i.imgur.com/EFcSrW0.jpg)
 ![Imgur](https://i.imgur.com/xaKUi2a.jpg)
 
@@ -56,7 +56,7 @@ Questi progetti si basano sul tentativo di produrre un pensiero unico a partire 
 
 ## Ipotesi progettuali ##
 
-#### Beholder ####
+### Beholder ###
 
 ![Imgur](https://i.imgur.com/a89KehF.jpg?1)
 ![Imgur](https://i.imgur.com/5lJhbzZ.jpg?1)
