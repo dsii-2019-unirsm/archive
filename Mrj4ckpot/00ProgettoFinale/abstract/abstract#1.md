@@ -68,6 +68,13 @@ Il beholder è una storica creatura presente nei manuali di Dungeons & Dragons, 
 
 Lo scopo di questo progetto è quello di permettere al singolo di vedere le cose da più punti di vista, unendo le prospettive e le percezioni, in una maniera altrimenti impossibile per il singolo; è possibile che uno strumento del genere sia in grado di alterare anche il nostro modo di pensare al di fuori dell'influenza delle nonstre esperienze individuali? Oppure di immedesimarci nella prospettiva di comunità lontane da noi? Lo straniarci dalla prospettiva dei singoli è uno strumento per potenziare la percezione, oppure che ci priva dell'individualità?
 
+![Imgur](https://i.imgur.com/ONuv0Qc.jpg)
+![Imgur](https://i.imgur.com/1qjhW2L.jpg)
+
+![Imgur](https://i.imgur.com/2s5HITl.jpg)
+
+![Imgur](https://i.imgur.com/5v3uHel.jpg)
+
 Il progetto prevede la fusione di più immagini che vengono catturate contemporaneamente al fine di riprodurre un singolo oggetto su più dimensioni. Attraverso lo YOLO tracking, che usa il machine learning, si individua un oggetto di interesse e si crea un riquadro attorno ad esso, dopodichè i riquadri di tutti i punti di vista vengono allineati tra loro in modo da conbaciare. Infine, tutte le immagini vengono fuse tra loro per mezzo di un algoritmo di interpolazione a mosaico. Su uno schermo o un visore viene riprodotta quindi una forma che unisce l'immagine sotto numerose prospettive, fornendo forse uno strumento in più per vederla e capirla.
 
 Affinchè possiamo assicurarci che lo strumento produca risultati significativi, potrebbe rivelarsi necessario un ulteriore passaggio per migliorare la continuità dell'immagine. Una soluzione potrebbe essere l'impiego di uno style transfer che utilizzi in qualche modo una matrice scelta in base al contesto dell'immagine o al percepito di chi visualizza.
