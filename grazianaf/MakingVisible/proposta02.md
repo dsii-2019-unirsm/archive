@@ -9,6 +9,17 @@ Con il machine learning siamo capaci di ottenere delle macchine che svolgendo pi
 
 Se tutte le macchine (in nostro possesso) con una camera scattassero e immagazzinassero immagini della realtà che le circonda per poi attraverso un algorimo, stabilendo dei criteri ad esempio sulle condizioni meteo, sulla direzione del vento, sulla luminosità del sole, potessero rielaborare le immagini permettendoci di avere un'istantanea dei loro "sogni"?
 
+**Concept**
+Il sogno, inteso come la possibilità di vedere e dar voce al nostro inconscio, viene considerato come simbolo della realtà che ci circonda, diventando visibile in condizioni specifiche, nascondendo in sè una complessità maggiore. Un filtro che sin dai tempi più remoti l'uomo utilizza come strumento per l'interpretazione del reale. Umberto Eco nel 2013 in "Storie delle terre e dei luoghi leggendari" afferma che il bisogno umano di immaginare e di sognare permette di creare flussi di credenze, dunque delle comunità. 
+
+> “L'universo del visibile, nasconde, dunque, un mondo di immagini sommerse che continuano a colloquiare ininterrottamente tra loro attraverso i fili invisibilmente tenaci, che legano le une alle altre in una ragnatela, il cui disegno è complesso come quello di un labirinto. Ogni meandro di questo labirinto può condurre in un vicolo cieco, come ogni incrocio può far guadagnare un inedito tratto di percorso utile a rivelare il disegno generale” Tracce di Luna, Paola Pallottino, in Atlante delle immagini, Ilisso 1992 >
+
+Attraverso il racconto, schizzi/scarabocchi, che descrive le scene del sogno(da valutare tramite parole sost+verbo), questi vengono raccolti per categorie (incubi, sogni premonitori, visioni ecc). I sogni delle persone inseriti nelle categorie contribuiscono a realizzare ragnatele/labirinti astratti ottenute attraverso una parametrizzazione dei tratti nei disegni o parole ricorrenti. Queste raffigurazioni costituiscono l'ipotetico "mondo dei sogni". L'algoritmo potrebbe creare collegamenti tra le varie rappresentazioni astratte della categoria. Attraverso l'interpretazione delle forme astratte della ragnatela un algoritmo potrebbe restituire in forma scritta l'interpretazione della categoria generale. 
+
+![Word2Vec](https://i.imgur.com/4oTTtLe.png)
+
+![Carte de Teindre](https://i.imgur.com/G56XfTt.jpg)
+
 **Keywords**
 
 Sogno, Occhi chiusi, Identità, Visioni
