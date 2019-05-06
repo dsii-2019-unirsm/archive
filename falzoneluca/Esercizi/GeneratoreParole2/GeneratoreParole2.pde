@@ -34,7 +34,7 @@ void setup() {
 void draw() {  
   for (x=0; x<10; x++) {
     while (x<width) {
-      background(#f6ed55); 
+      background(#000000); 
       fill(#44b1f6);
       textSize(100); 
       textAlign(CENTER, height/2);
