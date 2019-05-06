@@ -84,8 +84,8 @@ Affinchè possiamo assicurarci che lo strumento produca risultati significativi,
 
 ### 42 ###
 
-![Imgur](https://i.imgur.com/tIJ35cF.jpg)
-![Imgur](https://i.imgur.com/jpeXpEN.jpg)
+![Imgur](https://i.imgur.com/tIJ35cF.jpg?1)
+![Imgur](https://i.imgur.com/jpeXpEN.jpg?1)
 
 Nel romanzo "guida galattica per autostoppisti" di Douglas Adams, (SPOILER) la terra è in realtà un computer estremamente sofisticato, progettato da un architetto alieno, il quale software è la vita stessa ed è in grado di calcolare la risposta alle domande fondamentali dell'universo. Se più telecamere possono rappresentare un punto di vista omogeneo su un oggetto percepito, un livello superiore di astrazione è rappresentato dalla fascia satellitare bassa dell'orbita terrestre, composta da circa 17.000 occhi diversi che osservano contemporaneamente la stessa cosa che è il pianeta.
 
