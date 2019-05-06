@@ -84,9 +84,12 @@ Affinchè possiamo assicurarci che lo strumento produca risultati significativi,
 
 ### 42 ###
 
+![Imgur](https://i.imgur.com/tIJ35cF.jpg)
+![Imgur](https://i.imgur.com/jpeXpEN.jpg)
+
 Nel romanzo "guida galattica per autostoppisti" di Douglas Adams, (SPOILER) la terra è in realtà un computer estremamente sofisticato, progettato da un architetto alieno, il quale software è la vita stessa ed è in grado di calcolare la risposta alle domande fondamentali dell'universo. Se più telecamere possono rappresentare un punto di vista omogeneo su un oggetto percepito, un livello superiore di astrazione è rappresentato dalla fascia satellitare bassa dell'orbita terrestre, composta da circa 17.000 occhi diversi che osservano contemporaneamente la stessa cosa che è il pianeta.
 
-Il progetto consiste nel recupero di patches di immagini satellitari, per ricostruirle come textures in una forma che non è un elissoide, ma una geometria e un materiale interpretati rispetto al contesto.
+Il progetto consiste nel recupero di patches di immagini satellitari, per ricostruirle come textures in una forma che non è un elissoide, ma una geometria e un materiale interpretati rispetto al contesto. La geometria in questione è una nuvola di vertici, le quali distanze dal centro variano secondo textures organiche che variano in base a serie di dati, oppure interpolando immagini che un sistema di machine learning ritiene significative rispetto ai contesti.
 
 ##### Noi vediamo con tanti occhi #####
 La geometria della terra viene modificata in base al modo in cui l'utente vede il mondo, quindi verrà costruita in base a parametri raccolti dall'utente stesso, come dati fisiologici o dal profiling sul web.
