@@ -103,6 +103,8 @@ La prospettiva di un singolo è diversa, sotto alcuni aspetti, dalle prospettive
 
 3-4 telecamere posizionabili sono collegate ad un visore nel quale vengono proiettate le immagini interpolate da più punti di vista. I video vengono fusi insieme tramite un'interpolazione a mosaico, dopodichè un software di **image classification** interpreta quello che vede e prova a dire a cosa assomiglia ciò che sta vedendo. Da un database di immagini vengono prodotti dei bassorilievi 3D tramite una semplice tecnica di **UV mapping** o **displacement map**, sui quali verrà proiettata la texture prodotta dall'interpolazione, in modo da farci avvicinare alla somiglianza del punto di vista della macchina.
 
+Dal momento che un oggetto 3D del genere è dotato solo di una superficie, e che quindi si sviluppa solo su un lato, potrebbe essere più interessante, rispetto a un visore, un sistema che permetta all'utente di variare leggermente il punto di vista.
+
 ## 42 ##
 
 ![Imgur](https://i.imgur.com/tIJ35cF.jpg?1)
