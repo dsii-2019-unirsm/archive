@@ -56,9 +56,17 @@ Questi progetti si basano sul tentativo di produrre un pensiero unico a partire 
 
 [Hive mind bots](https://www.youtube.com/watch?v=7YoM-21hWRw)
 
-## Ipotesi progettuali ##
 
-### Beholder ###
+
+
+
+
+
+
+
+# Ipotesi progettuali #
+
+## Beholder ##
 
 ![Imgur](https://i.imgur.com/a89KehF.jpg?1)
 ![Imgur](https://i.imgur.com/5lJhbzZ.jpg?1)
@@ -82,7 +90,7 @@ Affinchè possiamo assicurarci che lo strumento produca risultati significativi,
 ![Imgur](https://i.imgur.com/Ola0l8L.jpg?1)
 
 
-### 42 ###
+## 42 ##
 
 ![Imgur](https://i.imgur.com/tIJ35cF.jpg?1)
 ![Imgur](https://i.imgur.com/jpeXpEN.jpg?1)
