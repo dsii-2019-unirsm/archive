@@ -91,12 +91,17 @@ Affinchè possiamo assicurarci che lo strumento produca risultati significativi,
 
 ### Proposta 1 ###
 **I singoli interpretano, il collettivo reinterpreta**
-Se il singolo ha un punto di vista limitato sulla prospettiva del mondo, l'occhio collettivo si avvicina di più all'essenza delle cose, legando i punti di vista attraverso il significato.
 
-3-4 telecamere vengono posizionate sulla sommità di pantografi, che possono essere fissati sulla testa, attorno alla zona lombare o su un braccio. In posizione iniziale la telecamera osserva l'oggetto di fronte, mentre in posizione finale si osserva l'oggetto da dietro, mantenendo il punto di vista sull'oggetto durante tutto il movimento. Attraverso un sistema di **image classification** le singole telecamere scelgono un oggetto in particolare e cercano di capire di cosa si tratta. A questo punto le telecamere iniziano a muoversi lentamente avanti e indietro finchè l'immagine interpolata non raggiunge la **massima percentuale di confidenza**. La **YOLO tracking** contribuisce a fare in modo che l'oggetto interessante risulti sovrapposto in tutti i punti di vista.
+La prospettiva del singolo limita la visione del mondo, l'occhio collettivo si avvicina di più a quella che potrebbe essere l'essenza delle cose, legando i punti di vista attraverso il significato.
+
+3-4 telecamere vengono posizionate sulla sommità di pantografi, che possono essere fissati sulla testa, attorno alla zona lombare o su un braccio. In posizione iniziale la telecamera osserva l'oggetto di fronte, mentre in posizione finale si osserva l'oggetto da dietro, mantenendo il punto di vista sull'oggetto durante tutto il movimento. Le immagini vengono fuse e proiettate su un visore o uno schermo, che attraverso un sistema di **image classification** le singole telecamere scelgono un oggetto in particolare e cercano di capire di cosa si tratta. A questo punto le telecamere iniziano a muoversi lentamente avanti e indietro finchè l'immagine interpolata non raggiunge la **massima percentuale di confidenza**. La **YOLO tracking** contribuisce a fare in modo che l'oggetto interessante risulti sovrapposto in tutti i punti di vista.
 
 ### Proposta 2 ###
-**I singoli osservano, il collettivo immagina**
+**I singoli osservano, il collettivo vede**
+
+La prospettiva di un singolo è diversa, sotto alcuni aspetti, dalle prospettive di tutti gli altri, sia nelle forme che nei significati. L'occhio collettivo vede le cose in una maniera totalmente diversa e cattura mondi nuovi.
+
+3-4 telecamere posizionabili sono collegate ad un visore nel quale vengono proiettate le immagini interpolate da più punti di vista. I video vengono fusi insieme tramite un'interpolazione a mosaico, dopodichè un software di **image classification** interpreta quello che vede e prova a dire a cosa assomiglia ciò che sta vedendo. Da un database di immagini vengono prodotti dei bassorilievi 3D tramite una semplice tecnica di **UV mapping** o **displacement map**, sui quali verrà proiettata la texture prodotta dall'interpolazione, in modo da farci avvicinare alla somiglianza del punto di vista della macchina.
 
 ## 42 ##
 
