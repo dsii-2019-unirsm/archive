@@ -64,7 +64,7 @@ Questi progetti si basano sul tentativo di produrre un pensiero unico a partire 
 ![Imgur](https://i.imgur.com/5lJhbzZ.jpg?1)
 ![Imgur](https://i.imgur.com/EMNSJIh.png?1)
 
-Il beholder è una storica creatura presente nei manuali di Dungeons & Dragons, essi sono dotati di 9 occhi e ognuno vede le cose in maniera diversa dagli altri. Può essere che gli occhi del beholder funzionino un pò come funzionano le comunità di esseri umani, che quando vivono insieme vedono e comprendono le cose in una maniera impossibile per il singolo?. 
+Il beholder è una storica creatura presente nei manuali di Dungeons & Dragons, essi sono dotati di 9 occhi tentacolati che osservano l'ambiente circostante. Può essere che gli occhi del beholder funzionino un pò come funzionano le comunità di esseri umani, che quando vivono insieme vedono e comprendono le cose in una maniera impossibile per il singolo?. 
 
 Lo scopo di questo progetto è quello di permettere al singolo di vedere le cose da più punti di vista, unendo le prospettive e le percezioni, in una maniera altrimenti impossibile per il singolo; è possibile che uno strumento del genere sia in grado di alterare anche il nostro modo di pensare al di fuori dell'influenza delle nonstre esperienze individuali? Oppure di immedesimarci nella prospettiva di comunità lontane da noi? Lo straniarci dalla prospettiva dei singoli è uno strumento per potenziare la percezione, oppure che ci priva dell'individualità?
 
