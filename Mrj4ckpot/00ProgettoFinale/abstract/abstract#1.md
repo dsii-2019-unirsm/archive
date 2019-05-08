@@ -131,6 +131,20 @@ Esperimento di visualizzazione e videogioco. Lo scopo è quello di esplorare un 
 
 # Ipotesi progettuali #
 
+## 42 ##
+
+![Imgur](https://i.imgur.com/tIJ35cF.jpg?1)
+![Imgur](https://i.imgur.com/jpeXpEN.jpg?1)
+
+L'uomo è dotato di intelligenza collettiva: tutti conosciamo o facciamo alcune cose a prescindere dalla nostra società, cultura o storia personale, ma semplicemente sono parte della nostra "programmazione". Per esempio, tutte le culture del mondo, divise da tempo e spazio, credono in dio o in un'entità superiore, si fanno i tatuaggi e conoscono le forme geometriche: cerchio, quadrato, croce, sfera e cubo sono informazioni che si trovano nella nostra mente in maniera innata; forse il motivo per cui civiltà lontane tra loro costriuvano le piramidi e realizzavano i cerchi di pietra. Stessa cosa vale per i simboli: varianti di simboli, graficamente significativamente simili mettono in comune culture diametralmente lontane tra loro, come la svastica indiana e il triskel celtico. Se riuscissimo a realizzare per via sperimentale una simulazione della nostra mente collettiva, troveremmo questi simboli?
+
+Nel romanzo "guida galattica per autostoppisti" di Douglas Adams, (SPOILER) la terra è in realtà un computer estremamente sofisticato, progettato da un architetto alieno, il quale software è la vita stessa ed è in grado di calcolare la risposta alle domande fondamentali dell'universo. Se più telecamere possono rappresentare un punto di vista omogeneo su un oggetto percepito, un livello superiore di astrazione è rappresentato dalla fascia satellitare bassa dell'orbita terrestre, composta da circa 17.000 occhi diversi che osservano contemporaneamente la stessa cosa che è il pianeta.
+
+Il progetto consiste nel recupero di patches di immagini satellitari, per ricostruirle come textures in una forma che non è un elissoide, ma una geometria e un materiale interpretati rispetto al contesto. La geometria in questione è una nuvola di vertici, le quali distanze dal centro variano secondo textures organiche che variano in base a serie di dati, oppure interpolando immagini che un sistema di machine learning ritiene significative rispetto ai contesti.
+
+
+
+
 ## Beholder ##
 
 ![Imgur](https://i.imgur.com/a89KehF.jpg?1)
@@ -169,18 +183,3 @@ La prospettiva di un singolo è diversa, sotto alcuni aspetti, dalle prospettive
 3-4 telecamere posizionabili sono collegate ad un visore nel quale vengono proiettate le immagini interpolate da più punti di vista. I video vengono fusi insieme tramite un'interpolazione a mosaico, dopodichè un software di **image classification** interpreta quello che vede e prova a dire a cosa assomiglia ciò che sta vedendo. Da un database di immagini vengono prodotti dei bassorilievi 3D tramite una semplice tecnica di **UV mapping** o **displacement map**, sui quali verrà proiettata la texture prodotta dall'interpolazione, in modo da farci avvicinare alla somiglianza del punto di vista della macchina.
 
 Dal momento che un oggetto 3D del genere è dotato solo di una superficie, e che quindi si sviluppa solo su un lato, potrebbe essere più interessante, rispetto a un visore, un sistema che permetta all'utente di variare leggermente il punto di vista.
-
-## 42 ##
-
-![Imgur](https://i.imgur.com/tIJ35cF.jpg?1)
-![Imgur](https://i.imgur.com/jpeXpEN.jpg?1)
-
-Nel romanzo "guida galattica per autostoppisti" di Douglas Adams, (SPOILER) la terra è in realtà un computer estremamente sofisticato, progettato da un architetto alieno, il quale software è la vita stessa ed è in grado di calcolare la risposta alle domande fondamentali dell'universo. Se più telecamere possono rappresentare un punto di vista omogeneo su un oggetto percepito, un livello superiore di astrazione è rappresentato dalla fascia satellitare bassa dell'orbita terrestre, composta da circa 17.000 occhi diversi che osservano contemporaneamente la stessa cosa che è il pianeta.
-
-Il progetto consiste nel recupero di patches di immagini satellitari, per ricostruirle come textures in una forma che non è un elissoide, ma una geometria e un materiale interpretati rispetto al contesto. La geometria in questione è una nuvola di vertici, le quali distanze dal centro variano secondo textures organiche che variano in base a serie di dati, oppure interpolando immagini che un sistema di machine learning ritiene significative rispetto ai contesti.
-
-##### Noi vediamo con tanti occhi #####
-La geometria della terra viene modificata in base al modo in cui l'utente vede il mondo, quindi verrà costruita in base a parametri raccolti dall'utente stesso, come dati fisiologici o dal profiling sul web.
-
-##### Internet vede e ha tanti occhi #####
-La geometria della terra viene modificata in base al modo in cui internet vede il mondo, variando per esempio il displacement geometrico delle zone di guerra rendendolo più turbolento.
