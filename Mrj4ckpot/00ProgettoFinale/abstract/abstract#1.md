@@ -140,7 +140,7 @@ L'uomo è dotato di intelligenza collettiva: tutti conosciamo o facciamo alcune 
 
 Nel romanzo "guida galattica per autostoppisti" di Douglas Adams, (SPOILER) la terra è in realtà un computer estremamente sofisticato, progettato da un architetto alieno, il quale software è la vita stessa ed è in grado di calcolare la risposta alle domande fondamentali dell'universo. Se più telecamere possono rappresentare un punto di vista omogeneo su un oggetto percepito, un livello superiore di astrazione è rappresentato dalla fascia satellitare bassa dell'orbita terrestre, composta da circa 17.000 occhi diversi che osservano contemporaneamente la stessa cosa che è il pianeta.
 
-Il progetto consiste nel recupero di patches di immagini satellitari, per ricostruirle come textures in una forma che non è un elissoide, ma una geometria e un materiale interpretati rispetto al contesto. La geometria in questione è una nuvola di vertici, le quali distanze dal centro variano secondo textures organiche che variano in base a serie di dati, oppure interpolando immagini che un sistema di machine learning ritiene significative rispetto ai contesti.
+Allenando una rete neurale con un database di immagini di simbologie tipiche delle culture del mondo, in maniera simile alla **number detection**, si potrebbe fare un analisi di immagini satellitari che riconoscono le stesse geometrie sulla superficie della terra, per poi ricostruire un modello 3D che non è più un elissoide, ma una geometria nella quale vengono riprodotti i simboli che la rete neurale pensa di vedere sugli oceani, le catene montuose e le città.
 
 
 
