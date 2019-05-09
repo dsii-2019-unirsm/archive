@@ -33,7 +33,7 @@ Ma oltre a questo in corrispondenza a quelli che sono definiti i “gires”, ci
 ##### Alcuni dati sulla quantità di plastica presente negli oceani:  
 ![+](https://i.imgur.com/qz9sO24.jpg)  
 ##### Composizione dei detriti di plastica:  
-![+](https://i.imgur.com/a5LYBGu.jpg)  
+![+](https://i.imgur.com/7OBPbRn.jpg)  
 la massa insondabile di microscopici frammenti di plastica presenti in mare, trasportati da venti e correnti, ma, in definitiva, la marea di plastica si deve limitare come il nostro rapporto con la plastica stessa, che comporta un drammatico cambiamento comportamentale da parte nostra. Il percorso per una risoluzione efficace della crisi appare chiaramente ... poiché siamo il problema e la soluzione.  
 ### Come funziona:  
 Per entrare in un nuovo paradigma deve nascere dalla necessità e dalla volontà di ogni essere umano e il nostro contributo parte dalla realizzazione di un “data visualization” che contribuisca a rendere ancora più chiara la gravità del problema.  
