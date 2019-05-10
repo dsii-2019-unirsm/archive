@@ -148,7 +148,7 @@ Allenando una rete neurale con un database di immagini di simbologie tipiche del
 ## Beholder ##
 
 ![Imgur](https://i.imgur.com/a89KehF.jpg?1)
-![Imgur](https://i.imgur.com/H0r89Cq.jpg?1)
+![Imgur](https://i.imgur.com/H0r89Cq.jpg?2)
 ![Imgur](https://i.imgur.com/5lJhbzZ.jpg?1)
 ![Imgur](https://i.imgur.com/EMNSJIh.png?1)
 
