@@ -22,7 +22,7 @@ Oggi, con il machine learning siamo capaci di ottenere delle macchine che, svolg
 Attraverso la libreria p5.speech viene riconosciuto il vocale e trasferito in forma scritta. 
 La macchina riconosce il senso del testo e cerca di continuarlo sfruttando Text Generation di ml5 oppure Rita.js per costruire sulle parole affidate alla macchina. 
 
-- [Schiffman Speech Recognition](https://www.youtube.com/watch?v=q_bXBcmfTJM)
+- [Schiffman Speech Recognition](https://github.com/CodingTrain/website/tree/f01284ea40f3d746f6112b5303781d4e137707f8/Courses/programming_with_text/session10/10-04_Speech_Recognition_with_p5.Speech)
 - [RiTa.js/ Kafgenstein](https://rednoise.org/rita/examples/p5js/Kafgenstein/#source) Sulla base di testi si Kafka e Wiggtestein rigenera un testo al click 
 - [RiTa.js/ Haiku](https://rednoise.org/rita/examples/p5js/HaikuGrammar/#source) Genera Haiku(struttura e grammatica precisa)
 - [RiTa.js/ Analisi logica e fonetica](https://rednoise.org/rita/examples/p5js/Analysis/) Analisi logica di parole randomiche (da dove le pesca?)
