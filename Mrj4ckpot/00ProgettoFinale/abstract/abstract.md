@@ -142,7 +142,7 @@ Nel romanzo "guida galattica per autostoppisti" di Douglas Adams, (SPOILER) la t
 
 Allenando una rete neurale con un database di immagini di simbologie tipiche delle culture del mondo, in maniera simile alla **number detection**, si potrebbe fare un analisi di immagini satellitari che riconoscono le stesse geometrie sulla superficie della terra, per poi ricostruire un modello 3D che non è più un elissoide, ma una geometria nella quale vengono riprodotti i simboli che la rete neurale pensa di vedere sugli oceani, le catene montuose e le città.
 
-
+![Imgur](https://i.imgur.com/Q7IR4b2.jpg?1)
 
 
 ## Beholder ##
