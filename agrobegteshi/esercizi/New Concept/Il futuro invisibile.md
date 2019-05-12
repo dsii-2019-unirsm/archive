@@ -29,6 +29,24 @@ Credo che sia un argomento interessante su cui soffermarci, poichè il futuro sa
 quindi direi di soffermarmi sul problema e dividerla in piccole parti da analizzare come, la parte di imitazione gestuale, riproduzione di un vocabolo udibile ed infine il riconoscimento tramite olfatto e capacità di scelta.
 quindi mi viene da ricercare e connettere più machine learning che adempiono a queste azioni, vari esempi possiamo trovarli tramite il sito di ML5, non tralasciando anche l'idea di usufruire di una rete neurale per la scelta di dati da eseguire.</p>
 
+## Who? (Chi)
+
+<p>Queto progetto è pensato ad un "futuro essere umano" capace di trasferire la propria identità in un corpo artificiale che durerà oltre vita. Poichè l'anima una volta liberata dal corpo a quest'ultima possiamo dare qualsiasi "interfaccia o forma".</p>
+
+## What? (che cosa)
+
+<p>Riflettendo è stilando una prima bozza di progetto ho immaginato di scorporare l'anima racchiudendolo in 3 "tipi di interfacce" capaci di riprodurre tre caratteristiche a me appartenenti come la voce, la gestualità e l'olfatto. </p>
+
+## When? (quando)
+
+<p>Per il momento è ancora sottoforma di concept poichè la tecnologia odierna non è ancora in grado di adempiere a questa funzione, ma ciò è pensato ad un futuro.
+Per il momento stiamo ragionando su questi piccoli frammenti perchè sia la tecnologia e la nostra conoscenza per ora ci tiene ancorati al presente. </p>
+
+## Why? (perchè)
+
+<p>Vorrei fare tutto questo perchè ritengo che la mente viaggià ad una velocità superiore anche senza rendercene conto spaziando in più direzioni contemporaneamente, mentre il corpo rappresenta una limitazione di tutto ciò perchè quest'ultimo con il passare del tempo deteriora, "invecchia la mente".
+Lo step successivo è quello di trasferirolo all'interno di un computer, proprio come alleniamo un machine learning vorrei allenare la mente umana per farla competere con l stessa velocità e performance. Il tutto per esplorare ancor più campi a noi ancora ignoti.</p>
+
 
 ### esempi e casi studio
 
