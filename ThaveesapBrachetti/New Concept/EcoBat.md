@@ -23,6 +23,24 @@
 
 [Fotogrammetria - Zephir](http://www.3d-archeolab.it/2017/05/fotogrammetria-a-costo-zero-con-il-software-zephyr-free/)
 
+
+### Nuova proposta di concept "Special Eye"
+
+<p>Alla base di questo concept prendo in considerazione le onde elettromagnetiche RF per una computer visualization, in questo caso per identificare il corpo umano e rivelarne l’esatta  posizione in un scan termico ovvero la postura assunta da una o più persone in diverse posture in tempo live rilevandone il battito cardiaco.
+Pensare di visualizzare una persona oltre un muro grazie la propagazione delle onde wi-fi.
+</p>
+
+### Perchè?
+
+<p>Il progetto può essere proiettato sia come un avanzamento di un  “gioco” da fare in gruppo riprendendo il concetto del laser game o come sistema di identificazione o sicurezza rilevando con maggiore precisione la posizione dell’individuo anche trovandosi in piani differenti.
+</p>
+
+### Come?
+
+<p>Immaginando questo progetto si utilizzerà principalmente un tablet o uno smartphone per la visualizzazione della rete Wi-fi ,  dotare una “macchina di questa vista speciale” o creare un oggetto indossabile per un’utente (occhiali). 
+</p>
+
+
 ### Nuovi link
 
 [Body human tracking](https://www.inverse.com/article/45929-wifi-xray-project-at-mit-sounds-good)
