@@ -1,9 +1,9 @@
-
-// Daniele Tabellini @fupete © 2017 MIT License
+// Graziana Florio @fupete © 2017 MIT License
 // P5js retrieve data from Google Spreadsheets/JSON | Firenze, IT | 4.2017
 // Educational purpose, made for DSII2017 lab @UniRSM
 
 // example inspired on Gist https://gist.github.com/claytical/6a929f14964c867e07d8 by @claytical
+
 var url = "https://spreadsheets.google.com/feeds/list/1IS5UgpgnEV2yzF7a5rqz80tFu0H4wlwsh44s3KyduJI/od6/public/values?alt=json";
 
  // array per contenere i dati/oggetto
@@ -14,6 +14,7 @@ function preload() {
   font = loadFont('Inconsolata-Bold.otf');
   font1 = loadFont('Inconsolata-Regular.otf');
 }
+
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -31,12 +32,14 @@ function setup() {
 function draw() {
   // piccolo loop per verificare di avere i dati,
   // stampa su schermo cerchi con i colori presenti nel google doc
-  background(220);
+  background(110,2,97);
   var padding = width/(dati.length+1);
- fill(0);
+   fill(0);
   textAlign(LEFT);
   textSize(18);
   textFont(font);
+  fill(0,100,80);
+  noStroke();
   text("Casate",20,30);
  
   textFont(font1);
@@ -68,8 +71,10 @@ function draw() {
     textAlign(CENTER);
     textFont(font);
     noStroke();
+    fill(0,100,80);
+    noStroke();
     text(dati[i].nomebattaglia, padding+(i * padding),height/3);
-//casate
+
     for(var j=0;j<dati[i].attaccante;j++) {
       //attaccanti 
       if(dati[i].attaccante== "1"){ 
@@ -123,7 +128,7 @@ for(var z=0; z<=dati[i].difensore; z++){
         ellipse(padding + i * padding+25, height/2, 30,30);
       } 
       }//difensori
-      
+      //imboscata
     if(dati[i].tipobattaglia=="ambush"){
       stroke(196,53,56);
       noFill();
@@ -136,6 +141,11 @@ for(var z=0; z<=dati[i].difensore; z++){
     
     
   for (var x=0; x<dati[i].vincitore; x++){
+    push();
+    
+    translate(0,height-240);
+    line(i*padding+padding,0, i*padding+padding, 50);
+    pop();
 // vincitori
    if(dati[i].vincitore== "1"){ 
      noStroke();
@@ -169,14 +179,11 @@ for(var z=0; z<=dati[i].difensore; z++){
       fill(dati[i].attaccante);
       
       } else if(dati[i].vincitore==dati[i].difensore){
-      
-        ellipse(padding + i * padding+25, height-150, 30,30);
-        fill(255);
-        ellipse(padding + i * padding+25, height-150, 20,20);
-       noFill();
-        stroke(dati[i].difensore);
+        stroke(58,75,98);
         strokeWeight(4);
-      }
+        noFill();
+        ellipse(padding + i * padding, height-150, 30,30);
+        }
      
     }
   
@@ -191,9 +198,9 @@ function gotSpreadsheet(game) {
     var battaglia = {
                   // dati, nomi delle colonne, i parametri
                   "nomebattaglia": game.feed.entry[i].gsx$nomebattaglia.$t,
-                  "attaccante": game.feed.entry[i].gsx$attaccante.$t,
-                  "difensore": game.feed.entry[i].gsx$difensore.$t,
-                  "tipobattaglia": game.feed.entry[i].gsx$tipobattaglia.$t,
+                 "attaccante": game.feed.entry[i].gsx$attaccante.$t,
+                 "difensore": game.feed.entry[i].gsx$difensore.$t,
+                 "tipobattaglia": game.feed.entry[i].gsx$tipobattaglia.$t,
                  "numeroa": game.feed.entry[i].gsx$numeroa.$t,
                  "numerod": game.feed.entry[i].gsx$numerod.$t,
                   "vincitore": game.feed.entry[i].gsx$vincitore.$t
@@ -206,4 +213,5 @@ function gotSpreadsheet(game) {
 // se ridimensiona la finestra ricalcola width e height canvas
 function windowResized() {
 resizeCanvas(windowWidth, windowHeight);
+
 }

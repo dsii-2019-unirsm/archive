@@ -1,4 +1,4 @@
-
+//in base al movimento del mouse il pattern cambia colore e saturazione
 void setup() {
   size(600, 600);
   background(0);

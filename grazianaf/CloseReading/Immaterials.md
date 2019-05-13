@@ -16,8 +16,9 @@ Leggendo del progetto, subito alla mente ha richiamato la costruzione, nel roman
 
 #### *How it works*
 
-Il progetto si ispira alle modalità per la realizzazione di periti agrari. Un’asta, alta 4m, attraverso l’utilizzo di un’antenna WiFi, misura e traccia grafici di luce a quale  pulsa mentre l’asta viene spostata in uno spazio. 
-Attraverso l’uso della fotografia a bassa esposizione,la fotocamera, con una velocità di scatto  bassa , “memorizza”, nel lasso di tempo dello spostamento, quello che vede. I dati utilizzati sono ricavati attraverso la tecnologia RFID. Il reader comunica e aggiorna informazioni contenute nei tag RFID interrogati, (in questo caso nel WiFi).
+Il progetto si ispira alle modalità per la realizzazione di periti agrari. Attraverso l’utilizzo di un’antenna WiFi, posta su un'asta alta 4m, viene percepito il grado di intensità del segnale Wi-fi nella zona esaminata, ed attraverso un algoritmo viene trasformata questa intensità di segnale in "quantità" di luce emessa dai led posizionati sull'asta. 
+Attraverso l’uso della fotografia a bassa esposizione,la fotocamera, con una velocità di scatto  bassa , “memorizza”, nel lasso di tempo dello spostamento, quello che vede dunque viene reso visibile il percorso compiuto con l'asta.  
+I dati utilizzati sono ricavati attraverso la tecnologia RFID. Il reader comunica e aggiorna informazioni contenute nei tag RFID interrogati, (in questo caso nel WiFi).
 
 
 #### *What if*
