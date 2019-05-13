@@ -40,6 +40,12 @@ _Minim Library_
 
 [_Arduino Solenoid_](http://learn.robotgeek.com/projects/robotgeek-solenoid-projects/30-solenoid.html)
 
+[_Arduino Stepper Motor_](https://circuitdigest.com/microcontroller-projects/arduino-stepper-motor-control-tutorial)
+
+[_Arduino Servo_](https://www.instructables.com/id/Arduino-Servo-Motors/)
+
+[_Arduino Relay 12v_](https://www.theengineeringprojects.com/2017/08/2-relay-module-interfacing-with-arduino.html)
+
 ---
 
 ### Hardware
