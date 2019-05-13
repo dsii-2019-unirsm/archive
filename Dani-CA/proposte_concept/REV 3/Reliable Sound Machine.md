@@ -38,6 +38,8 @@ _Minim Library_
 - FrequencyEnergyBeatDetection
 - SoundSpectrum
 
+[_Drum Machine Magenta.js_](https://codepen.io/teropa/full/RMGxOQ/)
+
 [_Arduino Solenoid_](http://learn.robotgeek.com/projects/robotgeek-solenoid-projects/30-solenoid.html)
 
 [_Arduino Stepper Motor_](https://circuitdigest.com/microcontroller-projects/arduino-stepper-motor-control-tutorial)
