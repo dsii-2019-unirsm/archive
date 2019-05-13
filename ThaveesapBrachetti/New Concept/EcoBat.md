@@ -51,6 +51,11 @@ Pensare di visualizzare una persona oltre un muro grazie la propagazione delle o
 
 [il robot, una mente artificiale in un corpo artificiale](https://www.scienzainrete.it/book/export/html/1954)
 
+[Open CV](https://en.wikipedia.org/wiki/OpenCV)
+
+
+
+
 
 
 
