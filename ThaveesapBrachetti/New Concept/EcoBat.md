@@ -22,3 +22,19 @@
 
 
 [Fotogrammetria - Zephir](http://www.3d-archeolab.it/2017/05/fotogrammetria-a-costo-zero-con-il-software-zephyr-free/)
+
+### Nuovi link
+
+[Body human tracking](https://www.inverse.com/article/45929-wifi-xray-project-at-mit-sounds-good)
+
+[Architecture of Radio](http://www.architectureofradio.com/)
+
+[Osservare l'invisibile](https://www.ira.inaf.it/Library/rapp-int/440-11.pdf)
+
+[il robot, una mente artificiale in un corpo artificiale](https://www.scienzainrete.it/book/export/html/1954)
+
+
+
+
+
+
