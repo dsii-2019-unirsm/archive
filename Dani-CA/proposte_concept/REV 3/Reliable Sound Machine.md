@@ -38,6 +38,8 @@ _Minim Library_
 - FrequencyEnergyBeatDetection
 - SoundSpectrum
 
+[_Arduino Solenoid_](http://learn.robotgeek.com/projects/robotgeek-solenoid-projects/30-solenoid.html)
+
 ---
 
 ### Hardware
