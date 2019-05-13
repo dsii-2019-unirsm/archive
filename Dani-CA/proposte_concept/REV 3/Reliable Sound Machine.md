@@ -54,4 +54,6 @@ _Minim Library_
 
 [_Sensor Shield_](https://www.robotgeek.com/robotgeek-sensor-shield)
 
+[_Connettore 3 poli_](https://www.amazon.it/RUNCCI-Connettore-aviazione-Maschio-pannello/dp/B07NY2VXS6/ref=sr_1_7?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=connettore+3+pin&qid=1557752891&refinements=p_76%3A490210031&rnid=490209031&rps=1&s=gateway&sr=8-7)
+
 
