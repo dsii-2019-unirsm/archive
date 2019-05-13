@@ -52,4 +52,6 @@ _Minim Library_
 
 [_Servo motore_](https://tinyurl.com/y5dln55y)
 
+[_Sensor Shield_](https://www.robotgeek.com/robotgeek-sensor-shield)
+
 
