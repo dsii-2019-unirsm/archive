@@ -62,3 +62,24 @@ _Reference generali:_
 * http://sureskumar.com/?cat=17 
 * https://www.creativeapplications.net/news/ethical-machines-podcast/ 
 * https://interaccess.org/exhibition/constructed-land 
+
+___Concept Definitivo___
+
+![Imgur](https://i.imgur.com/S8vfPSa.png)
+
+Parola chiave: momento, attimo. Cosa può succedere se ognuno di noi crea un’istantanea del mondo con l’aiuto delle telecamere?
+In questo caso non si avrebbe più la provocazione come il grande fratello ma delle istantanee collegate in base all’attimo in cui viene effettuato il caricamento.
+L’algoritmo dovrebbe ricavare, tramite il fuso orario di chi sta utilizzando il sito, randomicamente le telecamere cosparse nel mondo. L’immagine si compone man mano con l’utilizzo e a fine giornata si elimina, o finisce in un archivio. Il senso di chiedere alla macchina come vede il mondo rimane, e così potrebbe risultare interessante anche ciò che deriva dalla visualizzazione. 
+Un’altra componente aggiuntiva è l’utilizzo della video classification del machine learning, così da poter capire la macchina come percepisce ciò che vede, ed inserirlo in una didascalia. 
+La componente del fuso orario sarebbe il limite di ricerca delle telecamere in quanto l’algoritmo ricava gli elementi simili del posto in cui l’utente sta ricercando. In definitiva, tramite la luce, si compone una linea di immagini che hanno per somiglianza un intervallo di valori.
+
+_Link utili per l'algoritmo_
+
+* https://ml5js.org/docs/video-classification-example 
+Ciò che vede la macchina per somiglianza.
+
+* https://www.youtube.com/watch?v=WH31daSj4nc 
+Come ricavare un video live.
+
+* https://github.com/bitcraftlab/opencv-webcam-processing 
+Opencv libreria.

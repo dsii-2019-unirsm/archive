@@ -15,4 +15,14 @@ Ci troviamo in una situazione contrastante tra l’artefatto materiale e il sign
 ___What if?___
 
 Inizialmente mi ero posta la domanda: se ci fossero più contenitori con le divere cause di morte? Una componente importante è propio quella che dalla sensazione di gico ci riconduce all'angoscia, come se volessimo per un istante ritornare bambini ma ad un tratto ci ritroviamo catapultati nella realtà quaotidiana. Questa sensazione ci fa arrivare dritta al punto del tema dell'opera, quindi differenzare le diverse cause o aumentare le tipologie di colori delle palline non la farebbe funzionare allo stesso modo. Mascherare il materiale delle palline e renderle molto pesanti potrebbe essere interessante, proprio per far pesare il decesso di una persona nel momento della caduta, tramite il rumore .
+
+_Altri progetti:_
+
+___#airflowers___ [+](https://www.aiweiwei.com/)
+
+![Imgur](https://i.imgur.com/5u9N6KX.jpg)
+
+___Les Linges___ [+](http://www.echigo-tsumari.jp/eng/artwork/les_linges) _interessante anche:_ [+](https://vimeo.com/12121518)
+
+![Imgur](https://i.imgur.com/RZqvGlQ.jpg)
  
