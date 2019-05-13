@@ -1,7 +1,7 @@
 ## MICROPLASTICHE: un dramma ambientale globale 
 ![+](https://i.imgur.com/XB7bnIj.jpg)  
 #### Abstract  
-Un altro nemico invisibile entra quotidianamente nell’organismo di ogni essere vivente in quantità sempre maggiore: sono le microplastiche.  
+Un altro nemico invisibile entra quotidianamente nell’organismo di ogni essere vivente in quantità sempre maggiore: le microplastiche.  
 Frutto antropico relativamente recente, si sono sviluppate attraverso vari processi e si stanno propagando nell'ambiente in ogni luogo: oceani, terreni, aria e, di conseguenza, cibo, contaminando e compromettendo il naturale equilibrio.  
 La sorprendente diffusione non deriva solamente dalla decomposizione delle cosiddette plastiche primarie, cioè quelle di grandi dimensioni e prodotte in diverse forme ma, in particolare, dalle plastiche monouso. Recenti legislazioni metteranno al bando nei prossimi anni la produzione di questi prodotti “usa e getta” ma una enorme quantità è già dispersa nella Terra.  
 Vi è la possibilità di verificare concretamente la grande quantità di immondizia di plastica dispersa per esempio nei mari, basti pensare alle gigantesche isole oceaniche che a causa delle correnti si sono accumulate in zone visibili e circoscrivibili dai satelliti, nel caso delle microplastiche è la loro dimensione ridotta, variano da 2 mm a pochi micron, che non agevola il riconoscimento e riduce la soglia di attenzione pubblica per il problema.  
@@ -39,6 +39,7 @@ Ma oltre a questo in corrispondenza a quelli che sono definiti i “gires”, ci
 ##### Composizione dei detriti di plastica:  
 ![+](https://i.imgur.com/7OBPbRn.jpg)  
 la massa insondabile di microscopici frammenti di plastica presenti in mare, trasportati da venti e correnti, ma, in definitiva, la marea di plastica si deve limitare come il nostro rapporto con la plastica stessa, che comporta un drammatico cambiamento comportamentale da parte nostra. Il percorso per una risoluzione efficace della crisi appare chiaramente ... poiché siamo il problema e la soluzione.  
+![+](https://i.imgur.com/gPGST1P.jpg)  
 ### Come funziona:  
 L'urgenza di entrare in un nuovo paradigma di civiltà sostenibile deve nascere dalla necessità e dalla volontà di ogni essere umano e il nostro contributo parte dalla realizzazione di un “data visualization” che renda ancora più chiara la gravità del problema.  
 Utilizzando le potenzialità di Processing si può sviluppare una visualizzazione dinamica della nostra Terra rivista nella forma  non più per come la conosciamo ma sgretolata e composta da cubetti di plastica.
@@ -47,6 +48,7 @@ Con l’ausilio della libreria GUI si può integrare questo "mappamondo rivisto"
 Un altro elemento sul quale basare un effetto shock riguarda la quantità di plastica che mediamente ogni essere umano ingerisce in un anno.  
 Come specificato nell'abstract sono circa 70.000 le particelle di microplastica, con una dimensione unitaria di circa 2 micron cubici, che generarano un volume corrispondente ad un cubo di plastica di circa 4,5 cm di lato.  
 Creare questo cubo di plastica riciclata in scala 1:1 può contribuire a rendere ancor più consapevoli ognuno di noi.  
+La possibilità di collaborare con una società olandese, la Precious Plastic, che si occupa di creare un network di piccoli produttori di oggetti in plastica riciclata utilizzando dei macchinari semplici e relativamente poco costosi, mi permetterà di assemblare questo cubo rendendo tangibile l'output del progetto.  
 #### Prove di visualizzazione:  
 ![+](https://i.imgur.com/nLpvDqv.jpg) ![+](https://i.imgur.com/I37f2Rv.jpg) ![+](https://i.imgur.com/yx4y85O.jpg) ![+](https://i.imgur.com/u6J7L2Z.jpg)  
 #### Cubo di plastica:  
@@ -55,9 +57,13 @@ Creare questo cubo di plastica riciclata in scala 1:1 può contribuire a rendere
 I significati sono molteplici e riguardano diversi aspetti.  
 Partendo dallo scopo che verte sulla costante necessità che vi sia una concreta presa di coscienza del problema che non è ancora percepito nella sua gravità, anche se attualmente riceviamo sempre più notizie allarmanti attraverso molti media, è necessario ravvivare costantemente l'attenzione su di esso.  
 Vi è la necessità di istruire ed imporre senza compromessi verso un nuovo comportamento generale e bisogna farlo in modo attivo partecipando ad iniziative che intervengono sulle istituzioni a tutti i livelli: si tratta di responsabilità sociale, di partecipazione.  
-Il pericolo che tutto ciò comporta non riguarda solo alla specie umana ma tutto l'ecosistema.  
+Il pericolo che tutto ciò comporta non riguarda solo la specie umana ma tutto l'ecosistema.  
 Recenti dati delle Nazioni Unite rilevano che circa 1/8 delle specie viventi nei prossimi 10 anni spariranno dalla Terra con conseguenze devastanti sulla vita nel pianeta.  
+Non si tratta solo di un ennesimo campanello d'allarme ma del tentativo di porsi di fronte all'evidenza concreta sulla dimensione dell'ennesima tossicità che inconsapevolmente ingeriamo.
 ### Come potrebbe essere:  
+La ricerca suggerita dal docente riguardante alcune installazioni ha fatto notare con interesse quella sviluppata da Caleb Larsen e denominata Monument del 2006.  
+In questa installazione una serie di palline di colore giallo poste in un contenitore a soffitto, cadendo nel pavimento di una stanza, rappresentava i soggetti morti violentemente, in tempo reale, nel territorio statunitense. Tutto era gestito da un algoritmo che analizzava le notizie diffuse da una selezione di organi di informazione e faceva azionare dei meccanismi, dei servo motore, che rilasciavano sul pavimento le palline in numero corrispondente agli omicidi.  
+Si potrebbe utilizzare la stessa metafora per realizzare  un contenitore che rilasciasse dei pellet di plastica in quantità proporzionale alla popolazione di un territorio noto.
 
 
 
