@@ -25,7 +25,7 @@ Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli p
 
 <img align="left" width="150" height="150" src="https://i.imgur.com/a89KehF.jpg?1"> I **beholder** sono perfide creature presenti nelle ambientazioni di Dungeons and Dragons. Sono dotati di 9 occhi posti sulla sommità di tentacoli, e per questo motivo non vengono mai colti di sorpresa, perchè possono vedere l'intero ambiente nei quali si trovano.
 
-<br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/>
 
 
 ### Prototipo ###
