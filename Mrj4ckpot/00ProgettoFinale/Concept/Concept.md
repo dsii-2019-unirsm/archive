@@ -20,10 +20,9 @@ Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli p
 
 <br/><br/><br/>
 
-<img align="left" width="150" height="150" src="https://i.imgur.com/lHahyng.jpg">Due webcam, collegate a due display led, sono ognuna rivolta verso lo schermo dell'altra. Un glitch inserito appositamente nel frame buffer delle due telecamere fa si che le immagini nello schermo vengano "fraintese". Questo tipo di effetto, detto feedback loop, dimostrano quanto le differenze dei punti di vista possano distorcere la realtà, producendo nuove forme di percezione.
-[Progetto](https://vimeo.com/153768243)
+<img align="left" width="150" height="150" src="https://i.imgur.com/lHahyng.jpg">Due webcam, collegate a due display led, sono ognuna rivolta verso lo schermo dell'altra. Un glitch inserito appositamente nel frame buffer delle due telecamere fa si che le immagini nello schermo vengano "fraintese". Questo tipo di effetto, detto feedback loop, dimostrano quanto le differenze dei punti di vista possano distorcere la realtà, producendo nuove forme di percezione. [Link](https://vimeo.com/153768243)
 
-<br/>
+<br/><br/><br/>
 
 <img align="left" width="150" height="150" src="https://i.imgur.com/a89KehF.jpg?1"> I **beholder** sono perfide creature presenti nelle ambientazioni di Dungeons and Dragons. Sono dotati di 9 occhi posti sulla sommità di tentacoli, e per questo motivo non vengono mai colti di sorpresa, perchè possono vedere l'intero ambiente nei quali si trovano.
 
