@@ -8,6 +8,8 @@ Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli p
 
 ### Prototipo ###
 
+![Imgur](https://i.imgur.com/ajectdI.jpg?1)
+
 Due o più webcam, collegate a uno schermo o un visore, che osservano, ricostruiscono e reinterpretano (anche in maniera assurda) ciò che vedono come collettivo e non come singoli.
 
 1. Le catture di due o più immagini riprese da webcam vengono inizialmente divise in tasselli e mescolate tra loro (mantenendo le posizioni originali nell'inquadratura), seguendo un pattern che può essere selezionato dall'utente. Il risultato viene salvato a parte come **TEXTURE**.
