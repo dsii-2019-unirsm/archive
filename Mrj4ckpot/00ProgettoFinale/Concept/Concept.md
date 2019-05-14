@@ -10,7 +10,7 @@ Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli p
 
 <img align="left" width="150" height="150" src="https://i.imgur.com/FVv1M4Z.jpg?1"> La **teoria delle lenti colorate** spiega come la nostra percezione del mondo sia alterata e distorta rispetto alla realtà in sè; un pò come se cercassimo di immaginarci tutti i colori, avendo indossato per tutta la vita lenti blu.
 
-<br/><br/><br/><br/>
+<br/><br/>
 
 <img align="left" width="150" height="150" src="https://i.imgur.com/eyy5Bt6.jpg?1"> L'album "Non al denaro, non all'amore nè al cielo" di Fabrizio de Andrè contiene il brano **"Un ottico"** , che racconta i pazienti di un oculista, che provando lenti sbagliate sono in grado di vedere distorsioni della realtà, che rivelano verità sul loro passato.
 
