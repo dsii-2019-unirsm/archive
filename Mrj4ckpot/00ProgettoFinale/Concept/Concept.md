@@ -6,7 +6,7 @@ La prospettiva è il punto da cui e verso cui vediamo il mondo e gli oggetti; la
 
 Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli per riprodurre quella che sarebbe la percezione del collettivo? Possiamo arricchire ulteriormente la percezione visiva attraverso il risultato di questo esperimento?
 
-![Imgur](https://i.imgur.com/FVv1M4Z.jpg?1) La **teoria delle lenti colorate** spiega come la nostra percezione del mondo sia alterata e distorta rispetto alla realtà in sè; un pò come se cercassimo di immaginarci tutti i colori, avendo indossato per tutta la vita lenti blu.
+![Imgur](https://i.imgur.com/FVv1M4Z.jpg?1){.callout} La **teoria delle lenti colorate** spiega come la nostra percezione del mondo sia alterata e distorta rispetto alla realtà in sè; un pò come se cercassimo di immaginarci tutti i colori, avendo indossato per tutta la vita lenti blu.
 
 ### Prototipo ###
 
