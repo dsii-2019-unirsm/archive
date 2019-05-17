@@ -61,9 +61,12 @@ Il pericolo che tutto ciò comporta non riguarda solo la specie umana ma tutto l
 Recenti dati delle Nazioni Unite rilevano che circa 1/8 delle specie viventi nei prossimi 10 anni spariranno dalla Terra con conseguenze devastanti sulla vita nel pianeta.  
 Non si tratta solo di un ennesimo campanello d'allarme ma del tentativo di porsi di fronte all'evidenza concreta sulla dimensione dell'ennesima tossicità che inconsapevolmente ingeriamo.
 ### Come potrebbe essere:  
-La ricerca suggerita dal docente riguardante alcune installazioni ha fatto notare con interesse quella sviluppata da Caleb Larsen e denominata Monument del 2006.  
+La ricerca suggerita dal docente riguardante alcune installazioni ha fatto notare con interesse quella sviluppata da Caleb Larsen e denominata Monument, realizzata nel 2006.  
 In questa installazione una serie di palline di colore giallo poste in un contenitore a soffitto, cadendo nel pavimento di una stanza, rappresentava i soggetti morti violentemente, in tempo reale, nel territorio statunitense. Tutto era gestito da un algoritmo che analizzava le notizie diffuse da una selezione di organi di informazione e faceva azionare dei meccanismi, dei servo motore, che rilasciavano sul pavimento le palline in numero corrispondente agli omicidi.  
-Si potrebbe utilizzare la stessa metafora per realizzare  un contenitore che rilasciasse dei pellet di plastica in quantità proporzionale alla popolazione di un territorio noto.
+Si potrebbe utilizzare la stessa metafora per realizzare  un contenitore che rilasciasse dei pellet di plastica in quantità proporzionale alla popolazione di un territorio noto.  
+|[+](https://i.imgur.com/zUOn2qJ.png)  
+##### Aggiornamento del 17-5-2019
+
 
 
 
