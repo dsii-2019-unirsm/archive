@@ -48,7 +48,7 @@ Sogno, Identità, Immaginazione, Desiderio, Comunità
 - https://www.creativeapplications.net/environment/the-weather-followers-bringing-serendipity-to-the-digital-life/ - The Weather Followers
 
 **Aggiornamenti**
-#**how it works**<h4>
+
 L'algoritmo chiede alla persona che sta utilizzando la scatola cosa ha sognato. Attraverso il riconoscimento vocale, trascrive il sogno in un array (fino a quel momento vuoto). Splittando l'array, utilizza le parole dell'utente come "parole di partenza" per la scrittura del suo sogno. Questo, a sua volta, è costruito attraverso la sintassi e le parole su cui è stato eseguito il training ovvero "Le metamorfosi" di Franz Kafka. 
 
 Script funzionanti al momento:
