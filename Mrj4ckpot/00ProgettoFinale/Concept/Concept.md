@@ -47,3 +47,9 @@ Due o più webcam, collegate a uno schermo o un visore, che osservano, ricostrui
 ### Wireframe ###
 
 ![Imgur](https://i.imgur.com/x2trHeD.jpg)
+
+<br/><br/><br/><br/>
+
+### Device ###
+
+![Imgur](https://i.imgur.com/imP6abE.jpg)
