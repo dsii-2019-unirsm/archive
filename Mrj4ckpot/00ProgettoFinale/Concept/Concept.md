@@ -42,6 +42,8 @@ Due o più webcam, collegate a uno schermo o un visore, che osservano, ricostrui
 
 4. **TEXTURE** viene applicata su **HEIGHTMAP**, producendo come risultato un oggetto 3D distorto ma che presenta vaghe somiglianze con qualcos'altro. 
 
+<br/><br/><br/><br/>
+
 ### Wireframe ###
 
 ![Imgur](https://i.imgur.com/x2trHeD.jpg)
