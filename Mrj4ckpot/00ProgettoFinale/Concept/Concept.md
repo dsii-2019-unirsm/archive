@@ -41,3 +41,7 @@ Due o più webcam, collegate a uno schermo o un visore, che osservano, ricostrui
 3. Questa immagine, in scala di grigi, viene utilizzata per produrre una **HEIGHTMAP**, ovvero un modello 3D di un piano, dove in corrispondenza dei nodi, l'altezza Z viene scelta in base alla quantità di bianco in quel punto dell'immagine: 100% sul bianco e 0% sul nero.
 
 4. **TEXTURE** viene applicata su **HEIGHTMAP**, producendo come risultato un oggetto 3D distorto ma che presenta vaghe somiglianze con qualcos'altro. 
+
+### Wireframe ###
+
+![Imgur](https://i.imgur.com/x2trHeD.jpg)
