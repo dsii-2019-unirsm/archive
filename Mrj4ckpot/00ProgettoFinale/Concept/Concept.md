@@ -58,7 +58,7 @@ Due o più webcam, collegate a uno schermo o un visore, che osservano, ricostrui
 2/3/4 webcam collegate ad un visore tramite cavi di 1,5 metri circa interpolano più immagini in una. Le camere sono inserite all'interno di sfere di gomma: si possono quindi gettare le "orbite oculari" e farle rimbalzare alla ricerca di punti di vista impossibili. Si possono appendere e fare dondolare per vedere gli oggetti dall'alto.
 #### Tablet ####
 Non essendo i modelli propriamente 3D, ma superfici con heightmap, non esiste un "retro". Tramite l'OSC del giroscopio del tablet, si può osservare il modello spostando leggermente la telecamera a sinistra, destra, in alto e in basso.
-#### Kinect ####
+#### Posenet // Kinect ####
 Simile al precedente. Il modello viene visualizzato su uno schermo, ma lo spostamento della telecamera avviene tramite la rilevazione della posizione degli occhi dell'utente. 
 
 <br/><br/><br/><br/>
