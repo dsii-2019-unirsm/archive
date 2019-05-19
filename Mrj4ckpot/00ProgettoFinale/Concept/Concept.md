@@ -61,3 +61,8 @@ Non essendo i modelli propriamente 3D, ma superfici con heightmap, non esiste un
 #### Kinect ####
 Simile al precedente. Il modello viene visualizzato su uno schermo, ma lo spostamento della telecamera avviene tramite la rilevazione della posizione degli occhi dell'utente. 
 
+<br/><br/><br/><br/>
+
+## Tassellazione ##
+
+![Imgur](https://i.imgur.com/LbUElaC.jpg)
