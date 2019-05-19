@@ -1,4 +1,4 @@
-# Beholder #
+# BEHOLDER #
 
 ## Realmente reale ##
 
@@ -28,7 +28,7 @@ Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli p
 <br/><br/><br/><br/><br/><br/><br/>
 
 
-### Prototipo ###
+## Prototipo ##
 
 ![Imgur](https://i.imgur.com/ajectdI.jpg?1)
 
@@ -54,4 +54,6 @@ Due o più webcam, collegate a uno schermo o un visore, che osservano, ricostrui
 
 ![Imgur](https://i.imgur.com/imP6abE.jpg)
 
+#### Visore ####
+2/3/4 webcam collegate ad un visore tramite cavi di 1,5 metri circa interpolano più immagini in una. Le camere sono inserite all'interno di sfere di gomma: si possono quindi gettare le "orbite oculari" e farle rimbalzare alla ricerca di punti di vista impossibili. Si possono appendere e fare dondolare per vedere gli oggetti dall'alto.
 
