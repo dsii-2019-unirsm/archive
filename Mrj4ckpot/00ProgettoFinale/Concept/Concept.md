@@ -1,6 +1,6 @@
 # Beholder #
 
-### Realmente reale ###
+## Realmente reale ##
 
 La prospettiva è il punto da cui e verso cui vediamo il mondo e gli oggetti; la fotografia insegna che la prospettiva, ma anche la luce, quello che appare nell'inquadratura e la lunghezza del fuoco determinano valori e significati aggiunti a ciò che vediamo. Tuttavia, possiamo dire di essere in grado di "vedere" e capire un oggetto nella sua interezza se le prospettive dei singoli hanno questa eccezionale capacità di alterare la percezione?
 
@@ -44,12 +44,14 @@ Due o più webcam, collegate a uno schermo o un visore, che osservano, ricostrui
 
 <br/><br/><br/><br/>
 
-### Wireframe ###
+## Wireframe ##
 
 ![Imgur](https://i.imgur.com/x2trHeD.jpg)
 
 <br/><br/><br/><br/>
 
-### Device ###
+## Device ##
 
 ![Imgur](https://i.imgur.com/imP6abE.jpg)
+
+
