@@ -24,8 +24,6 @@ La macchina riconosce il senso del testo e cerca di continuarlo sfruttando Text 
 
 - [Schiffman Speech Recognition](https://github.com/CodingTrain/website/tree/f01284ea40f3d746f6112b5303781d4e137707f8/Courses/programming_with_text/session10/10-04_Speech_Recognition_with_p5.Speech)
 - [RiTa.js/ Kafgenstein](https://rednoise.org/rita/examples/p5js/Kafgenstein/#source) Sulla base di testi si Kafka e Wiggtestein rigenera un testo al click 
-- [RiTa.js/ Haiku](https://rednoise.org/rita/examples/p5js/HaikuGrammar/#source) Genera Haiku(struttura e grammatica precisa)
-- [RiTa.js/ Analisi logica e fonetica](https://rednoise.org/rita/examples/p5js/Analysis/) Analisi logica di parole randomiche (da dove le pesca?)
 
 
 **What if**
@@ -34,6 +32,7 @@ La macchina riconosce il senso del testo e cerca di continuarlo sfruttando Text 
 
 - Se fosse inserito all'interno di una istallazione come potremmo pensare di poterlo far funzionare, raccogliendo i sogni di una "comunità"? Potrebbe creare pattern di "sogni" ricorrenti per poi mostrare il suo, prolungando i sogni ricevuti? 
 
+- Se attraverso i sogni potessimo costruire delle "cartografie della mente"?
 
 ![Carte de Teindre](https://i.imgur.com/G56XfTt.jpg)
 
@@ -47,3 +46,11 @@ Sogno, Identità, Immaginazione, Desiderio, Comunità
 - https://www.creativeapplications.net/membersonly/brion-gysin-dream-machine-iphone/ - Dream Machine
 - https://www.creativeapplications.net/openframeworks/all-work-and-no-play-machine-daydreaming/ - Machine daydreaming
 - https://www.creativeapplications.net/environment/the-weather-followers-bringing-serendipity-to-the-digital-life/ - The Weather Followers
+
+**Aggiornamenti**
+
+L'algoritmo chiede alla persona che sta utilizzando la scatola cosa ha sognato. Attraverso il riconoscimento vocale, trascrive il sogno in un array (fino a quel momento vuoto). Splittando l'array, utilizza le parole dell'utente come "parole di partenza" per la scrittura del suo sogno. Questo, a sua volta, è costruito attraverso la sintassi e le parole su cui è stato eseguito il training ovvero "Le metamorfosi" di Franz Kafka. 
+
+Script funzionanti al momento:
+- speech recognition e trascrizione nell'array
+- testi di senso compiuto basati sul testo di Kafka, si aggiornano al click, funzionano con un server locale. 
