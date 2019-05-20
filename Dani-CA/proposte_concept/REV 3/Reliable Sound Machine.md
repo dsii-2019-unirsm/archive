@@ -38,7 +38,15 @@ _Minim Library_
 - FrequencyEnergyBeatDetection
 - SoundSpectrum
 
+[_Drum Machine Magenta.js_](https://codepen.io/teropa/full/RMGxOQ/)
+
 [_Arduino Solenoid_](http://learn.robotgeek.com/projects/robotgeek-solenoid-projects/30-solenoid.html)
+
+[_Arduino Stepper Motor_](https://circuitdigest.com/microcontroller-projects/arduino-stepper-motor-control-tutorial)
+
+[_Arduino Servo_](https://www.instructables.com/id/Arduino-Servo-Motors/)
+
+[_Arduino Relay 12v_](https://www.theengineeringprojects.com/2017/08/2-relay-module-interfacing-with-arduino.html)
 
 ---
 
@@ -54,6 +62,6 @@ _Minim Library_
 
 [_Sensor Shield_](https://www.robotgeek.com/robotgeek-sensor-shield)
 
-[_Connettore 3 poli_](https://www.amazon.it/RUNCCI-Connettore-aviazione-Maschio-pannello/dp/B07NY2VXS6/ref=sr_1_7?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=connettore+3+pin&qid=1557752891&refinements=p_76%3A490210031&rnid=490209031&rps=1&s=gateway&sr=8-7)
+[_Connettore 5 poli_](https://www.amazon.it/RUNCCI-Connettore-aviazione-Maschio-pannello/dp/B07KW15CHW/ref=sr_1_1_sspa?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=connettore+5+pin&qid=1557756256&refinements=p_76%3A490210031&rnid=490209031&rps=1&s=gateway&sr=8-1-spons&psc=1)
 
 
