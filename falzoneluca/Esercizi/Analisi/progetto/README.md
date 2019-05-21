@@ -5,6 +5,6 @@
 <p>  By Falzone Luca </p>
 <img src="https://i.imgur.com/JCkd5Z6.png">
 
-[<img src="https://i.imgur.com/JCkd5Z6.png">](https://docs.google.com/spreadsheets/d/1imU33IgnmEdrFskNUmStpvBM3o8G8ikemZeLKry8a_c/edit#gid=0)
+[<img src="https://i.imgur.com/ciIhKeO.png">](https://docs.google.com/spreadsheets/d/1imU33IgnmEdrFskNUmStpvBM3o8G8ikemZeLKry8a_c/edit#gid=0)
 
 
