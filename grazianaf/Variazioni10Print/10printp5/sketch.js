@@ -14,12 +14,14 @@ var yPos = 0;
 
 function draw(){
 
+  //numero tra 0 e 1 a caso
   var forma = random();
   print(forma);
   var h = random(255);
   stroke(h, 30, 100);
   fill(h, 30, 100);
   
+  //se la probabilità è minore di x numero disegna forme (linee o triangoli in posizioni differenti
   if(forma < 0.4){
     line(xPos, yPos, xPos + boxWidth, yPos + boxWidth);
   }else if(forma < 0.5){
@@ -46,7 +48,7 @@ function draw(){
 }
 
 function mousePressed(){
-  //resetta e riprende
+  //resetta e riprende 
   background(255);
   xPos = 0;
   yPos = 0;
