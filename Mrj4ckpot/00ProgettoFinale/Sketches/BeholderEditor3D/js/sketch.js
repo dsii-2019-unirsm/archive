@@ -17,28 +17,35 @@ let oggetto = {
   Rotazione_Z: 0,
 
   Texture: 'https://i.imgur.com/kfc8mF0.jpg?1',
-  Wireframe: false
-
+  Wireframe: false,
+  Colore_Wireframe: 100
 };
 
-var gui = new dat.GUI();
-gui.add(oggetto, 'REFRESH' );
-gui.add(oggetto, 'Displacement_Map' );
-gui.add(oggetto, 'Geometria', [ 'Causeway', 'Mesh'] );
-gui.add(oggetto, 'Bianco_e_Nero' );
-gui.add(oggetto, 'Brightness', 0, 5 );
-gui.add(oggetto, 'Heightmap', 0, 5 );
 
-var f1 = gui.addFolder('Opzioni Causeway');
-f1.add(oggetto, 'Forma_Celle', [ 'Quadrato', 'Cerchio'] );
-f1.add(oggetto, 'Scala_Celle', 0, 5 );
-f1.add(oggetto, 'Rotazione_X', 0, 1 );
-f1.add(oggetto, 'Rotazione_Y', 0, 1 );
-f1.add(oggetto, 'Rotazione_Z', 0, 1 );
+window.onload = function(){
 
-var f2 = gui.addFolder('Opzioni Mesh');
-f2.add(oggetto, 'Texture' );
-f2.add(oggetto, 'Wireframe' );
+  var gui = new dat.GUI();
+  gui.add(oggetto, 'REFRESH' );
+  gui.add(oggetto, 'Displacement_Map' );
+  gui.add(oggetto, 'Geometria', [ 'Causeway', 'Mesh'] );
+  gui.add(oggetto, 'Bianco_e_Nero' );
+  gui.add(oggetto, 'Brightness', 0, 5 );
+  gui.add(oggetto, 'Heightmap', 0, 5 );
+
+  var f1 = gui.addFolder('Opzioni Causeway');
+  f1.add(oggetto, 'Forma_Celle', [ 'Quadrato', 'Cerchio'] );
+  f1.add(oggetto, 'Scala_Celle', 0, 5 );
+  f1.add(oggetto, 'Rotazione_X', 0, 1 );
+  f1.add(oggetto, 'Rotazione_Y', 0, 1 );
+  f1.add(oggetto, 'Rotazione_Z', 0, 1 );
+
+  var f2 = gui.addFolder('Opzioni Mesh');
+  f2.add(oggetto, 'Texture' );
+  f2.add(oggetto, 'Wireframe' );
+  f2.add(oggetto, 'Colore_Wireframe', 0, 255 );
+
+}
+
 
 
 let img, tex;
@@ -54,6 +61,7 @@ let multi = 1;
 let cam1;
 
 let colore;
+let u,v;
 
 function preload() {
   img = loadImage(oggetto.Displacement_Map);
@@ -134,6 +142,7 @@ function setup() {
   noStroke();
   rectMode(CENTER);
 
+
   cam1 = createVideo('test1.mp4');
   cam1.hide();
 
@@ -143,6 +152,7 @@ function setup() {
 }
 
 function draw() {
+  colorMode(RGB);
   background(0);
   translate(-img.width/2, -img.height/2, -(100*oggetto.Heightmap)/2);
 
@@ -206,7 +216,14 @@ if( oggetto.Forma_Celle == "Cerchio"){
     else {
       //texture(img);
       for (let x = 0; x < punti.length-1; x++) {
-          stroke(150);
+
+
+          if (oggetto.Bianco_e_Nero == true){
+            stroke(oggetto.Brightness);
+          } else {
+            colorMode(HSB);
+            stroke(oggetto.Colore_Wireframe,255,150);
+          }
 
           if(oggetto.Wireframe == true){
             noFill();
@@ -214,14 +231,20 @@ if( oggetto.Forma_Celle == "Cerchio"){
             texture(tex);
           }
 
-
           beginShape(TRIANGLE_STRIP);
           for (let y = 0; y < punti[x].length-1; y++) {
-              vertex(x * res, y * res, punti[x][y]*oggetto.Heightmap, x*res, y*res);
-              vertex((x+1) * res , y * res, punti[x+1][y]*oggetto.Heightmap, x*res, y*res);
+              vertex(x * res, y * res, punti[x][y]*oggetto.Heightmap, u-res, v);
+              vertex((x+1) * res , y * res, punti[x+1][y]*oggetto.Heightmap, u, v);
+              v +=res;
+
           }
+
+          v = 0;
+          u +=res;
           endShape();
       }
+
+      u=0;
     }
 
 
