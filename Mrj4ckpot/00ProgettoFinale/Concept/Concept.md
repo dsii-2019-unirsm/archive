@@ -85,3 +85,6 @@ Simile al precedente. Il modello viene visualizzato su uno schermo, ma lo sposta
 ![Imgur](https://i.imgur.com/LbUElaC.jpg)
 
 Schema per la distribuzione dei tasselli nell'interpolazione di 2 e 4 immagini. Ogni tassello dell'immagine viene riempito con una porzione delle stesse dimensioni proveniente da una delle sorgenti scelte casualmente; le coordinate lineari della griglia sono divise in 5 aree nelle quali varia la probabilità che un'immagine provenga da una sorgente rispetto che a un'altra. Partendo da sinistra, la probabilità che nella prima frazione provenga dalla sorgente A è il 100%, e diminuisce del 25% in ogni frazione successiva finchè nell'ultima frazione proviene nel 100% dall'immagine B.
+
+## Prototipo ##
+![Imgur](https://i.imgur.com/yIEydB1.jpg?1)
