@@ -30,7 +30,7 @@ Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli p
 
 <img align="left" width="150" height="150" src="https://i.imgur.com/lHahyng.jpg">**Leedback** è un processo costituito da due webcam rivolte l'una verso l'altra. Un glitch inserito appositamente nel frame buffer delle due telecamere fa si che le immagini nello schermo vengano "fraintese". Questo tipo di effetto, detto feedback loop, dimostrano quanto le differenze dei punti di vista possano distorcere la realtà, producendo nuove forme di percezione.
 
-<br/><br/>
+<br/><br/><br/><br/><br/><br/><br/>
 
 
 ## Prototipo ##
