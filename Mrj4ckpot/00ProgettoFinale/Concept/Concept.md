@@ -17,15 +17,15 @@ Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli p
 
 <br/><br/><br/>
 
-<img align="left" width="150" height="150" src="https://i.imgur.com/eyy5Bt6.jpg?1"> L'album "Non al denaro, non all'amore nè al cielo" di Fabrizio de Andrè contiene il brano **"Un ottico"** [4](https://www.youtube.com/watch?v=MAN30uMp1f4), che racconta i pazienti di un oculista, che provando lenti sbagliate sono in grado di vedere distorsioni della realtà, che rivelano verità sul loro passato.
+<img align="left" width="150" height="150" src="https://i.imgur.com/eyy5Bt6.jpg?1"> L'album "Non al denaro, non all'amore nè al cielo" di Fabrizio de Andrè contiene il brano **"Un ottico"** [[4]](https://www.youtube.com/watch?v=MAN30uMp1f4), che racconta i pazienti di un oculista, che provando lenti sbagliate sono in grado di vedere distorsioni della realtà, che rivelano verità sul loro passato.
 
 <br/><br/><br/>
 
-<img align="left" width="150" height="150" src="https://i.imgur.com/kfc8mF0.jpg?1"> L'azienda statunitense gloFX [5](https://glofx.com/rave-eyewear/kaleidoscope-glasses/all-kaleidoscope-glasses/) , che realizza prodotti per il target di nicchia degli appassionati di *rave party*, realizza **diffraction glasses** e **kaleidoscopic glasses**, che producono effetti diversi quando ci si trova al buio e in presenza di luci colorate e stroboscopiche.
+<img align="left" width="150" height="150" src="https://i.imgur.com/kfc8mF0.jpg?1"> L'azienda statunitense gloFX [[5]](https://glofx.com/rave-eyewear/kaleidoscope-glasses/all-kaleidoscope-glasses/) , che realizza prodotti per il target di nicchia degli appassionati di *rave party*, realizza **diffraction glasses** e **kaleidoscopic glasses**, che producono effetti diversi quando ci si trova al buio e in presenza di luci colorate e stroboscopiche.
 
 <br/><br/><br/>
 
-<img align="left" width="150" height="150" src="https://i.imgur.com/a89KehF.jpg?1"> I **beholder** [6](https://www.dndbeyond.com/compendium/cyclopedia/vgtm/beholders) sono perfide creature presenti nelle ambientazioni di Dungeons and Dragons. Sono dotati di 9 occhi posti sulla sommità di tentacoli, e per questo motivo non vengono mai colti di sorpresa, perchè possono vedere l'intero ambiente nei quali si trovano.
+<img align="left" width="150" height="150" src="https://i.imgur.com/a89KehF.jpg?1"> I **beholder** [[6]](https://www.dndbeyond.com/compendium/cyclopedia/vgtm/beholders) sono perfide creature presenti nelle ambientazioni di Dungeons and Dragons. Sono dotati di 9 occhi posti sulla sommità di tentacoli, e per questo motivo non vengono mai colti di sorpresa, perchè possono vedere l'intero ambiente nei quali si trovano.
 
 <br/><br/><br/><br/><br/><br/><br/>
 
