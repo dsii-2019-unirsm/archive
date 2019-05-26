@@ -4,7 +4,7 @@
        
 <br/>
 Il 10 Aprile 2019 gli scienziati del progetto EHT sono riusciti nell'impresa eccezionale di "fotografare" per la prima volta nella storia un buco nero situato a 55 milioni di anni luce dalla terra. La realizzazione dell'immagine, teoricamente impossibile dal momento che richiede un telescopio con una lente delle dimensioni dell'intero pianeta, è stata ottenuta con uno stratagemma che consiste nell'interpolazione delle immagini raccolte da 8 telescopi in parti diverse del mondo, puntati tutti nella stessa direzione dello spazio profondo. In termini di progetto, possiamo quindi sfruttare l'intuizione di "unire i punti di vista" per vedere ciò che è invisibile anche sul nostro pianeta?
-<br/><br/>
+<br/><br/><br/>
 
 ## Realmente reale ##
 
