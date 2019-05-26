@@ -30,6 +30,20 @@ Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli p
 
 <img align="left" width="150" height="150" src="https://i.imgur.com/lHahyng.jpg">**Leedback** è un processo costituito da due webcam rivolte l'una verso l'altra. Un glitch inserito appositamente nel frame buffer delle due telecamere fa si che le immagini nello schermo vengano "fraintese". Questo tipo di effetto, detto feedback loop, dimostrano quanto le differenze dei punti di vista possano distorcere la realtà, producendo nuove forme di percezione.
 
+<br/><br/>
+
+
+
+<img align="left" width="150" height="150" src="https://i.imgur.com/EFcSrW0.jpg">**Proteus** si basa sul tentativo di produrre un pensiero unico a partire dalle azioni di unità plurali. Nel primo caso, il progetto consiste in uno "specchio" digitale basato su particelle di ferrite indipendenti nei loro spazi che seguono i movimenti degli utenti.
+
+<br/><br/><br/>
+
+### Proteus && Hive mind bots ###
+![Imgur](https://i.imgur.com/EFcSrW0.jpg)
+![Imgur](https://i.imgur.com/xaKUi2a.jpg)
+
+<img align="left" width="150" height="150" src="https://i.imgur.com/xaKUi2a.jpg">I **microbot** siluppati all'interno del MIT hanno intelligenze artificiali indipendenti che permettono però alle singole unità di capire quale "posto" devono prendere nel momento in cui viene richiesto di realizzare un'immagine.
+
 <br/><br/><br/><br/><br/><br/><br/>
 
 
