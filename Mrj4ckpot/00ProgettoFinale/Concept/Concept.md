@@ -49,7 +49,13 @@ Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli p
 
 ![Imgur](https://i.imgur.com/ajectdI.jpg?1)
 
+# Che cos'è? #
 
+<br/><br/><br/><br/>
+
+## Wireframe ##
+
+![Imgur](https://i.imgur.com/x2trHeD.jpg)
 
 <br/><br/><br/><br/>
 
@@ -69,11 +75,7 @@ Due o più webcam, collegate a uno schermo o un visore, che osservano, ricostrui
 <br/><br/><br/><br/>
 
 
-## Wireframe ##
 
-![Imgur](https://i.imgur.com/x2trHeD.jpg)
-
-<br/><br/><br/><br/>
 
 ## Device ##
 
