@@ -1,4 +1,4 @@
-# BEHOLDER #
+# Beholder #
 
 > Beauty lies in the eyes of the beholder.
 
