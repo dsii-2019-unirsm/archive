@@ -49,7 +49,7 @@ Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli p
 
 ![Imgur](https://i.imgur.com/ajectdI.jpg?1)
 
-####### Che cos'è? #######
+###### Che cos'è? ######
 
 <br/><br/><br/><br/>
 
