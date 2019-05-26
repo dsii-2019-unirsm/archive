@@ -45,7 +45,7 @@ Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli p
 <br/><br/><br/><br/><br/><br/><br/>
 
 
-## Prototipo ##
+## Progetto ##
 
 ![Imgur](https://i.imgur.com/ajectdI.jpg?1)
 
