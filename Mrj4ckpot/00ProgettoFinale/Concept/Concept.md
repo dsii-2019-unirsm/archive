@@ -121,6 +121,9 @@ Schema per la distribuzione dei tasselli nell'interpolazione di 2 e 4 immagini. 
 4. "Un ottico", Fabrizio De Andrè, 1971
 5. https://glofx.com/rave-eyewear/kaleidoscope-glasses/all-kaleidoscope-glasses/, 2019
 6. "Dungeons and Dragons - Monsters & Treasure", Gary Gygax e Dave Arneson, 1974
+7. "Leedback", Andreas Muxel, 2016
+8. "Proteus", Maria Smigieska, 2018
+9. "Hive mind bots", 2016
 
 
 
