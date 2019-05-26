@@ -21,7 +21,7 @@ Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli p
 
 <br/><br/><br/>
 
-<img align="left" width="150" height="150" src="https://i.imgur.com/kfc8mF0.jpg?1"> L'azienda statunitense gloFX, che realizza prodotti per il target di nicchia degli appassionati di rave party, realizza **diffraction glasses** e **kaleidoscopic glasses**, che producono effetti diversi quando ci si trova al buio e in presenza di luci colorate e stroboscopiche.
+<img align="left" width="150" height="150" src="https://i.imgur.com/kfc8mF0.jpg?1"> L'azienda statunitense gloFX, che realizza prodotti per il target di nicchia degli appassionati di *rave party*, realizza **diffraction glasses** e **kaleidoscopic glasses**, che producono effetti diversi quando ci si trova al buio e in presenza di luci colorate e stroboscopiche.
 
 <br/><br/><br/>
 
@@ -32,7 +32,7 @@ Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli p
 
 ## Casi studio ##
 
-<img align="left" width="150" height="150" src="https://i.imgur.com/lHahyng.jpg">**Leedback** è un processo costituito da due webcam rivolte l'una verso l'altra. Un glitch inserito appositamente nel frame buffer delle due telecamere fa si che le immagini nello schermo vengano "fraintese". Questo tipo di effetto, detto feedback loop, dimostrano quanto le differenze dei punti di vista possano distorcere la realtà, producendo nuove forme di percezione.
+<img align="left" width="150" height="150" src="https://i.imgur.com/lHahyng.jpg">**Leedback** è un processo costituito da due webcam rivolte l'una verso l'altra. Un glitch inserito appositamente nel frame buffer delle due telecamere fa si che le immagini nello schermo vengano "fraintese". Questo tipo di effetto, detto *feedback loop*, dimostrano quanto le differenze dei punti di vista possano distorcere la realtà, producendo nuove forme di percezione.
 
 <br/><br/>
 
