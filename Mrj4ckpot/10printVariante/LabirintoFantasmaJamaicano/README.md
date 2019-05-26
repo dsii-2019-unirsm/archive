@@ -1,8 +1,7 @@
-# Beholder 3D editor #
+# Labirinto Fantasma Jamaicano #
 
-![Imgur](https://i.imgur.com/yIEydB1.jpg?1)
+![Imgur](https://i.imgur.com/mRpOVzn.png?2)
 
-Editor di Heightmap che trasforma le immagini in superfici 3D e permette di applicare diversi effetti di animazioni, cromie e geometrie.
+I caratteri 3D sono costituiti da due triangoli rettangoli 3D in direzioni diverse. Anzichè stampare i caratteri in due dimensioni, vengono stampati su 3 su una "schermata cubica".
 
-Causeway Divide l'immagine in pixel monocromatici e li sposta sull'asseZ. 
-Mesh crea una superficie di piani triangolari.
+L'HUE del colore è dato dalle proporzioni degli assi x, y e z: quando tutti e tre tendono allo 0 le celle sono gialle, quando tendono al massimo sono azzurre e sono verdi nei valori intermedi.
