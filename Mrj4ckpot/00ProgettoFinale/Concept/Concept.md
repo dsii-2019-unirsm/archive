@@ -3,7 +3,7 @@
 > Beauty lies in the eyes of the beholder. [[1]](https://www.youtube.com/watch?v=93sBmsAIuGE)
        
 <br/>
-[[2]](https://eventhorizontelescope.org/) Il 10 Aprile 2019 gli scienziati del progetto EHT sono riusciti nell'impresa eccezionale di "fotografare" per la prima volta nella storia un buco nero situato a 55 milioni di anni luce dalla terra. La realizzazione dell'immagine, teoricamente impossibile dal momento che richiede un telescopio con una lente delle dimensioni dell'intero pianeta, è stata ottenuta con uno stratagemma che consiste nell'interpolazione delle immagini raccolte da 8 telescopi in parti diverse del mondo, puntati tutti nella stessa direzione dello spazio profondo. In termini di progetto, possiamo quindi sfruttare l'intuizione di "unire i punti di vista" per vedere ciò che è invisibile anche sul nostro pianeta?
+![[2]](https://eventhorizontelescope.org/) Il 10 Aprile 2019 gli scienziati del progetto EHT sono riusciti nell'impresa eccezionale di "fotografare" per la prima volta nella storia un buco nero situato a 55 milioni di anni luce dalla terra. La realizzazione dell'immagine, teoricamente impossibile dal momento che richiede un telescopio con una lente delle dimensioni dell'intero pianeta, è stata ottenuta con uno stratagemma che consiste nell'interpolazione delle immagini raccolte da 8 telescopi in parti diverse del mondo, puntati tutti nella stessa direzione dello spazio profondo. In termini di progetto, possiamo quindi sfruttare l'intuizione di "unire i punti di vista" per vedere ciò che è invisibile anche sul nostro pianeta?
 <br/><br/><br/>
 
 ## Realmente reale ##
@@ -32,18 +32,18 @@ Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli p
 
 ## Casi studio ##
 
-<img align="left" width="150" height="150" src="https://i.imgur.com/lHahyng.jpg">**Leedback** è un processo costituito da due webcam rivolte l'una verso l'altra. Un glitch inserito appositamente nel frame buffer delle due telecamere fa si che le immagini nello schermo vengano "fraintese". Questo tipo di effetto, detto *feedback loop*, dimostrano quanto le differenze dei punti di vista possano distorcere la realtà, producendo nuove forme di percezione.
+<img align="left" width="150" height="150" src="https://i.imgur.com/lHahyng.jpg">**Leedback** [[7]](https://www.creativeapplications.net/processing/feedback-machines-mis-using-technology-non-linear-behavioural-systems/) è un processo costituito da due webcam rivolte l'una verso l'altra. Un glitch inserito appositamente nel frame buffer delle due telecamere fa si che le immagini nello schermo vengano "fraintese". Questo tipo di effetto, detto *feedback loop*, dimostrano quanto le differenze dei punti di vista possano distorcere la realtà, producendo nuove forme di percezione.
 
 <br/><br/>
 
 
 
-<img align="left" width="150" height="150" src="https://i.imgur.com/EFcSrW0.jpg">**Proteus** si basa sul tentativo di produrre un pensiero unico a partire dalle azioni di unità plurali. Nel primo caso, il progetto consiste in uno "specchio" digitale basato su particelle di ferrite indipendenti nei loro spazi che seguono i movimenti degli utenti.
+<img align="left" width="150" height="150" src="https://i.imgur.com/EFcSrW0.jpg">**Proteus** [[8]](https://www.creativeapplications.net/robotics/proteus-analog-digital-display-that-allows-for-interacting-with-matter/) si basa sul tentativo di produrre un pensiero unico a partire dalle azioni di unità plurali. Nel primo caso, il progetto consiste in uno "specchio" digitale basato su particelle di ferrite indipendenti nei loro spazi che seguono i movimenti degli utenti.
 
 <br/><br/><br/>
 
 
-<img align="left" width="150" height="150" src="https://i.imgur.com/xaKUi2a.jpg">I **microbot** siluppati all'interno del MIT hanno intelligenze artificiali indipendenti che permettono però alle singole unità di capire quale "posto" devono prendere nel momento in cui viene richiesto di realizzare un'immagine.
+<img align="left" width="150" height="150" src="https://i.imgur.com/xaKUi2a.jpg">I **microbot** [[9]](https://www.youtube.com/watch?v=xK54Bu9HFRw) siluppati all'interno dell'università di Harvard hanno intelligenze artificiali indipendenti che permettono però alle singole unità di capire quale "posto" devono prendere nel momento in cui viene richiesto di realizzare un'immagine.
 
 <br/><br/><br/><br/><br/><br/><br/>
 
