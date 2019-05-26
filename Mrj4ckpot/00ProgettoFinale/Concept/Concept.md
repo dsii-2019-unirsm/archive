@@ -49,6 +49,13 @@ Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli p
 
 ![Imgur](https://i.imgur.com/ajectdI.jpg?1)
 
+
+
+<br/><br/><br/><br/>
+
+## Prototipo ##
+![Imgur](https://i.imgur.com/yIEydB1.jpg?1)
+
 Due o più webcam, collegate a uno schermo o un visore, che osservano, ricostruiscono e reinterpretano (anche in maniera assurda) ciò che vedono come collettivo e non come singoli.
 
 1. Le catture di due o più immagini riprese da webcam vengono inizialmente divise in tasselli e mescolate tra loro (mantenendo le posizioni originali nell'inquadratura), seguendo un pattern che può essere selezionato dall'utente. Il risultato viene salvato a parte come **TEXTURE**.
@@ -60,6 +67,7 @@ Due o più webcam, collegate a uno schermo o un visore, che osservano, ricostrui
 4. **TEXTURE** viene applicata su **HEIGHTMAP**, producendo come risultato un oggetto 3D distorto ma che presenta vaghe somiglianze con qualcos'altro. 
 
 <br/><br/><br/><br/>
+
 
 ## Wireframe ##
 
@@ -85,9 +93,6 @@ Simile al precedente. Il modello viene visualizzato su uno schermo, ma lo sposta
 ![Imgur](https://i.imgur.com/LbUElaC.jpg)
 
 Schema per la distribuzione dei tasselli nell'interpolazione di 2 e 4 immagini. Ogni tassello dell'immagine viene riempito con una porzione delle stesse dimensioni proveniente da una delle sorgenti scelte casualmente; le coordinate lineari della griglia sono divise in 5 aree nelle quali varia la probabilità che un'immagine provenga da una sorgente rispetto che a un'altra. Partendo da sinistra, la probabilità che nella prima frazione provenga dalla sorgente A è il 100%, e diminuisce del 25% in ogni frazione successiva finchè nell'ultima frazione proviene nel 100% dall'immagine B.
-<br/><br/><br/><br/>
 
 
 
-## Prototipo ##
-![Imgur](https://i.imgur.com/yIEydB1.jpg?1)
