@@ -1,9 +1,9 @@
 # Beholder #
 <br/><br/>
-> Beauty lies in the eyes of the beholder.
+> Beauty lies in the eyes of the beholder. [1](https://www.youtube.com/watch?v=93sBmsAIuGE)
        
 <br/>
-Il 10 Aprile 2019 gli scienziati del progetto EHT sono riusciti nell'impresa eccezionale di "fotografare" per la prima volta nella storia un buco nero situato a 55 milioni di anni luce dalla terra. La realizzazione dell'immagine, teoricamente impossibile dal momento che richiede un telescopio con una lente delle dimensioni dell'intero pianeta, è stata ottenuta con uno stratagemma che consiste nell'interpolazione delle immagini raccolte da 8 telescopi in parti diverse del mondo, puntati tutti nella stessa direzione dello spazio profondo. In termini di progetto, possiamo quindi sfruttare l'intuizione di "unire i punti di vista" per vedere ciò che è invisibile anche sul nostro pianeta?
+Il 10 Aprile 2019 gli scienziati del progetto EHT sono riusciti nell'impresa eccezionale di "fotografare" per la prima volta nella storia un buco nero [2](https://eventhorizontelescope.org/) situato a 55 milioni di anni luce dalla terra. La realizzazione dell'immagine, teoricamente impossibile dal momento che richiede un telescopio con una lente delle dimensioni dell'intero pianeta, è stata ottenuta con uno stratagemma che consiste nell'interpolazione delle immagini raccolte da 8 telescopi in parti diverse del mondo, puntati tutti nella stessa direzione dello spazio profondo. In termini di progetto, possiamo quindi sfruttare l'intuizione di "unire i punti di vista" per vedere ciò che è invisibile anche sul nostro pianeta?
 <br/><br/><br/>
 
 ## Realmente reale ##
@@ -13,19 +13,19 @@ La prospettiva è il punto da cui e verso cui vediamo il mondo e gli oggetti; la
 Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli per riprodurre quella che sarebbe la percezione del collettivo? Possiamo arricchire ulteriormente la percezione visiva attraverso il risultato di questo esperimento?
 <br/><br/>
 
-<img align="left" width="150" height="150" src="https://i.imgur.com/FVv1M4Z.jpg?1"> La **teoria delle lenti colorate** spiega come la nostra percezione del mondo sia alterata e distorta rispetto alla realtà in sè; un pò come se cercassimo di immaginarci tutti i colori, avendo indossato per tutta la vita lenti blu.
+<img align="left" width="150" height="150" src="https://i.imgur.com/FVv1M4Z.jpg?1"> La **teoria delle lenti colorate** [3](http://www.homolaicus.com/teorici/kant/kant5.htm) spiega come la nostra percezione del mondo sia alterata e distorta rispetto alla realtà in sè; un pò come se cercassimo di immaginarci tutti i colori, avendo indossato per tutta la vita lenti blu.
 
 <br/><br/><br/>
 
-<img align="left" width="150" height="150" src="https://i.imgur.com/eyy5Bt6.jpg?1"> L'album "Non al denaro, non all'amore nè al cielo" di Fabrizio de Andrè contiene il brano **"Un ottico"** , che racconta i pazienti di un oculista, che provando lenti sbagliate sono in grado di vedere distorsioni della realtà, che rivelano verità sul loro passato.
+<img align="left" width="150" height="150" src="https://i.imgur.com/eyy5Bt6.jpg?1"> L'album "Non al denaro, non all'amore nè al cielo" di Fabrizio de Andrè contiene il brano **"Un ottico"** [4](https://www.youtube.com/watch?v=MAN30uMp1f4), che racconta i pazienti di un oculista, che provando lenti sbagliate sono in grado di vedere distorsioni della realtà, che rivelano verità sul loro passato.
 
 <br/><br/><br/>
 
-<img align="left" width="150" height="150" src="https://i.imgur.com/kfc8mF0.jpg?1"> L'azienda statunitense gloFX, che realizza prodotti per il target di nicchia degli appassionati di *rave party*, realizza **diffraction glasses** e **kaleidoscopic glasses**, che producono effetti diversi quando ci si trova al buio e in presenza di luci colorate e stroboscopiche.
+<img align="left" width="150" height="150" src="https://i.imgur.com/kfc8mF0.jpg?1"> L'azienda statunitense gloFX [5](https://glofx.com/rave-eyewear/kaleidoscope-glasses/all-kaleidoscope-glasses/) , che realizza prodotti per il target di nicchia degli appassionati di *rave party*, realizza **diffraction glasses** e **kaleidoscopic glasses**, che producono effetti diversi quando ci si trova al buio e in presenza di luci colorate e stroboscopiche.
 
 <br/><br/><br/>
 
-<img align="left" width="150" height="150" src="https://i.imgur.com/a89KehF.jpg?1"> I **beholder** sono perfide creature presenti nelle ambientazioni di Dungeons and Dragons. Sono dotati di 9 occhi posti sulla sommità di tentacoli, e per questo motivo non vengono mai colti di sorpresa, perchè possono vedere l'intero ambiente nei quali si trovano.
+<img align="left" width="150" height="150" src="https://i.imgur.com/a89KehF.jpg?1"> I **beholder** [6](https://www.dndbeyond.com/compendium/cyclopedia/vgtm/beholders) sono perfide creature presenti nelle ambientazioni di Dungeons and Dragons. Sono dotati di 9 occhi posti sulla sommità di tentacoli, e per questo motivo non vengono mai colti di sorpresa, perchè possono vedere l'intero ambiente nei quali si trovano.
 
 <br/><br/><br/><br/><br/><br/><br/>
 
@@ -111,6 +111,16 @@ Simile al precedente. Il modello viene visualizzato su uno schermo, ma lo sposta
 ![Imgur](https://i.imgur.com/LbUElaC.jpg)
 
 Schema per la distribuzione dei tasselli nell'interpolazione di 2 e 4 immagini. Ogni tassello dell'immagine viene riempito con una porzione delle stesse dimensioni proveniente da una delle sorgenti scelte casualmente; le coordinate lineari della griglia sono divise in 5 aree nelle quali varia la probabilità che un'immagine provenga da una sorgente rispetto che a un'altra. Partendo da sinistra, la probabilità che nella prima frazione provenga dalla sorgente A è il 100%, e diminuisce del 25% in ogni frazione successiva finchè nell'ultima frazione proviene nel 100% dall'immagine B.
+
+
+## Fonti ##
+
+1. "Daffodils", William Wordsworth, 1807
+2. https://eventhorizontelescope.org/, 2019
+3. "Critica della ragion pura", Immanuel Kant, 1781
+4. "Un ottico", Fabrizio De Andrè, 1971
+5. https://glofx.com/rave-eyewear/kaleidoscope-glasses/all-kaleidoscope-glasses/, 2019
+6. "Dungeons and Dragons - Monsters & Treasure", Gary Gygax e Dave Arneson, 1974
 
 
 
