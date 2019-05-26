@@ -8,7 +8,7 @@
 La prospettiva è il punto da cui e verso cui vediamo il mondo e gli oggetti; la fotografia insegna che la prospettiva, ma anche la luce, quello che appare nell'inquadratura e la lunghezza del fuoco determinano valori e significati aggiunti a ciò che vediamo. Tuttavia, possiamo dire di essere in grado di "vedere" e capire un oggetto nella sua interezza se le prospettive dei singoli hanno questa eccezionale capacità di alterare la percezione?
 
 Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli per riprodurre quella che sarebbe la percezione del collettivo? Possiamo arricchire ulteriormente la percezione visiva attraverso il risultato di questo esperimento?
-<br/>
+<br/><br/><br/>
 
 <img align="left" width="150" height="150" src="https://i.imgur.com/FVv1M4Z.jpg?1"> La **teoria delle lenti colorate** spiega come la nostra percezione del mondo sia alterata e distorta rispetto alla realtà in sè; un pò come se cercassimo di immaginarci tutti i colori, avendo indossato per tutta la vita lenti blu.
 
@@ -49,7 +49,7 @@ Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli p
 
 ![Imgur](https://i.imgur.com/ajectdI.jpg?1)
 
-#### Che cos'è? ####
+### Che cos'è? ###
 
 <br/><br/><br/><br/>
 
