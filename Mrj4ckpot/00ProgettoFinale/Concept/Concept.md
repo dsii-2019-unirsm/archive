@@ -38,9 +38,6 @@ Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli p
 
 <br/><br/><br/>
 
-### Proteus && Hive mind bots ###
-![Imgur](https://i.imgur.com/EFcSrW0.jpg)
-![Imgur](https://i.imgur.com/xaKUi2a.jpg)
 
 <img align="left" width="150" height="150" src="https://i.imgur.com/xaKUi2a.jpg">I **microbot** siluppati all'interno del MIT hanno intelligenze artificiali indipendenti che permettono però alle singole unità di capire quale "posto" devono prendere nel momento in cui viene richiesto di realizzare un'immagine.
 
