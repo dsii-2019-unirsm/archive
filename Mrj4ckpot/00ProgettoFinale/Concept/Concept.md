@@ -50,6 +50,19 @@ Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli p
 ![Imgur](https://i.imgur.com/ajectdI.jpg?1)
 
 ### Che cos'è? ###
+Un "occhiale" per osservare il mondo e avvicinare, almeno di un passo, al reale aspetto delle cose; un pò come quando si guardano le città dal finestrino di un aereo: ci "liberiamo" delle sensazioni legate all'esperienza e capiamo come sono fatte nell'insieme.
+
+### Come Funziona? ###
+La parte hardware è costituita da un visore VR collegato a due webcam tramite cavi. Le webcam sono inoltre montate all'interno di palle di gomma, dando la completa libertà all'utente di lasciarle cadere, farle rimbalzare, appenderle e posizionare al fine di esplorare punti di vista impossibili.
+La parte software è realizzata in Javascript e usa le librerie di P5.js: Le due derivazioni video vengono amalgamate, mentre una rete neurale di image classification prova a riconoscere ciò che vede, facendolo assomigliare a ciò che viene interpretato dal suo punto di vista tramite l'applicazione a un modello 3D.
+
+### Che Significa? ###
+Vedere le cose da un nuovo punto di vista può essere un'esperienza abbastanza stravolgente rispetto alle nostre sensazioni, al nostro vissuto e al nostro comportamento. Per esempio, due persone con altezze diverse hanno qualche volta un modo totalmente diverso di approcciarsi con la società. Ragionando per assurdo, la possibilità di vedere le cose non da UN punto di vista, ma da TUTTI i punti di vista potrebbe caricare la realtà di significati e valori altrimenti impossibili da immaginare.
+
+### Come sviluppare ulteriormente? ###
+Chiaramente il punto di vista di 2, 4, 100, 100.000 webcam è ben lontano da quello che potremmo definire il "punto di vista totale e collettivo" sulle cose del mondo. Un'alternativa curiosa potrebbe essere la sperimentazione di questo concept sulla rete di satelliti per immagini che si trova sull'orbita bassa terrestre: Migliaia di occhi che osservano contemporaneamente lo stesso oggetto che è il nostro pianeta. Come intuito da Douglas Adams in "Guida galattica per autostoppisti", il pianeta terra potrebbe diventare una sorta di processore, alimentato dalla vita, in grado di calcolare la risposta alla vita, all'universo e tutto quanto.
+
+
 
 <br/><br/><br/><br/>
 
