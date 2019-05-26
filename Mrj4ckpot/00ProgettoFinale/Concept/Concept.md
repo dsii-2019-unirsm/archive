@@ -3,7 +3,7 @@
 > Beauty lies in the eyes of the beholder. [[1]](https://www.youtube.com/watch?v=93sBmsAIuGE)
        
 <br/>
-Il 10 Aprile 2019 gli scienziati del progetto EHT sono riusciti nell'impresa eccezionale di "fotografare" per la prima volta nella storia un buco nero  [[1]](https://eventhorizontelescope.org/) situato a 55 milioni di anni luce dalla terra. La realizzazione dell'immagine, teoricamente impossibile dal momento che richiede un telescopio con una lente delle dimensioni dell'intero pianeta, è stata ottenuta con uno stratagemma che consiste nell'interpolazione delle immagini raccolte da 8 telescopi in parti diverse del mondo, puntati tutti nella stessa direzione dello spazio profondo. In termini di progetto, possiamo quindi sfruttare l'intuizione di "unire i punti di vista" per vedere ciò che è invisibile anche sul nostro pianeta?
+Il 10 Aprile 2019 gli scienziati del progetto EHT sono riusciti nell'impresa eccezionale di "fotografare" per la prima volta nella storia un buco nero  ![[2]](https://eventhorizontelescope.org/) situato a 55 milioni di anni luce dalla terra. La realizzazione dell'immagine, teoricamente impossibile dal momento che richiede un telescopio con una lente delle dimensioni dell'intero pianeta, è stata ottenuta con uno stratagemma che consiste nell'interpolazione delle immagini raccolte da 8 telescopi in parti diverse del mondo, puntati tutti nella stessa direzione dello spazio profondo. In termini di progetto, possiamo quindi sfruttare l'intuizione di "unire i punti di vista" per vedere ciò che è invisibile anche sul nostro pianeta?
 <br/><br/><br/>
 
 ## Realmente reale ##
@@ -13,7 +13,7 @@ La prospettiva è il punto da cui e verso cui vediamo il mondo e gli oggetti; la
 Possiamo realizzare uno strumento capace di unire i punti di vista dei singoli per riprodurre quella che sarebbe la percezione del collettivo? Possiamo arricchire ulteriormente la percezione visiva attraverso il risultato di questo esperimento?
 <br/><br/>
 
-<img align="left" width="150" height="150" src="https://i.imgur.com/FVv1M4Z.jpg?1"> La **teoria delle lenti colorate** [3](http://www.homolaicus.com/teorici/kant/kant5.htm) spiega come la nostra percezione del mondo sia alterata e distorta rispetto alla realtà in sè; un pò come se cercassimo di immaginarci tutti i colori, avendo indossato per tutta la vita lenti blu.
+<img align="left" width="150" height="150" src="https://i.imgur.com/FVv1M4Z.jpg?1"> La **teoria delle lenti colorate** [[3]](http://www.homolaicus.com/teorici/kant/kant5.htm) spiega come la nostra percezione del mondo sia alterata e distorta rispetto alla realtà in sè; un pò come se cercassimo di immaginarci tutti i colori, avendo indossato per tutta la vita lenti blu.
 
 <br/><br/><br/>
 
