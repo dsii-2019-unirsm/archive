@@ -54,7 +54,7 @@ individuazione<br>
 
 
 
-#### Introduzione
+#### Near
 
 > [Wiki, ecolocalizzazione](https://it.wikipedia.org/wiki/Ecolocalizzazione) <br>
 
