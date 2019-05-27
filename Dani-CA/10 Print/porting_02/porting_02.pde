@@ -1,3 +1,10 @@
+// -
+// 10print_porting 0.2 by Daniele Cappai [10print, processing]
+// 2018 © Nomestudente, Daniele @Fupete and the course DSII2019 at DESIGN.unirsm 
+// github.com/dsii-2019-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2019, San Marino
+// —
+
 int w = 16;
 int h = 16;
 int index = 0;
