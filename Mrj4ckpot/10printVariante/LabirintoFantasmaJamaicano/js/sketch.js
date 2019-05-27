@@ -6,6 +6,7 @@ let cubone = 16;
 let cella = 6;
 let mappa = [];
 
+let scorriCol=0;
 let conta=0;
 
 function setup() {
@@ -70,8 +71,10 @@ for (var z=0; z<cubone; z++) {
   for (var x=0; x<cubone; x++) {
     for (var y=0; y<cubone; y++) {
 
-      fill(map((y+x+z)/3, 0, cubone, 30, 210), 200, 200, .3);
-    //  stroke(map(z, 0, cubone, 0, 100), 200, 200, .5);
+      let opacità = 1-(x/cubone);
+
+
+      fill(map((y+x+z)/3, 0, cubone, -scorriCol, scorriCol+150), 200, 200, .3);
 
     // SCEGLIE UNO DI DUE CARATTERI DEL 10 PRINT
     // CARATTERE 1
@@ -92,21 +95,31 @@ for (var z=0; z<cubone; z++) {
 
 conta++;
 
-if(conta == 10){
+if (conta >= 3){
 
-conta = 0;
+  conta=0;
 
-for(var giovanni=0; giovanni<cubone; giovanni++){
-      mappa[giovanni]=[];
-  for(var righe=0; righe<cubone; righe++){
-    mappa[giovanni][righe]=[];
-    for(var colonne=0; colonne<cubone; colonne++){
-          mappa[giovanni][righe][colonne]=random(12);
-    }
+for (var z=(cubone-1); z>=0; z--) {
+   for (var x=(cubone-1); x>0; x--) {
+     for (var y=(cubone); y>=0; y--) {
+
+    var X = x-1;
+    var Y = y;
+    var Z = z;
+    //println(X+"   "+Y);
+    mappa[z][x][y] = mappa[Z][X][Y];
   }
 }
 }
 
+for (var z=0; z<cubone; z++){
+for (var y=0; y<=cubone; y++) {
+  mappa[z][0][y]=random(15);
+}
+}
+
+
+}
 
 
 }
