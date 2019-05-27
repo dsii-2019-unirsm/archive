@@ -22,7 +22,7 @@ function setup() {
     };
 
   easycam = new Dw.EasyCam(_renderer, {
-    distance: 350,
+    distance: 150,
     center: [0,0,0]
   });
 
@@ -32,7 +32,7 @@ function setup() {
   easycam.setRotation(Dw.Rotation.create({
     angles_xyz: [0, -PI / 3, PI / 2]
   }), 4000);
-  easycam.setDistance(500, 2500);
+  easycam.setDistance(230, 2500);
 
 for(var giovanni=0; giovanni<cubone; giovanni++){
       mappa[giovanni]=[];
@@ -56,8 +56,9 @@ noStroke();
 function draw() {
 
 background(5);
-
+noStroke();
 translate(-cubone*cella/2, -cubone*cella/2, -cubone*cella/2);
+
 
 /*
 let dirX = (mouseX / width - 0.5) * 2;
@@ -120,6 +121,29 @@ for (var y=0; y<=cubone; y++) {
 
 
 }
+
+
+let D = cubone*cella;
+fill(0,0,100, .2);
+stroke(255);
+strokeWeight(.5);
+
+
+beginShape();
+vertex(0, 0, 0);
+vertex(0, D, 0);
+vertex(0, D, D);
+vertex(0, 0, D);
+endShape(CLOSE);
+
+beginShape();
+vertex(D, 0, 0);
+vertex(D, D, 0);
+vertex(D, D, D);
+vertex(D, 0, D);
+endShape(CLOSE);
+
+
 
 
 }
