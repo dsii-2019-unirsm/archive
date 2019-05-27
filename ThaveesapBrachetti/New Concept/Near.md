@@ -1,4 +1,4 @@
-# SONAR, una risposta ecologica per il rilevamento della posizione 
+# Near, una risposta ecologica per il rilevamento della posizione 
 
 sostituire le tecnologie invasive esistenti con un "sonar" per determinare e condividere la posizone delle persone attraverso i social ( es. whatsapp)
  
