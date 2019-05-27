@@ -1,4 +1,9 @@
-// Discraimer:  I'M SO BAD AT JavaScript! Please feel free to comment!
+// -
+// Reliable Drum Machine - prototipo2 0.1 by Daniele Cappai [drum machine, p5.js]
+// 2018 © Nomestudente, Daniele @Fupete and the course DSII2019 at DESIGN.unirsm 
+// github.com/dsii-2019-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2019, San Marino
+// —
 
 // keras-based model to classify drum kit sound based on its spectrogram.
 // python script: https://gist.github.com/naotokui/a2b331dd206b13a70800e862cfe7da3c
