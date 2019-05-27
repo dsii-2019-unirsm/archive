@@ -1,8 +1,5 @@
-# Beholder 3D editor #
+# Labirinto Fantasma Jamaicano #
 
-![Imgur](https://i.imgur.com/yIEydB1.jpg?1)
+![Imgur](https://i.imgur.com/mRpOVzn.png?2)
 
-Editor di Heightmap che trasforma le immagini in superfici 3D e permette di applicare diversi effetti di animazioni, cromie e geometrie.
-
-Causeway Divide l'immagine in pixel monocromatici e li sposta sull'asseZ. 
-Mesh crea una superficie di piani triangolari.
+Variante di 10 print 3D che oltre a stampare valori sulle cordinate x,y, produce labirinti anche sull'asse z con il risultato di un labirinto cubico.
