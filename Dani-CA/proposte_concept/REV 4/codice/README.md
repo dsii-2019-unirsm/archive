@@ -7,4 +7,4 @@
 
 ## Prototipo 2
 
-_Analizza un suono microfonico e lo riconduce ad un suono di batteria
+- Analizza un suono microfonico e lo riconduce ad un suono di batteria
