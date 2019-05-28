@@ -1,3 +1,12 @@
+// -
+// Sketch.js 0.1 by FalzoneLuca [weddings, divorces, graphicrappresentation,analysis]
+// 2019 © FalzoneLuca, Daniele @Fupete and the course DSII2019 at DESIGN.unirsm 
+// github.com/dsii-2019-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2019, San Marino
+// —
+
+
+
 // variabile per il collegamento al file contenente i dati da rappresentare
 var url = "https://spreadsheets.google.com/feeds/list/1As4nqg4mydMpgcujvVsUqUsEv1K3tzvNcJwYVdPxEgk/od6/public/values?alt=json";
 // array per contenere i dati
