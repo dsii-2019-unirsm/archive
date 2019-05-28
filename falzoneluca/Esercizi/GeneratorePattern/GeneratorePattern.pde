@@ -1,3 +1,11 @@
+// -
+// GeneratorePattern.pde 0.2 by FalzoneLuca [pattern, generate, random]
+// 2019 © FalzoneLuca, Daniele @Fupete and the course DSII2019 at DESIGN.unirsm 
+// github.com/dsii-2019-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2019, San Marino
+// —
+
+
 int num [] = {3, 4};
 int i;
 int n=0;
