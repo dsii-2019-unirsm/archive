@@ -1,4 +1,7 @@
 <h1>New Dada 4.0</h1>
+
+<img src="https://i.imgur.com/eaW203n.gif">
+
 <h2> PER FARE UNA POESIA DADAISTA </h2>
 
 <h3>
