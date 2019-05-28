@@ -1,3 +1,11 @@
+// -
+// GeneratoreParole2.pde 0.2 by FalzoneLuca [words, generate, random, poetry, dada]
+// 2019 © FalzoneLuca, Daniele @Fupete and the course DSII2019 at DESIGN.unirsm 
+// github.com/dsii-2019-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2019, San Marino
+// —
+
+
 //New Dada 4.0
 
 //dichiaro variabili
