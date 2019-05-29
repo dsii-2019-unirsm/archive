@@ -1,0 +1,41 @@
+body {
+  background: #222;
+  color: white;
+  font-family: Helvetica-Neue, sans-serif;
+  margin: 20px;
+}
+
+a {
+  color: grey;
+}
+
+
+#result {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: #f55;
+}
+
+
+#label {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+#label2 {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.buttons{
+    font-size: 20px;
+}
+
+#ws-waveform {
+   background: black;
+   width: 50%;
+   justify-content: center; 
+   margin-top: 5px;
+   border: 1px solid white; 
+}

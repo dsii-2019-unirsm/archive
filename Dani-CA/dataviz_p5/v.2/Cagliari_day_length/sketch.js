@@ -1,6 +1,9 @@
-// Daniele Tabellini @fupete © 2017 MIT License
-// P5js retrieve data from Google Spreadsheets/JSON | Firenze, IT | 4.2017
-// Educational purpose, made for DSII2017 lab @UniRSM
+// -
+// Data viz Cagliari day length 0.1 by Daniele Cappai [data visualization, p5.js]
+// 2018 © Nomestudente, Daniele @Fupete and the course DSII2019 at DESIGN.unirsm 
+// github.com/dsii-2019-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2019, San Marino
+// —
 
 // example inspired on Gist https://gist.github.com/claytical/6a929f14964c867e07d8 by @claytical
 

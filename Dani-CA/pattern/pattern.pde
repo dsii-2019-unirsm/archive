@@ -1,3 +1,9 @@
+// -
+//  Tile generator 0.1 by Daniele Cappai [processing, graphics]
+// 2018 © Nomestudente, Daniele @Fupete and the course DSII2019 at DESIGN.unirsm 
+// github.com/dsii-2019-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2019, San Marino
+// —
 void setup() {
   size(600, 600);
   background(0);
