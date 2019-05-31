@@ -8,13 +8,7 @@
 // Daniele Tabellini
 // Paolo Petrangolini
 // —
-//
-// Help:
-// [key] action
-// [key] action
-// [mouse] action
-//
-// —
+
 
 float lat=0;
 float d=1;
