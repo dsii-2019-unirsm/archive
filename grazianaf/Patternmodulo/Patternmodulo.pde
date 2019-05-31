@@ -1,3 +1,16 @@
+// -
+// Pattern Modulo 0.1 by GrazianaFlorio @grazianaf [modulo, circles]
+// 2019 © Graziana Florio, Daniele @Fupete and the course DSII2019 at DESIGN.unirsm 
+// github.com/dsii-2019-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2019, San Marino
+// —
+
+//
+// Help:
+// [mouseX] da sinistra a destra decrementa saturazione
+// [mouseY] dal basso verso l'alto cambia colore
+//
+// —
 //in base al movimento del mouse il pattern cambia colore e saturazione
 void setup() {
   size(600, 600);
@@ -16,7 +29,7 @@ void draw() {
     //se il mouse si sposta nella canvas i cerchi assumono colori e sfumature diverse
       if (mouseX<=400) {
         fill( int(random(200, 255)), int(random(255)), int(random(250)), 155); //random color
-      } else if (mouseY<=200) {  
+      } else if (mouseY<=400) {  
         fill(0, int(random(100, 255)), int(random(100, 255)), 200); //random color
       } else { 
         fill( int(random(200, 255)), int(random(100, 255)), int(random(100, 255)), 155); //random color
