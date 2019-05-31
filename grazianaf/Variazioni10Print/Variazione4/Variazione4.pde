@@ -1,3 +1,11 @@
+// -
+// 10Print 0.1 by Graziana Florio [10print, arcs]
+// 2019 © Graziana Florio @grazianaf, Daniele @Fupete and the course DSII2019 at DESIGN.unirsm 
+// github.com/dsii-2019-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2019, San Marino
+// —
+
+
 int larghezza= 24;
 int altezza= 24;
 int index=0;
