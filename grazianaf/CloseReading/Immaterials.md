@@ -4,7 +4,7 @@
 
 #### *What is*
 
-_Immaterials: Light painting WiFi_ è un progetto di ricerca sviluppato e realizzato durante il PhD nel centro di ricerca per il design della scuola di design e architettura di Oslo da  Timo Arnall, Jørn Knutsen e Einar Sneve Martinussen. 
+_Immaterials: Light painting WiFi_ è un progetto di ricerca sviluppato e realizzato durante il PhD nel centro di ricerca per il design della scuola di design e architettura di Oslo da Timo Arnall, Jørn Knutsen e Einar Sneve Martinussen. 
 Il progetto mira a dimostrare, attraverso la luce ed altre tecnologie, l’interrelazione tra l’invisibilità, la continuità e la materialità che sono diventate questioni centrali nella progettazione di interfacce contemporanee. Gli sviluppi materiali del progetto quindi convergono in una installazione, anche interpretabile come una visualizzazione di dati, che mostra il tessuto di reti WiFi nella città di Oslo, in Norvegia. Nel titolo, viene definito _light painting_ in quanto, durante il mese di dicembre ad Oslo, le condizioni del cielo, prevalentemente buio, si prestano bene alla visualizzazione tramite la luce. 
 
 #### *What does it means*
@@ -16,8 +16,8 @@ Leggendo del progetto, subito alla mente ha richiamato la costruzione, nel roman
 
 #### *How it works*
 
-Il progetto si ispira alle modalità per la realizzazione di periti agrari. Attraverso l’utilizzo di un’antenna WiFi, posta su un'asta alta 4m, viene percepito il grado di intensità del segnale Wi-fi nella zona esaminata, ed attraverso un algoritmo viene trasformata questa intensità di segnale in "quantità" di luce emessa dai led posizionati sull'asta. 
-Attraverso l’uso della fotografia a bassa esposizione,la fotocamera, con una velocità di scatto  bassa , “memorizza”, nel lasso di tempo dello spostamento, quello che vede dunque viene reso visibile il percorso compiuto con l'asta.  
+Il progetto si ispira alle modalità di realizzazione dei periti agrari. Attraverso l’utilizzo di un’antenna WiFi, posta su un'asta alta 4m, viene percepito il grado di intensità del segnale Wi-fi della zona esaminata. Attraverso un algoritmo quest'ultima viene trasformata in "quantità" di luce emessa dai led posizionati sull'asta. 
+Attraverso l’uso della fotografia a bassa esposizione,la fotocamera, con una velocità di scatto bassa , “memorizza”, nel lasso di tempo dello spostamento, quello che vede dunque viene reso visibile il percorso compiuto.  
 I dati utilizzati sono ricavati attraverso la tecnologia RFID. Il reader comunica e aggiorna informazioni contenute nei tag RFID interrogati, (in questo caso nel WiFi).
 
 
