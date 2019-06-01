@@ -75,7 +75,7 @@ function aCheAssimiglia(immagine, keywords) {
 // inserisco gotResult e aChiAssomiglia dentro una funzione in modo da fermare il programma
 function indovina(){
 
-  gino = get();
+  gino = get(posIniX, posIniY, beholder.width, beholder.height);
   classifier.classify(gino, gotResult);
   mappa = aCheAssimiglia(gino, daMappare);
 
@@ -90,7 +90,7 @@ function setup() {
 
     beholder = createImage(500, 500);
 
-    posIniX=(windowWidth/2)-beholder.width*3/2;
+    posIniX=(windowWidth/2)-(beholder.width)/2-beholder.width;
     posIniY=(windowHeight/2)-beholder.width/2;
 
   //console.log("TOTALE "+(contaA+contaB)+"||||||||||||||||||"+contaA+" BLU"+"|||||||"+contaB+" ROSSO");
@@ -101,11 +101,13 @@ function draw() {
 background(30);
 
 // CREA IL MOSAICO DEI TASSELLI
+
+//if(gino==false){
    f = 0;
    k = 0;
-  for (let x = 0; x < beholder.width-res; x+=res) {
+  for (let x = 0; x < beholder.width; x+=res) {
     Tasselli[x] = [];
-    for (let y = 0; y < beholder.height-res; y+=res) {
+    for (let y = 0; y < beholder.height; y+=res) {
 
       if(random(2)>=1){
       Tasselli[x][y] = true;
@@ -132,8 +134,8 @@ background(30);
   A.resize(beholder.width, beholder.height);
   B.resize(beholder.width, beholder.height);
 
-    for (let x = 0; x < beholder.width-res; x+=res) {
-      for (let y = 0; y < beholder.height-res; y+=res) {
+    for (let x = 0; x < beholder.width; x+=res) {
+      for (let y = 0; y < beholder.height; y+=res) {
 
         posx = x+posIniX;
         posy = y+posIniY;
@@ -145,11 +147,12 @@ background(30);
            }
       }
     }
-
+//}
 
 // STAMPA A SCHERMO L'IMMAGINE SORGENTE E LA BASE PER L'HEIGHTMAP
 if (gino && mappa){
-   image(gino,0,0);
+   gino.resize(500,500);
+   image(gino,posIniX,posIniY);
 
   mappa.resize(500,500);
   image(mappa, (windowWidth/2)-250, (windowHeight/2)-250);
@@ -181,4 +184,6 @@ function keyPressed(){
 
 function windowResized() {
 resizeCanvas(windowWidth, windowHeight);
+posIniX=(windowWidth/2)-(beholder.width)/2-beholder.width;
+posIniY=(windowHeight/2)-beholder.width/2;
 }

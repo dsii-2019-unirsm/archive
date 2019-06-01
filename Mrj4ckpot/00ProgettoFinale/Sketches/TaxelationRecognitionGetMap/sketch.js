@@ -75,7 +75,7 @@ function aCheAssimiglia(immagine, keywords) {
 // inserisco gotResult e aChiAssomiglia dentro una funzione in modo da fermare il programma
 function indovina(){
 
-  gino = get();
+  gino = get(posIniX, posIniY, posIniX+beholder.width, posIniY+beholder.height);
   classifier.classify(gino, gotResult);
   mappa = aCheAssimiglia(gino, daMappare);
 
@@ -149,7 +149,7 @@ background(30);
 
 // STAMPA A SCHERMO L'IMMAGINE SORGENTE E LA BASE PER L'HEIGHTMAP
 if (gino && mappa){
-   image(gino,0,0);
+   image(gino,posIniX,posIniY);
 
   mappa.resize(500,500);
   image(mappa, (windowWidth/2)-250, (windowHeight/2)-250);
