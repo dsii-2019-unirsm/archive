@@ -38,7 +38,7 @@ let img = loadImage(url,  ready => { id=true;  });
 function preload() {
   classifier = ml5.imageClassifier('MobileNet');
   A = carica("https://i.imgur.com/ONuv0Qc.jpg", prontoA);
-  B = carica("https://i.imgur.com/1qjhW2L.jpg", prontoB);
+  B = carica("https://i.imgur.com/HyKkhog.jpg?1", prontoB);
 
 //  A = createCapture(VIDEO);
 //  A.size(500, 500);
@@ -59,7 +59,10 @@ function gotResult(error, results) {
   }
 
   console.log(results);
-  daMappare = results[0].label;
+
+      daMappare = results[0].label;
+
+
 }
 
 
@@ -100,8 +103,8 @@ function draw() {
 
 background(30);
 
-// CREA IL MOSAICO DEI TASSELLI
 
+// CREA IL MOSAICO DEI TASSELLI
 //if(gino==false){
    f = 0;
    k = 0;
@@ -163,7 +166,7 @@ rect(0,0, windowWidth, posIniY);
   fill(255);
   textSize(32);
   textAlign(CENTER);
-  text("Looks like a "+daMappare, windowWidth/2, (windowHeight/2)-300);
+  text("It looks like a "+daMappare, windowWidth/2, (windowHeight/2)-300);
 
 
  }
