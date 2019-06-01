@@ -30,7 +30,7 @@ La macchina riconosce il senso del testo e cerca di continuarlo sfruttando Text 
 
 - Noi dimentichiamo i sogni che facciamo. Anche le macchine? Se invece di mandarmi una e-mail o un feedback "conservabile" ad una certa ora del giorno stampasse a schermo il suo "sogno" per poi scoparire dopo un tempo determinato? Se mi inviasse una notifica pop?
 
-- Se fosse inserito all'interno di una istallazione come potremmo pensare di poterlo far funzionare, raccogliendo i sogni di una "comunità"? Potrebbe creare pattern di "sogni" ricorrenti per poi mostrare il suo, prolungando i sogni ricevuti? 
+- Se fosse inserito all'interno di una installazione come potremmo pensare di poterlo far funzionare, raccogliendo i sogni di una "comunità"? Potrebbe creare pattern di "sogni" ricorrenti per poi mostrare il suo, prolungando i sogni ricevuti? 
 
 - Se attraverso i sogni potessimo costruire delle "cartografie della mente"?
 
