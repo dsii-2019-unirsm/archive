@@ -1,3 +1,51 @@
+//
+//
+//
+// GUI 3D
+//
+//
+//
+
+let oggetto = {
+  REFRESH: function() { preload(); carica(); },
+  Geometria: "Mesh",
+  Bianco_e_Nero: false,
+  Brightness: 1,
+  Heightmap: 1,
+
+  Forma_Celle: "Quadrato",
+  Scala_Celle: 1,
+  Rotazione_X: 0,
+  Rotazione_Y: 0,
+  Rotazione_Z: 0,
+
+  Wireframe: false,
+  Colore_Wireframe: 100
+};
+
+
+function gui3D(){
+
+  var gui = new dat.GUI();
+  gui.add(oggetto, 'Geometria', [ 'Mesh', 'Causeway'] );
+  gui.add(oggetto, 'Bianco_e_Nero' );
+  gui.add(oggetto, 'Brightness', 0, 5 );
+  gui.add(oggetto, 'Heightmap', -5, 5 );
+
+  var f1 = gui.addFolder('Opzioni Causeway');
+  f1.add(oggetto, 'Forma_Celle', [ 'Quadrato', 'Cerchio'] );
+  f1.add(oggetto, 'Scala_Celle', 0, 5 );
+  f1.add(oggetto, 'Rotazione_X', 0, 1 );
+  f1.add(oggetto, 'Rotazione_Y', 0, 1 );
+  f1.add(oggetto, 'Rotazione_Z', 0, 1 );
+
+  var f2 = gui.addFolder('Opzioni Mesh');
+  f2.add(oggetto, 'Wireframe' );
+  f2.add(oggetto, 'Colore_Wireframe', 0, 255 );
+
+}
+
+
 // VARIABILI DI BEHOLDER MAP RECOGNITION
 let A, B;
 let puntiA = [];
@@ -6,7 +54,7 @@ let puntiB = [];
 let beholder;
 let Tasselli = [];
 
-let res = 5;
+let res = 3;
 
 let contaA = 0;
 let contaB = 0;
@@ -41,6 +89,8 @@ let cam1;
 
 let colore;
 let u,v;
+
+let mondo3D = false;
 
 
 
@@ -112,51 +162,7 @@ function indovina(){
 
 
 
-//
-//
-//
-// FUNZIONI DI BEHOLDER 3D EDITOR
-//
-//
-//
 
-function carica() {
-  // CARICA MAPPA DISPLACEMENT
-    mappa.loadPixels();
-    let f = 0;
-    let k = 0;
-    for (let x = 0; x < mappa.width-res; x+=res) {
-      punti[f] = [];
-      for (let y = 0; y < mappa.height-res; y+=res) {
-        let c = mappa.get(x, y);
-        let h = brightness(c);
-        punti[f][k] = h;
-        k++;
-      }
-      k=0;
-      f++;
-    }
-    mappa.updatePixels();
-
-  // CARICA TEXTURE
-    gino.loadPixels();
-    let i = 0;
-    let j = 0;
-    for (let x = 0; x < gino.width-res; x+=res) {
-      voxel[i] = [];
-      voxelBN[i] = [];
-      for (let y = 0; y < gino.height-res; y+=res) {
-        let c = gino.get(x, y);
-        let h = brightness(c);
-        voxel[i][j] = c;
-        voxelBN[i][j] = h;
-        j++;
-      }
-      j=0;
-      i++;
-    }
-    gino.updatePixels();
-}
 
 
 // // // // // //
@@ -178,10 +184,10 @@ function setup() {
 
     beholder = createImage(500, 500);
 
-    posIniX=(windowWidth/2)-(beholder.width)/2-beholder.width;
+    posIniX=(windowWidth/2)-(beholder.width);
     posIniY=(windowHeight/2)-beholder.width/2;
 
-
+/*
 // EASYCAM
     Dw.EasyCam.prototype.apply = function(n) {
         var o = this.cam;
@@ -202,7 +208,7 @@ function setup() {
       angles_xyz: [0, -PI / 3, PI / 2]
     }), 4000);
     easycam.setDistance(500, 2500);
-
+*/
   //console.log("TOTALE "+(contaA+contaB)+"||||||||||||||||||"+contaA+" BLU"+"|||||||"+contaB+" ROSSO");
 }
 
@@ -225,8 +231,7 @@ function setup() {
 function draw() {
 
 background(30);
-
-
+if (mondo3D==false){
 // CREA IL MOSAICO DEI TASSELLI
 //if(gino==false){
    f = 0;
@@ -282,7 +287,7 @@ if (gino && mappa){
    image(gino,posIniX,posIniY);
 
   mappa.resize(500,500);
-  image(mappa, (windowWidth/2)-250, (windowHeight/2)-250);
+  image(mappa, (windowWidth/2), (windowHeight/2)-250);
 
   fill(30);
   rect(0,0, windowWidth, posIniY);
@@ -291,15 +296,9 @@ if (gino && mappa){
   textSize(32);
   textAlign(CENTER);
 
+  caricaModello();
   text("It looks like a "+daMappare, windowWidth/2, (windowHeight/2)-300);
-
-
-  // PREMI TASTO S:
-  // CREA IL MODELLO 3D CON TEXTURE
-
-
- }
-
+}
 
 noFill();
 strokeWeight(3);
@@ -307,8 +306,110 @@ stroke(240);
 
 rect(posIniX, posIniY, beholder.width, beholder.height);
 rect(posIniX+beholder.width, posIniY, beholder.width, beholder.height);
-rect(posIniX+2*beholder.width, posIniY, beholder.width, beholder.height);
+
 strokeWeight(0);
+ }
+
+
+ // PREMI TASTO S:
+ // CREA IL MODELLO 3D CON TEXTURE
+else{
+
+background(30);
+
+translate(-gino.width/2, -gino.height/2, -oggetto.Heightmap/2);
+stroke(255);
+ambientLight(255);
+fill(255);
+strokeWeight(.5);
+
+
+// CAUSEWAY
+//--------------------------------
+//--------------------------------
+//--------------------------------
+  if (oggetto.Geometria == "Causeway") {
+    noStroke();
+    for (let x = 0; x < punti.length; x++) {
+      for (let y = 0; y < punti[x].length; y++) {
+        let h = punti[x][y];
+        push();
+        translate(x*res,y*res,h*oggetto.Heightmap);
+
+
+if( oggetto.Bianco_e_Nero == false){
+fill(voxel[x][y]);
+} else {
+fill(voxelBN[x][y]*oggetto.Brightness);
+}
+
+
+
+if( oggetto.Forma_Celle == "Quadrato"){
+rotateX(rot*oggetto.Rotazione_X);
+rotateY(rot*oggetto.Rotazione_Y);
+rotateZ(rot*oggetto.Rotazione_Z);
+rect(0,0,res*oggetto.Scala_Celle,res*oggetto.Scala_Celle);
+}
+
+if( oggetto.Forma_Celle == "Cerchio"){
+rotateX(rot*oggetto.Rotazione_X);
+rotateY(rot*oggetto.Rotazione_Y);
+rotateZ(rot*oggetto.Rotazione_Z);
+ellipse(0,0,res*oggetto.Scala_Celle,res*oggetto.Scala_Celle);
+}
+
+        pop();
+      }
+    }
+  }
+
+
+
+
+  // MESH
+  //--------------------------------
+  //--------------------------------
+  //--------------------------------
+  else {
+    //texture(img);
+    for (let x = 0; x < punti.length-1; x++) {
+
+
+        if (oggetto.Bianco_e_Nero == true){
+          stroke(oggetto.Brightness);
+        } else {
+          //colorMode(HSB);
+          stroke(oggetto.Colore_Wireframe,255,150);
+        }
+
+        if(oggetto.Wireframe == true){
+          noFill();
+        } else {
+          texture(gino);
+        }
+
+        beginShape(TRIANGLE_STRIP);
+        for (let y = 0; y < punti[x].length-1; y++) {
+            vertex(x * res, y * res, punti[x][y]*oggetto.Heightmap, u-res, v);
+            vertex((x+1) * res , y * res, punti[x+1][y]*oggetto.Heightmap, u, v);
+            v +=res;
+
+        }
+
+        v = 0;
+        u +=res;
+        endShape();
+    }
+
+    u=0;
+  }
+
+
+}
+
+
+
 }
 
 
@@ -318,7 +419,20 @@ function keyPressed(){
 
     indovina();
     background(30);
+
    }
+
+
+   // TASTO A FA LO SCREEN DI BEHOLDER E TROVA UN'IMMAGINE CHE GLI SOMIGLIA
+    if (key == 's') {
+
+
+      createCanvas(windowWidth, windowHeight, WEBGL);
+      avviaEasycam();
+      gui3D();
+      mondo3D = true;
+
+     }
 }
 
 
@@ -326,4 +440,76 @@ function windowResized() {
 resizeCanvas(windowWidth, windowHeight);
 posIniX=(windowWidth/2)-(beholder.width)/2-beholder.width;
 posIniY=(windowHeight/2)-beholder.width/2;
+}
+
+
+
+//
+//
+//
+// FUNZIONI DI BEHOLDER 3D EDITOR
+//
+//
+//
+
+function caricaModello() {
+  // CARICA MAPPA DISPLACEMENT
+    mappa.loadPixels();
+    let f = 0;
+    let k = 0;
+    for (let x = 0; x < mappa.width-res; x+=res) {
+      punti[f] = [];
+      for (let y = 0; y < mappa.height-res; y+=res) {
+        let c = mappa.get(x, y);
+        let h = brightness(c);
+        punti[f][k] = h;
+        k++;
+      }
+      k=0;
+      f++;
+    }
+    mappa.updatePixels();
+
+  // CARICA TEXTURE
+    gino.loadPixels();
+    let i = 0;
+    let j = 0;
+    for (let x = 1; x <= gino.width-res; x+=res) {
+      voxel[i] = [];
+      voxelBN[i] = [];
+      for (let y = 1; y <= gino.height-res; y+=res) {
+        let c = gino.get(x, y);
+        let h = brightness(c);
+        voxel[i][j] = c;
+        voxelBN[i][j] = h;
+        j++;
+      }
+      j=0;
+      i++;
+    }
+    gino.updatePixels();
+}
+
+
+function avviaEasycam(){
+  // EASYCAM
+      Dw.EasyCam.prototype.apply = function(n) {
+          var o = this.cam;
+          n = n || o.renderer,
+          n && (this.camEYE = this.getPosition(this.camEYE), this.camLAT = this.getCenter(this.camLAT), this.camRUP = this.getUpVector(this.camRUP), n._curCamera.camera(this.camEYE[0], this.camEYE[1], this.camEYE[2], this.camLAT[0], this.camLAT[1], this.camLAT[2], this.camRUP[0], this.camRUP[1], this.camRUP[2]))
+
+        };
+
+      easycam = new Dw.EasyCam(_renderer, {
+        distance: 350,
+        center: [0,0,0]
+      });
+
+      easycam.setViewport([0, 0, windowWidth, windowHeight]);
+
+      // start with an animated rotation
+      easycam.setRotation(Dw.Rotation.create({
+        angles_xyz: [0, -PI / 3, PI / 2]
+      }), 4000);
+      easycam.setDistance(500, 2500);
 }
