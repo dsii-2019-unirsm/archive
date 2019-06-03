@@ -3,5 +3,5 @@
  
 Ispirato ai pattern di Sébastien Truchet’s “Mémoire sur les combinaisons,” 1704. 
 
-![Imgur](https://i.imgur.com/z7nZ1DQ.jpg)
+![Imgur](https://i.imgur.com/ue8aRh3.png)
 ![Imgur](https://i.imgur.com/jzDI1G3.png)
