@@ -1,3 +1,11 @@
+// GeneratoreParole.pde 0.1 by FalzoneLuca [words, randomwords, randompoetry]
+// 2019 © FalzoneLuca, Daniele @Fupete and the course DSII2019 at DESIGN.unirsm 
+// github.com/dsii-2019-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2019, San Marino
+// —
+
+
+
 //dichiaro variabili
 float x=0; 
 float y=0;

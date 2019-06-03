@@ -1,19 +1,20 @@
+// -
+// Sketch.js 0.1 by FalzoneLuca [weddings, divorces, graphicrappresentation,analysis]
+// 2019 © FalzoneLuca, Daniele @Fupete and the course DSII2019 at DESIGN.unirsm 
+// github.com/dsii-2019-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2019, San Marino
+// —
+
+
+
 // variabile per il collegamento al file contenente i dati da rappresentare
 var url = "https://spreadsheets.google.com/feeds/list/1As4nqg4mydMpgcujvVsUqUsEv1K3tzvNcJwYVdPxEgk/od6/public/values?alt=json";
 // array per contenere i dati
 var dati = [];
 // dimensione cerchio interno (in Px)
 var dimensione_cerchio_interno = 70;
-// dimensione testo titolo (in Px)
-var dimensione_titolo = 40;
-// dimensione testo sottotitolo (in Px)
-var dimensione_sottotitolo = 25;
-// dimensione testo legenda (in Px)
-var dimensione_legenda = 28;
 // larghezza barre del grafico (in Px)
 var larghezza_barre = 6;
-// luminosità sfondo (scala di grigi [0, 255])
-var luminosita_sfondo = 51;
 // numero massimo di matrimoni
 var massimo_matrimoni = 0;
 // numero massimo di divorzi
@@ -47,27 +48,25 @@ function draw() {
    
     var dimensione_massima_cerchio_esterno = altezza / 2 - dimensione_cerchio_interno;
 
-    // cambia il tipo di misura del colore in RGB
-    colorMode(RGB);
     // colora lo sfondo in scala di grigi
-    background(luminosita_sfondo);
+    background(51);
     // cambia il tipo di misura del colore in HSB con valore massimo 255
     colorMode(HSB, 255);
 
     // imposta il colore di riempimento
     fill(255); // bianco
     // imposta la dimensione del testo in funzione delle dimensioni della finestra
-    textSize(dimensione_titolo);
+    textSize(40);
     // disegna il titolo sullo schermo
     text('Divorzi e matrimoni in Italia', 50, 50);
 
     // imposta la dimensione del testo in funzione delle dimensioni della finestra
-    textSize(dimensione_sottotitolo);
+    textSize(25);
     // disegna il sottotitolo sullo schermo, la posizione cambia rispetto alle dimensioni della finestra
     text('divorzi e matrimoni delle regioni italiane da nord a sud', 50, 85);
 
     // imposta la dimensione del testo in funzione delle dimensioni della finestra
-    textSize(dimensione_legenda);
+    textSize(28);
     // imposta il colore di riempimento
     fill(0, 190, 255); // rosso chiaro
     // disegna la legenda dei divorzi sullo schermo
