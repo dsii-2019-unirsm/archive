@@ -1,3 +1,4 @@
+
 //
 //
 //
@@ -54,7 +55,7 @@ let puntiB = [];
 let beholder;
 let Tasselli = [];
 
-let res = 3;
+let res = 8;
 
 let contaA = 0;
 let contaB = 0;
@@ -66,8 +67,11 @@ let classifier;
 
 let gino = false;
 let mappa = false;
+let mappaTemp = false;
 let daMappare;
 let imgsResolution;
+
+let primoSgatto = false;
 
 let posIniX;
 let posIniY;
@@ -102,16 +106,16 @@ let img = loadImage(url,  ready => { id=true;  });
 // precarico ml5 e le immagini sorgente
 function preload() {
   classifier = ml5.imageClassifier('MobileNet');
-  A = carica("https://i.imgur.com/ONuv0Qc.jpg", prontoA);
-  B = carica("https://i.imgur.com/HyKkhog.jpg?1", prontoB);
+  //A = carica("https://i.imgur.com/1qjhW2L.jpg", prontoA);
+//  B = carica("https://i.imgur.com/ONuv0Qc.jpg", prontoB);
 
-//  A = createCapture(VIDEO);
-//  A.size(500, 500);
-//  A.hide();
+  A = createCapture(VIDEO);
+  A.size(500, 500);
+  A.hide();
 
-//  B = createCapture(VIDEO);
-//  B.size(500, 500);
-//  B.hide();
+  B = createCapture(VIDEO);
+  B.size(800, 600);
+  B.hide();
 }
 
 
@@ -210,6 +214,39 @@ function setup() {
     easycam.setDistance(500, 2500);
 */
   //console.log("TOTALE "+(contaA+contaB)+"||||||||||||||||||"+contaA+" BLU"+"|||||||"+contaB+" ROSSO");
+
+
+
+  // CREA IL MOSAICO DEI TASSELLI
+  //if(gino==false){
+     f = 0;
+     k = 0;
+    for (let x = 0; x < beholder.width; x+=res) {
+      Tasselli[x] = [];
+      for (let y = 0; y < beholder.height; y+=res) {
+
+        if(random(2)>=1){
+        Tasselli[x][y] = true;
+          contaA++;
+        } else {
+        Tasselli[x][y] = false;
+          contaB++;
+        }
+
+        let posx = x;
+        let posy = y;
+
+        let dimx = res;
+        let dimy = res;
+
+      k=0;
+      f++;
+      }
+
+    }
+
+
+
 }
 
 
@@ -232,38 +269,12 @@ function draw() {
 
 background(30);
 if (mondo3D==false){
-// CREA IL MOSAICO DEI TASSELLI
-//if(gino==false){
-   f = 0;
-   k = 0;
-  for (let x = 0; x < beholder.width; x+=res) {
-    Tasselli[x] = [];
-    for (let y = 0; y < beholder.height; y+=res) {
 
-      if(random(2)>=1){
-      Tasselli[x][y] = true;
-        contaA++;
-      } else {
-      Tasselli[x][y] = false;
-        contaB++;
-      }
-
-      let posx = x;
-      let posy = y;
-
-      let dimx = res;
-      let dimy = res;
-
-    k=0;
-    f++;
-    }
-
-  }
 
 
 // DISPONE I TASSELLI DELLE DUE SORGENTI
-  A.resize(beholder.width, beholder.height);
-  B.resize(beholder.width, beholder.height);
+  //A.resize(beholder.width, beholder.height);
+  //B.resize(beholder.width, beholder.height);
 
     for (let x = 0; x < beholder.width; x+=res) {
       for (let y = 0; y < beholder.height; y+=res) {
@@ -287,6 +298,9 @@ if (gino && mappa){
    image(gino,posIniX,posIniY);
 
   mappa.resize(500,500);
+  //mappa.filter(TRESHOLD);
+  //mappa.filter(BLUR, 4);
+
   image(mappa, (windowWidth/2), (windowHeight/2)-250);
 
   fill(30);
@@ -324,8 +338,7 @@ fill(255);
 strokeWeight(.5);
 
 
-// CAUSEWAY
-//--------------------------------
+/*//--------------------------------
 //--------------------------------
 //--------------------------------
   if (oggetto.Geometria == "Causeway") {
@@ -363,7 +376,7 @@ ellipse(0,0,res*oggetto.Scala_Celle,res*oggetto.Scala_Celle);
       }
     }
   }
-
+*/
 
 
 
@@ -371,7 +384,7 @@ ellipse(0,0,res*oggetto.Scala_Celle,res*oggetto.Scala_Celle);
   //--------------------------------
   //--------------------------------
   //--------------------------------
-  else {
+
     //texture(img);
     for (let x = 0; x < punti.length-1; x++) {
 
@@ -383,14 +396,17 @@ ellipse(0,0,res*oggetto.Scala_Celle,res*oggetto.Scala_Celle);
           stroke(oggetto.Colore_Wireframe,255,150);
         }
 
-        if(oggetto.Wireframe == true){
-          noFill();
-        } else {
-          texture(gino);
-        }
+
 
         beginShape(TRIANGLE_STRIP);
         for (let y = 0; y < punti[x].length-1; y++) {
+
+          if(oggetto.Wireframe == true){
+            noFill();
+          } else {
+            texture(gino);
+          }
+
             vertex(x * res, y * res, punti[x][y]*oggetto.Heightmap, u-res, v);
             vertex((x+1) * res , y * res, punti[x+1][y]*oggetto.Heightmap, u, v);
             v +=res;
@@ -403,7 +419,7 @@ ellipse(0,0,res*oggetto.Scala_Celle,res*oggetto.Scala_Celle);
     }
 
     u=0;
-  }
+
 
 
 }
@@ -425,7 +441,6 @@ function keyPressed(){
 
    // TASTO A FA LO SCREEN DI BEHOLDER E TROVA UN'IMMAGINE CHE GLI SOMIGLIA
     if (key == 's') {
-
 
       createCanvas(windowWidth, windowHeight, WEBGL);
       avviaEasycam();
@@ -454,13 +469,17 @@ posIniY=(windowHeight/2)-beholder.width/2;
 
 function caricaModello() {
   // CARICA MAPPA DISPLACEMENT
-    mappa.loadPixels();
+   mappaTemp = mappa;
+       //mappaTemp.filter(TRESHOLD);
+       //mappaTemp.filter(BLUR, 3);
+
+    mappaTemp.loadPixels();
     let f = 0;
     let k = 0;
-    for (let x = 0; x < mappa.width-res; x+=res) {
+    for (let x = 0; x < mappaTemp.width-res; x+=res) {
       punti[f] = [];
-      for (let y = 0; y < mappa.height-res; y+=res) {
-        let c = mappa.get(x, y);
+      for (let y = 0; y < mappaTemp.height-res; y+=res) {
+        let c = mappaTemp.get(x, y);
         let h = brightness(c);
         punti[f][k] = h;
         k++;
@@ -468,7 +487,7 @@ function caricaModello() {
       k=0;
       f++;
     }
-    mappa.updatePixels();
+    mappaTemp.updatePixels();
 
   // CARICA TEXTURE
     gino.loadPixels();
