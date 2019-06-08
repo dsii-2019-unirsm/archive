@@ -68,6 +68,7 @@ let classifier;
 let gino = false;
 let mappa = false;
 let mappaTemp = false;
+let ginoMask= false;
 let daMappare;
 let imgsResolution;
 
@@ -285,7 +286,7 @@ if (mondo3D==false){
         if(Tasselli[x][y]==false){
            image(A, posx, posy, res, res, posx-posIniX, posy-posIniY, res, res);
            } else{
-           image(B, posx, posy, res, res, posx-posIniX, posy-posIniY, res, res);
+           image(B, posx, posy, res, res, posx-posIniX, posy-posIniY, 1.1*res, 1.2*res);
            }
       }
     }
@@ -401,11 +402,14 @@ ellipse(0,0,res*oggetto.Scala_Celle,res*oggetto.Scala_Celle);
         beginShape(TRIANGLE_STRIP);
         for (let y = 0; y < punti[x].length-1; y++) {
 
+
+
           if(oggetto.Wireframe == true){
             noFill();
           } else {
-            texture(gino);
+            texture(ginoMask);
           }
+
 
             vertex(x * res, y * res, punti[x][y]*oggetto.Heightmap, u-res, v);
             vertex((x+1) * res , y * res, punti[x+1][y]*oggetto.Heightmap, u, v);
@@ -445,6 +449,8 @@ function keyPressed(){
       createCanvas(windowWidth, windowHeight, WEBGL);
       avviaEasycam();
       gui3D();
+      ginoMask = gino;
+      ginoMask.mask(mappa);
       mondo3D = true;
 
      }
