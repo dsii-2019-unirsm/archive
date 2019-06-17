@@ -1,3 +1,11 @@
+// -
+// dataviz by Grazia Pestillo [dataviz, killer]
+// 2019 © Grazia Pestillo, Daniele @Fupete and the course DSII2019 @UniRSM 
+// github.com/fupete — github.com/dsii-2019-unirsm
+// Educational purposes, MIT License, 2019, San Marino
+// —
+
+
 var url = "https://spreadsheets.google.com/feeds/list/1xMmaavfxlMwLB7G6QE-u6kKGrIQSmjQtnxKN-bZNY5w/1/public/values?alt=json";
 
 var dati = [];
