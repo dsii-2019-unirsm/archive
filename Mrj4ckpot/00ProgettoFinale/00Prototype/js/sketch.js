@@ -14,11 +14,8 @@ let oggetto = {
   Brightness: 1,
   Heightmap: 1,
 
-  Forma_Celle: "Quadrato",
+  Forma_Celle: "Cerchio",
   Scala_Celle: 1,
-  Rotazione_X: 0,
-  Rotazione_Y: 0,
-  Rotazione_Z: 0,
 
   Wireframe: false,
   Colore_Wireframe: 100
@@ -32,18 +29,14 @@ function gui3D(){
   gui.add(oggetto, 'Bianco_e_Nero' );
   gui.add(oggetto, 'Brightness', 0, 5 );
   gui.add(oggetto, 'Heightmap', -5, 5 );
+  gui.add(oggetto, 'Wireframe' );
 
   var f1 = gui.addFolder('Opzioni Causeway');
-  f1.add(oggetto, 'Forma_Celle', [ 'Quadrato', 'Cerchio'] );
+  f1.add(oggetto, 'Forma_Celle', [ 'Cerchio', 'Quadrato'] );
   f1.add(oggetto, 'Scala_Celle', 0, 5 );
-  f1.add(oggetto, 'Rotazione_X', 0, 1 );
-  f1.add(oggetto, 'Rotazione_Y', 0, 1 );
-  f1.add(oggetto, 'Rotazione_Z', 0, 1 );
 
   var f2 = gui.addFolder('Opzioni Mesh');
-  f2.add(oggetto, 'Wireframe' );
   f2.add(oggetto, 'Colore_Wireframe', 0, 255 );
-
 }
 
 
@@ -55,7 +48,7 @@ let puntiB = [];
 let beholder;
 let Tasselli = [];
 
-let res = 2;
+let res = 8;
 
 let contaA = 0;
 let contaB = 0;
@@ -339,7 +332,7 @@ fill(255);
 strokeWeight(.5);
 
 
-/*//--------------------------------
+//-------------CAUSEWAY
 //--------------------------------
 //--------------------------------
   if (oggetto.Geometria == "Causeway") {
@@ -360,16 +353,10 @@ fill(voxelBN[x][y]*oggetto.Brightness);
 
 
 if( oggetto.Forma_Celle == "Quadrato"){
-rotateX(rot*oggetto.Rotazione_X);
-rotateY(rot*oggetto.Rotazione_Y);
-rotateZ(rot*oggetto.Rotazione_Z);
 rect(0,0,res*oggetto.Scala_Celle,res*oggetto.Scala_Celle);
 }
 
 if( oggetto.Forma_Celle == "Cerchio"){
-rotateX(rot*oggetto.Rotazione_X);
-rotateY(rot*oggetto.Rotazione_Y);
-rotateZ(rot*oggetto.Rotazione_Z);
 ellipse(0,0,res*oggetto.Scala_Celle,res*oggetto.Scala_Celle);
 }
 
@@ -377,7 +364,7 @@ ellipse(0,0,res*oggetto.Scala_Celle,res*oggetto.Scala_Celle);
       }
     }
   }
-*/
+
 
 
 
@@ -390,42 +377,32 @@ ellipse(0,0,res*oggetto.Scala_Celle,res*oggetto.Scala_Celle);
     for (let x = 0; x < punti.length-1; x++) {
 
 
-        if (oggetto.Bianco_e_Nero == true){
-          stroke(oggetto.Brightness);
-        } else {
-          //colorMode(HSB);
-          stroke(oggetto.Colore_Wireframe,255,150);
-        }
-
-
-
         beginShape(TRIANGLE_STRIP);
         for (let y = 0; y < punti[x].length-1; y++) {
 
-
-
           if(oggetto.Wireframe == true){
+
+
             noFill();
+            if( oggetto.Bianco_e_Nero == false){
+            stroke(voxel[x][y]);
+            } else {
+            stroke(voxelBN[x][y]*oggetto.Brightness);
+            }
+
+
           } else {
             texture(ginoMask);
           }
-
-
             vertex(x * res, y * res, punti[x][y]*oggetto.Heightmap, u-res, v);
             vertex((x+1) * res , y * res, punti[x+1][y]*oggetto.Heightmap, u, v);
             v +=res;
-
         }
-
         v = 0;
         u +=res;
         endShape();
     }
-
     u=0;
-
-
-
 }
 
 
