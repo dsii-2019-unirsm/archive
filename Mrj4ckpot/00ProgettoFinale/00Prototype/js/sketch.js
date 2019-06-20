@@ -68,7 +68,7 @@ if(tassella.Taxelation == "Random"){
     for (let y = 0; y < beholder.height; y+=res) {
 
       dove = map((beholder.width - x), beholder.width, 1, 5, 0);
-      console.log(dove);
+
 
       if(random(dove)>1){
       Tasselli[x][y] = true;
@@ -87,18 +87,42 @@ if(tassella.Taxelation == "Random"){
     f++;
     }
   }
-} else if (tassella.Taxelation == "Catadioptric"){
-
-  let dove;
+} else if (tassella.Taxelation == "CatadioptricLight"){
 
   for (let x = 0; x < beholder.width; x+=res) {
     Tasselli[x] = [];
     for (let y = 0; y < beholder.height; y+=res) {
 
-      dove = map((beholder.width - x), beholder.width, 1, 5, 0);
-      console.log(dove);
+      let catA = A.get(x, y);
+      let catB = B.get(x, y);
 
-      if(random(dove)>1){
+      if( catA <= catB){
+      Tasselli[x][y] = true;
+        contaA++;
+      } else {
+      Tasselli[x][y] = false;
+        contaB++;
+      }
+
+      let posx = x;
+      let posy = y;
+
+      let dimx = res;
+      let dimy = res;
+    k=0;
+    f++;
+    }
+  }
+} else if (tassella.Taxelation == "CatadioptricDark"){
+
+  for (let x = 0; x < beholder.width; x+=res) {
+    Tasselli[x] = [];
+    for (let y = 0; y < beholder.height; y+=res) {
+
+      let catA = A.get(x, y);
+      let catB = B.get(x, y);
+
+      if( catA >= catB){
       Tasselli[x][y] = true;
         contaA++;
       } else {
@@ -142,7 +166,7 @@ function guiTassella(){
   var gui1 = new dat.GUI({ autoPlace: false });
 
   var t1 = gui1.addFolder('1: Look at');
-  t1.add(tassella, 'Taxelation', [ 'Random', 'Sight', 'Catadioptric'] );
+  t1.add(tassella, 'Taxelation', [ 'Random', 'Sight', 'CatadioptricLight',  'CatadioptricDark'] );
   t1.add(tassella, 'Resolution', 1, 25 );
   t1.add(tassella, 'ReMap');
 
@@ -227,6 +251,8 @@ let colore;
 let u,v;
 
 let mondo3D = false;
+
+
 
 
 
