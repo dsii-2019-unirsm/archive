@@ -8,29 +8,87 @@
 //
 
 let tassella = {
-  Tassellazione: "Random",
+  Taxelation: "Random",
+  Resolution: 12,
+  Behold: function() {
+    indovina();
+    background(30);},
+
+   Display: function() {
+
+     if (beholder && mappa){
+       createCanvas(windowWidth, windowHeight, WEBGL);
+       avviaEasycam();
+
+       $("#divGui1").hide();
+       gui3D();
+       $("#divGui2").show();
+
+       ginoMask = gino;
+       ginoMask.mask(mappa);
+       mondo3D = true;
+     }
+    },
+
+    ReMap: function() {
+      res = tassella.Resolution;
+      f = 0;
+      k = 0;
+     for (let x = 0; x < beholder.width; x+=res) {
+       Tasselli[x] = [];
+       for (let y = 0; y < beholder.height; y+=res) {
+
+         if(random(2)>=1){
+         Tasselli[x][y] = true;
+           contaA++;
+         } else {
+         Tasselli[x][y] = false;
+           contaB++;
+         }
+
+         let posx = x;
+         let posy = y;
+
+         let dimx = res;
+         let dimy = res;
+
+       k=0;
+       f++;
+       }
+     }
+   },
 };
 
 
 
 let oggetto = {
-  Geometria: "Mesh",
-  Bianco_e_Nero: false,
+  Geometry: "Mesh",
+  BlackAndWhite: false,
   Brightness: 1,
   Heightmap: 1,
 
-  Forma_Celle: "Cerchio",
-  Scala_Celle: 1,
+  CellShape: "Circle",
+  CellScale: 1,
 
   Wireframe: false,
-  Colore_Wireframe: 100
 };
 
 
 function guiTassella(){
 
   var gui1 = new dat.GUI({ autoPlace: false });
-  gui1.add(tassella, 'Tassellazione', [ 'Random', 'Visivo', 'Catadiottrico'] );
+
+  var t1 = gui1.addFolder('1: Look at');
+  t1.add(tassella, 'Taxelation', [ 'Random', 'Sight', 'Catadioptric'] );
+  t1.add(tassella, 'Resolution', 1, 25 );
+  t1.add(tassella, 'ReMap');
+
+
+  var t2 = gui1.addFolder('2: Behold');
+  t2.add(tassella, 'Behold');
+
+  var t3 = gui1.addFolder('3: Display');
+  t3.add(tassella, 'Display');
 
   var customContainer = document.getElementById('divGui1');
   customContainer.appendChild(gui1.domElement);
@@ -41,18 +99,17 @@ function guiTassella(){
 function gui3D(){
 
   var gui2 = new dat.GUI();
-  gui2.add(oggetto, 'Geometria', [ 'Mesh', 'Causeway'] );
-  gui2.add(oggetto, 'Bianco_e_Nero' );
+  gui2.add(oggetto, 'Geometry', [ 'Mesh', 'Causeway'] );
+  gui2.add(oggetto, 'BlackAndWhite' );
   gui2.add(oggetto, 'Brightness', 0, 5 );
   gui2.add(oggetto, 'Heightmap', -5, 5 );
   gui2.add(oggetto, 'Wireframe' );
 
-  var f1 = gui2.addFolder('Opzioni Causeway');
-  f1.add(oggetto, 'Forma_Celle', [ 'Cerchio', 'Quadrato'] );
-  f1.add(oggetto, 'Scala_Celle', 0, 5 );
+  var f1 = gui2.addFolder('Causeway options');
+  f1.add(oggetto, 'CellShape', [ 'Circle', 'Square'] );
+  f1.add(oggetto, 'CellScale', 0, 5 );
 
-  var f2 = gui2.addFolder('Opzioni Mesh');
-  f2.add(oggetto, 'Colore_Wireframe', 0, 255 );
+  var f2 = gui2.addFolder('Mesh options');
 
   var customContainer2 = document.getElementById('divGui2');
   customContainer2.appendChild(gui2.domElement);
@@ -68,7 +125,7 @@ let puntiB = [];
 let beholder;
 let Tasselli = [];
 
-let res = 8;
+let res = 12;
 
 let contaA = 0;
 let contaB = 0;
@@ -373,7 +430,7 @@ strokeWeight(.5);
 //-------------CAUSEWAY
 //--------------------------------
 //--------------------------------
-  if (oggetto.Geometria == "Causeway") {
+  if (oggetto.Geometry == "Causeway") {
     noStroke();
     for (let x = 0; x < punti.length; x++) {
       for (let y = 0; y < punti[x].length; y++) {
@@ -382,7 +439,7 @@ strokeWeight(.5);
         translate(x*res,y*res,h*oggetto.Heightmap);
 
 
-if( oggetto.Bianco_e_Nero == false){
+if( oggetto.BlackAndWhite == false){
 fill(voxel[x][y]);
 } else {
 fill(voxelBN[x][y]*oggetto.Brightness);
@@ -390,12 +447,12 @@ fill(voxelBN[x][y]*oggetto.Brightness);
 
 
 
-if( oggetto.Forma_Celle == "Quadrato"){
-rect(0,0,res*oggetto.Scala_Celle,res*oggetto.Scala_Celle);
+if( oggetto.CellShape == "Square"){
+rect(0,0,res*oggetto.CellScale,res*oggetto.CellScale);
 }
 
-if( oggetto.Forma_Celle == "Cerchio"){
-ellipse(0,0,res*oggetto.Scala_Celle,res*oggetto.Scala_Celle);
+if( oggetto.CellShape == "Circle"){
+ellipse(0,0,res*oggetto.CellScale,res*oggetto.CellScale);
 }
 
         pop();
@@ -422,7 +479,7 @@ ellipse(0,0,res*oggetto.Scala_Celle,res*oggetto.Scala_Celle);
 
 
             noFill();
-            if( oggetto.Bianco_e_Nero == false){
+            if( oggetto.BlackAndWhite == false){
             stroke(voxel[x][y]);
             } else {
             stroke(voxelBN[x][y]*oggetto.Brightness);
