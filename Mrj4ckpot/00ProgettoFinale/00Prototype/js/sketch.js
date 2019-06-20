@@ -7,8 +7,13 @@
 //
 //
 
+let tassella = {
+  Tassellazione: "Random",
+};
+
+
+
 let oggetto = {
-  REFRESH: function() { preload(); carica(); },
   Geometria: "Mesh",
   Bianco_e_Nero: false,
   Brightness: 1,
@@ -22,22 +27,37 @@ let oggetto = {
 };
 
 
+function guiTassella(){
+
+  var gui1 = new dat.GUI({ autoPlace: false });
+  gui1.add(tassella, 'Tassellazione', [ 'Random', 'Visivo', 'Catadiottrico'] );
+
+  var customContainer = document.getElementById('divGui1');
+  customContainer.appendChild(gui1.domElement);
+}
+
+
+
 function gui3D(){
 
-  var gui = new dat.GUI();
-  gui.add(oggetto, 'Geometria', [ 'Mesh', 'Causeway'] );
-  gui.add(oggetto, 'Bianco_e_Nero' );
-  gui.add(oggetto, 'Brightness', 0, 5 );
-  gui.add(oggetto, 'Heightmap', -5, 5 );
-  gui.add(oggetto, 'Wireframe' );
+  var gui2 = new dat.GUI();
+  gui2.add(oggetto, 'Geometria', [ 'Mesh', 'Causeway'] );
+  gui2.add(oggetto, 'Bianco_e_Nero' );
+  gui2.add(oggetto, 'Brightness', 0, 5 );
+  gui2.add(oggetto, 'Heightmap', -5, 5 );
+  gui2.add(oggetto, 'Wireframe' );
 
-  var f1 = gui.addFolder('Opzioni Causeway');
+  var f1 = gui2.addFolder('Opzioni Causeway');
   f1.add(oggetto, 'Forma_Celle', [ 'Cerchio', 'Quadrato'] );
   f1.add(oggetto, 'Scala_Celle', 0, 5 );
 
-  var f2 = gui.addFolder('Opzioni Mesh');
+  var f2 = gui2.addFolder('Opzioni Mesh');
   f2.add(oggetto, 'Colore_Wireframe', 0, 255 );
+
+  var customContainer2 = document.getElementById('divGui2');
+  customContainer2.appendChild(gui2.domElement);
 }
+
 
 
 // VARIABILI DI BEHOLDER MAP RECOGNITION
@@ -179,6 +199,12 @@ function setup() {
     background(220);
     noStroke();
     background(40);
+
+
+  //  gui3D();
+    guiTassella();
+
+
 
     beholder = createImage(500, 500);
 
@@ -425,7 +451,11 @@ function keyPressed(){
 
       createCanvas(windowWidth, windowHeight, WEBGL);
       avviaEasycam();
+
+      $("#divGui1").hide();
       gui3D();
+      $("#divGui2").show();
+
       ginoMask = gino;
       ginoMask.mask(mappa);
       mondo3D = true;
