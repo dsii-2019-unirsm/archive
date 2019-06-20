@@ -1,0 +1,143 @@
+%!Adobe-FontList 1.16
+%Locale:0x410
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Dosis-Bold
+FamilyName:Dosis
+StyleName:Bold
+FullName:Dosis Bold
+MenuName:Dosis
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\gigio15039\Desktop\makeVisibleInvisible_Marchionni_Beholder\Document fonts\Dosis-Bold.ttf
+DataFormat:sfntData
+FileLength:65796
+FileModTime:1451739762
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Dosis
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Dosis-ExtraBold
+FamilyName:Dosis
+StyleName:ExtraBold
+FullName:Dosis ExtraBold
+MenuName:Dosis
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\gigio15039\Desktop\makeVisibleInvisible_Marchionni_Beholder\Document fonts\Dosis-ExtraBold.ttf
+DataFormat:sfntData
+FileLength:66004
+FileModTime:1451739764
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Dosis
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Dosis-Regular
+FamilyName:Dosis
+StyleName:Regular
+FullName:Dosis Regular
+MenuName:Dosis
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\gigio15039\Desktop\makeVisibleInvisible_Marchionni_Beholder\Document fonts\Dosis-Regular.ttf
+DataFormat:sfntData
+FileLength:66892
+FileModTime:1451739764
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Dosis
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Dosis-SemiBold
+FamilyName:Dosis
+StyleName:SemiBold
+FullName:Dosis SemiBold
+MenuName:Dosis
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\gigio15039\Desktop\makeVisibleInvisible_Marchionni_Beholder\Document fonts\Dosis-SemiBold.ttf
+DataFormat:sfntData
+FileLength:66032
+FileModTime:1451739762
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Dosis
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTMono-Regular
+FamilyName:PT Mono
+StyleName:Regular
+FullName:PT Mono
+MenuName:PT Mono
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\gigio15039\Desktop\makeVisibleInvisible_Marchionni_Beholder\Document fonts\PTMono-Regular.ttf
+DataFormat:sfntData
+FileLength:53172
+FileModTime:1451739986
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,PT Mono
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSerif-Bold
+FamilyName:PT Serif
+StyleName:Bold
+FullName:PT Serif Bold
+MenuName:PT Serif
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\gigio15039\Desktop\makeVisibleInvisible_Marchionni_Beholder\Document fonts\PTSerif-Bold.ttf
+DataFormat:sfntData
+FileLength:77636
+FileModTime:1451739992
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,PT Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSerif-Regular
+FamilyName:PT Serif
+StyleName:Regular
+FullName:PT Serif
+MenuName:PT Serif
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\gigio15039\Desktop\makeVisibleInvisible_Marchionni_Beholder\Document fonts\PTSerif-Regular.ttf
+DataFormat:sfntData
+FileLength:84044
+FileModTime:1451739992
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,PT Serif
+%EndFont
+
