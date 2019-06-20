@@ -265,14 +265,14 @@ let img = loadImage(url,  ready => { id=true;  });
 function preload() {
   classifier = ml5.imageClassifier('MobileNet');
 //  A = carica("https://i.imgur.com/0CCUUrr.jpg?1", prontoA);
-//  B = carica("https://i.imgur.com/4g85mHn.jpg?1", prontoB);
+  B = carica("https://i.imgur.com/4g85mHn.jpg?1", prontoB);
 
   A = createCapture(VIDEO);
   A.size(500, 500);
-//  A.hide();
+  A.hide();
 
-  B = createCapture(VIDEO);
-  B.size(500, 500);
+//  B = createCapture(VIDEO);
+//  B.size(500, 500);
   //B.hide();
 
 }
