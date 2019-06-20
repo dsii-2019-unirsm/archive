@@ -85,8 +85,6 @@ let ginoMask= false;
 let daMappare;
 let imgsResolution;
 
-let primoSgatto = false;
-
 let posIniX;
 let posIniY;
 
@@ -322,6 +320,20 @@ if (gino && mappa){
   //mappa.filter(BLUR, 4);
 
   image(mappa, (windowWidth/2), (windowHeight/2)-250);
+
+  for (let x = 0; x < beholder.width; x+=res) {
+    for (let y = 0; y < beholder.height; y+=res) {
+
+      posx = x+posIniX;
+      posy = y+posIniY;
+
+      if(Tasselli[x][y]==false){
+         image(A, posx, posy, res, res, posx-posIniX, posy-posIniY, res, res);
+         } else{
+         image(B, posx, posy, res, res, posx-posIniX, posy-posIniY, 1.1*res, 1.2*res);
+         }
+    }
+  }
 
   fill(30);
   rect(0,0, windowWidth, posIniY);
