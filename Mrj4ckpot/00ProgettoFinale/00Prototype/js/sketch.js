@@ -34,6 +34,9 @@ let tassella = {
       res = tassella.Resolution;
       f = 0;
       k = 0;
+
+if(tassella.Taxelation == "Random"){
+     // Scelgo random se il tassello proviene da A o da B
      for (let x = 0; x < beholder.width; x+=res) {
        Tasselli[x] = [];
        for (let y = 0; y < beholder.height; y+=res) {
@@ -51,11 +54,71 @@ let tassella = {
 
          let dimx = res;
          let dimy = res;
-
        k=0;
        f++;
        }
      }
+
+} else if (tassella.Taxelation == "Sight"){
+  // La probabilità che venga preso un tassello da B aumenta mano a mano che ci spostiamo a Sx
+  let dove;
+
+  for (let x = 0; x < beholder.width; x+=res) {
+    Tasselli[x] = [];
+    for (let y = 0; y < beholder.height; y+=res) {
+
+      dove = map((beholder.width - x), beholder.width, 1, 5, 0);
+      console.log(dove);
+
+      if(random(dove)>1){
+      Tasselli[x][y] = true;
+        contaA++;
+      } else {
+      Tasselli[x][y] = false;
+        contaB++;
+      }
+
+      let posx = x;
+      let posy = y;
+
+      let dimx = res;
+      let dimy = res;
+    k=0;
+    f++;
+    }
+  }
+} else if (tassella.Taxelation == "Catadioptric"){
+
+  let dove;
+
+  for (let x = 0; x < beholder.width; x+=res) {
+    Tasselli[x] = [];
+    for (let y = 0; y < beholder.height; y+=res) {
+
+      dove = map((beholder.width - x), beholder.width, 1, 5, 0);
+      console.log(dove);
+
+      if(random(dove)>1){
+      Tasselli[x][y] = true;
+        contaA++;
+      } else {
+      Tasselli[x][y] = false;
+        contaB++;
+      }
+
+      let posx = x;
+      let posy = y;
+
+      let dimx = res;
+      let dimy = res;
+    k=0;
+    f++;
+    }
+  }
+}
+
+
+
    },
 };
 
@@ -255,11 +318,8 @@ function setup() {
     noStroke();
     background(40);
 
-
   //  gui3D();
     guiTassella();
-
-
 
     beholder = createImage(500, 500);
 
