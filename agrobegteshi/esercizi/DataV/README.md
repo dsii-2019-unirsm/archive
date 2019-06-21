@@ -1,5 +1,5 @@
 # Morti di tumore in Italia
-**[launch / open](https://editor.p5js.org)**
+**[launch / open](https://editor.p5js.org/agron/sketches/8nDVxFDCj)**
 
 by @Agron Begteshi © 2019 MIT License  
 DSII2019 Lab @UNIRSM [website](http://dsii-2019-unirsm.github.io)
