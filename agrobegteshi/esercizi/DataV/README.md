@@ -3,4 +3,4 @@
 
 by @Agron Begteshi © 2019 MIT License  
 DSII2019 Lab @UNIRSM [website](http://dsii-2019-unirsm.github.io)
-![morti tumore](https://user-images.githubusercontent.com/48655194/57220650-7791db00-6ffc-11e9-8adb-ee40cce9b925.png)
+![2019-06-21 14 41 29](https://user-images.githubusercontent.com/48655194/59923097-cc65a580-9432-11e9-8f8f-c27c7925a18a.jpg)
