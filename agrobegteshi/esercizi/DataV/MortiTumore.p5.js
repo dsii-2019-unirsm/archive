@@ -1,7 +1,7 @@
-// Agron Begteshi © 2019 MIT License
-// P5js retrieve data from Google Spreadsheets/JSON & make OOP | San Marino, SM | 4.2019
-// Educational purpose, made for DSII2019 lab @UniRSM
-// P5js gdoc example inspired on Gist https://gist.github.com/claytical/6a929f14964c867e07d8 by @claytical
+// Data visualization_morti_tumori 0.1 by Agron Begteshi
+// 2019 © Agron Begteshi, Daniele @Fupete and the course DSII2019 at DESIGN.unirsm 
+// github.com/dsii-2019-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2019, San Marino
 
 
 // carica da online
@@ -147,34 +147,34 @@ function Oggetto(_id, _anno, _trachea, _prostata, _fegato, _stomaco, _pancreas, 
     //ELLISSE BASE
     fill("#ffd700");
     noStroke(0);
-    ellipse(30, 35, this.trachea * 3, this.trachea * 3);
+    ellipse(30, 35, this.trachea*this.trachea/6, this.trachea*this.trachea/6);
 
     //ELLISSE BASE
     fill("#FF6347");
     noStroke(0);
-    ellipse(150, 35, this.prostata * 5, this.prostata * 5);
+    ellipse(150, 35, this.prostata*this.prostata/6, this.prostata*this.prostata/6);
 
     //ELLISSE BASE
     fill("#3CB371");
     noStroke(0);
-    ellipse(250, 35, this.fegato * 5, this.fegato * 5);
+    ellipse(250, 35, this.fegato*this.fegato/6, this.fegato*this.fegato/6);
 
 
 
     //ELLISSE BASE
     fill("#00CED1");
     noStroke(0);
-    ellipse(350, 35, this.stomaco * 5, this.stomaco * 5);
+    ellipse(350, 35, this.stomaco*this.stomaco/6, this.stomaco*this.stomaco/6);
 
     //ELLISSE BASE
     fill("#FFF8DC");
     noStroke(0);
-    ellipse(450, 35, this.pancreas * 5, this.pancreas * 5);
+    ellipse(450, 35, this.pancreas*this.pancreas/6, this.pancreas*this.pancreas/6);
 
     //ELLISSE BASE
     fill("#FF00FF");
     noStroke(0);
-    ellipse(550, 35, this.cervello * 5, this.cervello * 5);
+    ellipse(550, 35, this.cervello*this.cervello/6,        this.cervello*this.cervello/6);
 
 
     ///////////////////////////////////////////////////
