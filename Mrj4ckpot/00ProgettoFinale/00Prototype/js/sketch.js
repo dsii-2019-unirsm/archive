@@ -149,6 +149,10 @@ if(tassella.Taxelation == "Random"){
 
 
 let oggetto = {
+  Smooth: function() {
+    mappaTemp.filter(BLUR, 3);
+    caricaModello();
+  },
   Geometry: "Mesh",
   BlackAndWhite: false,
   Brightness: 1,
@@ -188,6 +192,7 @@ function gui3D(){
   var gui2 = new dat.GUI();
   gui2.add(oggetto, 'Geometry', [ 'Mesh', 'Causeway'] );
   gui2.add(oggetto, 'BlackAndWhite' );
+  gui2.add(oggetto, 'Smooth');
   gui2.add(oggetto, 'Brightness', 0, 5 );
   gui2.add(oggetto, 'Heightmap', -5, 5 );
   gui2.add(oggetto, 'Wireframe' );
@@ -254,6 +259,16 @@ let mondo3D = false;
 
 
 
+function ALoad() {
+  A.loop();
+  A.volume(0);
+}
+
+function BLoad() {
+  B.loop();
+  B.volume(0);
+}
+
 
 
 function carica(url, id){
@@ -264,12 +279,26 @@ let img = loadImage(url,  ready => { id=true;  });
 // precarico ml5 e le immagini sorgente
 function preload() {
   classifier = ml5.imageClassifier('MobileNet');
+
+          // SOURCE IMMAGINI
 //  A = carica("https://i.imgur.com/0CCUUrr.jpg?1", prontoA);
   B = carica("https://i.imgur.com/4g85mHn.jpg?1", prontoB);
 
-  A = createCapture(VIDEO);
-  A.size(500, 500);
+          // SOURCE VIDEO
+  A = createVideo (['vid/videoA.mp4']);
+//  A.resize(510, 510);
+//  A.size(510, 510);
+  ALoad();
   A.hide();
+
+  B = createVideo (['vid/videoB.mp4']);
+  BLoad();
+  B.hide();
+
+          // SOURCE WEBCAM
+//  A = createCapture(VIDEO);
+//  A.size(510, 510);
+//  A.hide();
 
 //  B = createCapture(VIDEO);
 //  B.size(500, 500);
@@ -639,8 +668,8 @@ posIniY=(windowHeight/2)-beholder.width/2;
 function caricaModello() {
   // CARICA MAPPA DISPLACEMENT
    mappaTemp = mappa;
-       //mappaTemp.filter(TRESHOLD);
-       //mappaTemp.filter(BLUR, 3);
+   //mappaTemp.filter(BLUR, oggetto.Smooth);
+
 
     mappaTemp.loadPixels();
     let f = 0;
