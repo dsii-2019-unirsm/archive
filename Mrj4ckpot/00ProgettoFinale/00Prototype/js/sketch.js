@@ -271,6 +271,8 @@ function BLoad() {
 
 
 
+
+
 function carica(url, id){
 let img = loadImage(url,  ready => { id=true;  });
   return img;
