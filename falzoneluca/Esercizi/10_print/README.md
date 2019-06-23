@@ -8,4 +8,4 @@
   #GAME<br>
   </h2>
   
-<video src="https://i.imgur.com/Mrqzg1q.mp4">
+<movie src="https://i.imgur.com/Mrqzg1q.mp4">
