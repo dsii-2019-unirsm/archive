@@ -74,7 +74,7 @@ var latestData = "waiting for data";
   console.log("aperta");
   console.log(portaseriale);
 
-  //inizializza();
+ // inizializza();
 
     livelloConfidence = 0;
     miaVoceSynth = new p5.Speech(); // sintetizzatore voce
@@ -91,7 +91,7 @@ var latestData = "waiting for data";
     startBtn.mousePressed(generate);
     resetBtn.mousePressed(resetModel);
     singleBtn.mousePressed(predict);
-    //inserisci();
+  //  inserisci();
     colorMode(HSB, 360, 100, 100);
     //legge sogno macchina
    // racconta();
@@ -105,7 +105,7 @@ var latestData = "waiting for data";
 
   function inserisci(){
     //se clicco su reset sulla schermata inserisce il testo registrato nel div result e svuota il div registrazione 
-      //$("#reset").on("click",function(){
+    //  $("#reset").on("click",function(){
               console.log("cliccato");
                $("#result").html(" ");
                 $("#registrazione").html(" ");
@@ -115,10 +115,11 @@ var latestData = "waiting for data";
                       testoDaAnalizzare=miaRegistrazione.resultString;
                       console.log(miaRegistrazione.resultString);
                       testoRacconto = testoRacconto + miaRegistrazione.ResultString
+                      myVoice.speak("Incominciamo!")
                      }
                //avvio analisi sentimento       
-              // sentimental_analysis();
-       //   });
+          //     sentimental_analysis();
+        //  });
   }
 
 // dati che provengono da seriale
@@ -153,11 +154,12 @@ function portaseriale() {
     //creo nuova registrazione
     console.log("inizializzato");
     miaRegistrazione = new p5.SpeechRec(lingua); 
+     myVoice.speak("Raccontami pure il tuo sogno!"); 
     miaRegistrazione.continuous = true; // ricognizione continua con
     miaRegistrazione.interimResults = true; // risultati parziali (meno precisione)
     miaRegistrazione.start();
     miaRegistrazione.onResult = parseResult; // ritorna il risultato
-     // });
+   //  });
   }///////////////////////REGISTRAZIONE FINE
 
   //scrive model loaded in cosole quando il modello charRNN è pronto 
@@ -179,10 +181,12 @@ function portaseriale() {
       generating = false;
       startBtn.html('Start');
       let par = select("#result"); 
+
     } else {
       generating = true;
       startBtn.html('Pause');
       loopRNN();
+      myVoice.speak("Fammi pensare");
     }
   }
   
