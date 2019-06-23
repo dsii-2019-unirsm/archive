@@ -6,4 +6,6 @@ Il sogno e l’immaginazione, intesi come la possibilità di visualizzare e dar 
 
 IperDream è una scatola dei sogni da comodino la quale, attraverso l’utilizzo di algoritmi di machine learning allenati sulla base di testi noti e grazie al racconto umano, riesce a fornire una interpretazione e un prolungamento dei sogni. Nuovi mondi immaginabili.
 
+_Da eseguire utilizzando un server in locale_
+
 
