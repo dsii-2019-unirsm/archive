@@ -1,5 +1,7 @@
-// Daniele Cappai @Dani-CA © 2017 MIT License
-// P5js retrieve data from Google Spreadsheets/JSON | Cagliari, IT | 6.2019
+//Dataviz Cagliari 0.1 by Daniele Cappai [dataviz, daylenght]
+// 2019 © Dani-CA, Daniele @Fupete and the course DSII2019 at DESIGN.unirsm 
+// github.com/dsii-2019-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2019, San Marino
 
 
 // example inspired on Gist https://gist.github.com/claytical/6a929f14964c867e07d8 by @claytical
@@ -9,7 +11,7 @@
 // https://spreadsheets.google.com/feeds/list/
 // + KEY_URL + /od6/public/values?alt=json
 //
-// se chiamando questo url direttamente nel browser riporta l'errore “Il valore di grid_id non è valido.” provate indicizzando direttamente il primo foglio sostituendo a /od6/ un /1/ quindi la seconda parte diventa + /1/public/values?alt=json
+
 
 var url = "https://spreadsheets.google.com/feeds/list/1f8dJYks4JyrNxYCHnjpcOxcdOheBMOshprABsfTWjT4/od6/public/values?alt=json";
 var dati = [];

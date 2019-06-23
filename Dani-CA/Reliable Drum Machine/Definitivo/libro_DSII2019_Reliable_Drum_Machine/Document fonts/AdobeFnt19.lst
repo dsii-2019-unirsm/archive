@@ -1,0 +1,579 @@
+%!Adobe-FontList 1.19
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSans-Regular
+FamilyName:PT Sans
+StyleName:Regular
+MenuName:PT Sans
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:PT Sans
+WritingScript:Roman
+OutlineFileName:\PTSans.ttc
+TTCOffset:56
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2767520
+FileModTime:1440289558
+NameArray:0,Mac,18,PT Sans
+NameArray:0,Mac,4,PT Sans
+NameArray:0,Win,1,PT Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSans-Italic
+FamilyName:PT Sans
+StyleName:Italic
+MenuName:PT Sans
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:PT Sans Italic
+WritingScript:Roman
+OutlineFileName:\PTSans.ttc
+TTCOffset:388
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2767520
+FileModTime:1440289558
+NameArray:0,Mac,18,PT Sans Italic
+NameArray:0,Mac,4,PT Sans Italic
+NameArray:0,Win,1,PT Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSans-NarrowBold
+FamilyName:PT Sans Narrow
+StyleName:Bold
+MenuName:PT Sans Narrow
+StyleBits:2
+WeightClass:700
+WidthClass:3
+AngleClass:0
+FullName:PT Sans Narrow Bold
+WritingScript:Roman
+OutlineFileName:\PTSans.ttc
+TTCOffset:720
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2767520
+FileModTime:1440289558
+NameArray:0,Mac,18,PT Sans Narrow Bold
+NameArray:0,Mac,4,PT Sans Narrow Bold
+NameArray:0,Win,1,PT Sans Narrow
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSans-Narrow
+FamilyName:PT Sans Narrow
+StyleName:Regular
+MenuName:PT Sans Narrow
+StyleBits:0
+WeightClass:400
+WidthClass:3
+AngleClass:0
+FullName:PT Sans Narrow
+WritingScript:Roman
+OutlineFileName:\PTSans.ttc
+TTCOffset:1052
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2767520
+FileModTime:1440289558
+NameArray:0,Mac,18,PT Sans Narrow
+NameArray:0,Mac,4,PT Sans Narrow
+NameArray:0,Win,1,PT Sans Narrow
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSans-CaptionBold
+FamilyName:PT Sans Caption
+StyleName:Bold
+MenuName:PT Sans Caption
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:PT Sans Caption Bold
+WritingScript:Roman
+OutlineFileName:\PTSans.ttc
+TTCOffset:1384
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2767520
+FileModTime:1440289558
+NameArray:0,Mac,18,PT Sans Caption Bold
+NameArray:0,Mac,4,PT Sans Caption Bold
+NameArray:0,Win,1,PT Sans Caption
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSans-Caption
+FamilyName:PT Sans Caption
+StyleName:Regular
+MenuName:PT Sans Caption
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:PT Sans Caption
+WritingScript:Roman
+OutlineFileName:\PTSans.ttc
+TTCOffset:1716
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2767520
+FileModTime:1440289558
+NameArray:0,Mac,18,PT Sans Caption
+NameArray:0,Mac,4,PT Sans Caption
+NameArray:0,Win,1,PT Sans Caption
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSans-BoldItalic
+FamilyName:PT Sans
+StyleName:Bold Italic
+MenuName:PT Sans
+StyleBits:3
+WeightClass:700
+WidthClass:5
+AngleClass:1
+FullName:PT Sans Bold Italic
+WritingScript:Roman
+OutlineFileName:\PTSans.ttc
+TTCOffset:2048
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2767520
+FileModTime:1440289558
+NameArray:0,Mac,18,PT Sans Bold Italic
+NameArray:0,Mac,4,PT Sans Bold Italic
+NameArray:0,Win,1,PT Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSans-Bold
+FamilyName:PT Sans
+StyleName:Bold
+MenuName:PT Sans
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:PT Sans Bold
+WritingScript:Roman
+OutlineFileName:\PTSans.ttc
+TTCOffset:2380
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2767520
+FileModTime:1440289558
+NameArray:0,Mac,18,PT Sans Bold
+NameArray:0,Mac,4,PT Sans Bold
+NameArray:0,Win,1,PT Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTMono-Regular
+FamilyName:PT Mono
+StyleName:Regular
+MenuName:PT Mono
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:PT Mono
+WritingScript:Roman
+OutlineFileName:\PTMono-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:53172
+FileModTime:1451743585
+NameArray:0,Win,1,PT Mono
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Dosis-Regular
+FamilyName:Dosis
+StyleName:Regular
+MenuName:Dosis
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Dosis Regular
+WritingScript:Roman
+OutlineFileName:\Dosis-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:66892
+FileModTime:1451743363
+NameArray:0,Win,1,Dosis
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSerif-Bold
+FamilyName:PT Serif
+StyleName:Bold
+MenuName:PT Serif
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:PT Serif Bold
+WritingScript:Roman
+OutlineFileName:\PTSerif-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:77636
+FileModTime:1451743591
+NameArray:0,Win,1,PT Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Dosis-Bold
+FamilyName:Dosis
+StyleName:Bold
+MenuName:Dosis
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Dosis Bold
+WritingScript:Roman
+OutlineFileName:\Dosis-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:65796
+FileModTime:1451743362
+NameArray:0,Win,1,Dosis
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSerif-Regular
+FamilyName:PT Serif
+StyleName:Regular
+MenuName:PT Serif
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:PT Serif
+WritingScript:Roman
+OutlineFileName:\PTSerif.ttc
+TTCOffset:40
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1164836
+FileModTime:1534550300
+NameArray:0,Mac,18,PT Serif
+NameArray:0,Mac,4,PT Serif
+NameArray:0,Win,1,PT Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSerif-Italic
+FamilyName:PT Serif
+StyleName:Italic
+MenuName:PT Serif
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:PT Serif Italic
+WritingScript:Roman
+OutlineFileName:\PTSerif.ttc
+TTCOffset:340
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1164836
+FileModTime:1534550300
+NameArray:0,Mac,18,PT Serif Italic
+NameArray:0,Mac,4,PT Serif Italic
+NameArray:0,Win,1,PT Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSerif-BoldItalic
+FamilyName:PT Serif
+StyleName:Bold Italic
+MenuName:PT Serif
+StyleBits:3
+WeightClass:700
+WidthClass:5
+AngleClass:1
+FullName:PT Serif Bold Italic
+WritingScript:Roman
+OutlineFileName:\PTSerif.ttc
+TTCOffset:640
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1164836
+FileModTime:1534550300
+NameArray:0,Mac,18,PT Serif Bold Italic
+NameArray:0,Mac,4,PT Serif Bold Italic
+NameArray:0,Win,1,PT Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSerif-Bold
+FamilyName:PT Serif
+StyleName:Bold
+MenuName:PT Serif
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:PT Serif Bold
+WritingScript:Roman
+OutlineFileName:\PTSerif.ttc
+TTCOffset:940
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1164836
+FileModTime:1534550300
+NameArray:0,Mac,18,PT Serif Bold
+NameArray:0,Mac,4,PT Serif Bold
+NameArray:0,Win,1,PT Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Dosis-ExtraBold
+FamilyName:Dosis
+StyleName:ExtraBold
+MenuName:Dosis
+StyleBits:0
+WeightClass:800
+WidthClass:5
+AngleClass:0
+FullName:Dosis ExtraBold
+WritingScript:Roman
+OutlineFileName:\Dosis-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:66004
+FileModTime:1451743363
+NameArray:0,Win,1,Dosis
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Dosis-SemiBold
+FamilyName:Dosis
+StyleName:SemiBold
+MenuName:Dosis
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Dosis SemiBold
+WritingScript:Roman
+OutlineFileName:\Dosis-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:66032
+FileModTime:1451743362
+NameArray:0,Win,1,Dosis
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Times-Roman
+FamilyName:Times
+StyleName:Regular
+MenuName:Times
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Times Roman
+WritingScript:Roman
+OutlineFileName:\Times.ttc
+TTCOffset:40
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:917516
+FileModTime:1534550300
+NameArray:0,Mac,4,Times Roman
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Times-Bold
+FamilyName:Times
+StyleName:Bold
+MenuName:Times
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Times Bold
+WritingScript:Roman
+OutlineFileName:\Times.ttc
+TTCOffset:404
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:917516
+FileModTime:1534550300
+NameArray:0,Mac,4,Times Bold
+NameArray:0,Mac,4,Times Gras
+NameArray:0,Mac,4,Times Fett
+NameArray:0,Mac,4,Times grassetto
+NameArray:0,Mac,4,Times vet
+NameArray:0,Mac,4,Times Fet
+NameArray:0,Mac,4,Times Negrita
+NameArray:0,Mac,4,Times Fed
+NameArray:0,Mac,4,Times Carregado
+NameArray:0,Mac,4,Times Halvfet
+NameArray:0,Mac,4,Times lihava
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Times-Italic
+FamilyName:Times
+StyleName:Italic
+MenuName:Times
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Times Italic
+WritingScript:Roman
+OutlineFileName:\Times.ttc
+TTCOffset:768
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:917516
+FileModTime:1534550300
+NameArray:0,Mac,4,Times Italic
+NameArray:0,Mac,4,Times Italique
+NameArray:0,Mac,4,Times Kursiv
+NameArray:0,Mac,4,Times corsivo
+NameArray:0,Mac,4,Times cursief
+NameArray:0,Mac,4,Times Kursiv
+NameArray:0,Mac,4,Times Cursiva
+NameArray:0,Mac,4,Times kursiv
+NameArray:0,Mac,4,Times Itálico
+NameArray:0,Mac,4,Times kursiv
+NameArray:0,Mac,4,Times kursiivi
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Times-BoldItalic
+FamilyName:Times
+StyleName:Bold Italic
+MenuName:Times
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Times Bold Italic
+WritingScript:Roman
+OutlineFileName:\Times.ttc
+TTCOffset:1132
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:917516
+FileModTime:1534550300
+NameArray:0,Mac,4,Times Bold Italic
+NameArray:0,Mac,4,Times Gras italique
+NameArray:0,Mac,4,Times Fett Kursiv
+NameArray:0,Mac,4,Times grassetto corsivo
+NameArray:0,Mac,4,Times vet-cursief
+NameArray:0,Mac,4,Times Fet Kursiv
+NameArray:0,Mac,4,Times Negrita Cursiva
+NameArray:0,Mac,4,Times Fed kursiv
+NameArray:0,Mac,4,Times Carregado Itálico
+NameArray:0,Mac,4,Times Halvfet kursiv
+NameArray:0,Mac,4,Times lihava kursiivi
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSerif-Regular
+FamilyName:PT Serif
+StyleName:Regular
+MenuName:PT Serif
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:PT Serif
+WritingScript:Roman
+OutlineFileName:\PTSerif-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:84044
+FileModTime:1451743592
+NameArray:0,Win,1,PT Serif
+%EndFont
+
