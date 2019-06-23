@@ -5,3 +5,17 @@ html, body {
 canvas {
   display: block;
 }
+
+#divGui1{
+  visibility: inherit;
+  position: absolute;
+  transform-origin: 60% 100%;
+  width: 245px;
+}
+
+#divGui2{
+/*  visibility: hidden; */
+  position: absolute;
+  transform-origin: 60% 100%;
+  width: 275px;
+}

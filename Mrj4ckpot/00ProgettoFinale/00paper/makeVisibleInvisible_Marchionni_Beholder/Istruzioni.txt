@@ -1,0 +1,101 @@
+ISTRUZIONI DI STAMPA ADOBE INDESIGN DESTINATE AL SERVICE DI STAMPA
+
+NOME PUBBLICAZIONE: libro_DSII2019_modello-progetto.indd
+
+DATA PREPARAZIONE PACCHETTO: 16/06/2019 02.13
+Data di creazione: 16/06/2019
+Data di modifica: 16/06/2019
+
+INFORMAZIONI DI CONTATTO
+
+Nome società: 
+Contatto: 
+Indirizzo: 
+
+
+
+
+
+Telefono: 
+Fax: 
+E-mail: 
+
+ISTRUZIONI SPECIALI E ALTRE INDICAZIONI
+
+
+
+
+
+
+Plug-in esterni 1
+
+ExtensisFontManagementIDCS5.InDesignPlugin
+
+
+Oggetti non opachi: A pagina12, 18
+
+FONT
+7 font usati; 0 mancanti, 0 incorporati, 0 incompleti, 0 protetti
+
+Font inclusi nel pacchetto
+- Nome: Dosis-Bold; Tipo: TrueType, Stato: OK
+- Nome: Dosis-ExtraBold; Tipo: TrueType, Stato: OK
+- Nome: Dosis-Regular; Tipo: TrueType, Stato: OK
+- Nome: Dosis-SemiBold; Tipo: TrueType, Stato: OK
+- Nome: PTMono-Regular; Tipo: TrueType, Stato: OK
+- Nome: PTSerif-Bold; Tipo: TrueType, Stato: OK
+- Nome: PTSerif-Regular; Tipo: TrueType, Stato: OK
+
+
+COLORI E INCHIOSTRI
+4 inchiostri di quadricromia; 0 inchiostri tinta piatta
+
+- Nome e tipo: Cyan quadricromia; Angolo: 0,000; Linee/pollice: 0,000
+- Nome e tipo: Magenta quadricromia; Angolo: 0,000; Linee/pollice: 0,000
+- Nome e tipo: Giallo quadricromia; Angolo: 0,000; Linee/pollice: 0,000
+- Nome e tipo: Nero quadricromia; Angolo: 0,000; Linee/pollice: 0,000
+
+
+COLLEGAMENTI E IMMAGINI
+(Solo collegamenti mancanti e incorporati)
+Collegamenti e immagini: 32 collegamenti trovati; 0 modificati, 0 mancanti 0 Non accessibile
+Immagini: 0 incorporati, 30 usano spazio cromatico RGB
+
+
+IMPOSTAZIONI DI STAMPA
+PPD: N/D, (HP Deskjet F300 series)
+Stampa in corso su: Stampante
+Numero di copie: 1
+Pagine affiancate: No
+Pagine pari/dispari: Entrambe
+Pagine: Tutte
+Prova di stampa: No
+Divisione in porzioni: Nessuno
+Scala: 100%, 100%
+Posizione pagina: In alto a sinistra
+Stampa livelli: Livelli visibili e stampabili
+Segni di stampa: Nessuno
+Pagina al vivo: 0 mm, 0 mm, 0 mm, 0 mm
+Colore: RGB composito
+Modalità abbondanza: Nessuno
+Invia dati immagine: Subsampling ottimizzato
+Sostituzione immagini OPI/DCS: No
+Dimensioni pagina: A4
+Dimensioni carta: 210,005 mm x 297 mm
+Orientamento: Verticale
+Negativo: No
+Modalità riflessione: Disattivato
+
+
+ELENCO DEI FILE DEL PACCHETTO
+
+1. libro_DSII2019_modello-progetto.indd; tipo: Pubblicazione Adobe InDesign; dimensione: 5720K
+2. libro_DSII2019_modello-progetto.idml; tipo: Documento InDesign Markup; dimensione: 151K
+3. libro_DSII2019_modello-progetto.pdf; tipo: Documento Adobe Acrobat; dimensione: 996K
+4. Dosis-Bold.ttf; tipo: Font; dimensione: 64K
+5. Dosis-ExtraBold.ttf; tipo: Font; dimensione: 64K
+6. Dosis-Regular.ttf; tipo: Font; dimensione: 65K
+7. Dosis-SemiBold.ttf; tipo: Font; dimensione: 64K
+8. PTMono-Regular.ttf; tipo: Font; dimensione: 51K
+9. PTSerif-Bold.ttf; tipo: Font; dimensione: 75K
+10. PTSerif-Regular.ttf; tipo: Font; dimensione: 82K
