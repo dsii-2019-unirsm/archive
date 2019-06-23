@@ -7,5 +7,5 @@
   #MINECRAFT<br>
   #GAME<br>
   </h2>
-  
-  <img src=“https://i.imgur.com/mM7TnhZ.gif”>
+
+  <img src="https://i.imgur.com/mM7TnhZ.gif">
