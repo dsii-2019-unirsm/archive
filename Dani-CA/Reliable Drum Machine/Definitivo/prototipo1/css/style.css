@@ -1,0 +1,44 @@
+body {
+  background: #61727c;
+  color: white;
+  font-family: Helvetica-Neue, sans-serif;
+  margin: 20px;
+}
+
+a {
+  color: #61727c;
+}
+
+h1 {
+color:#00a0b5;
+}
+#result {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: #00a0b5;
+}
+
+
+#label {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+
+#label2 {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.buttons{
+    font-size: 20px;
+}
+
+#ws-waveform {
+   background: #1f2528;
+   width: 50%;
+   justify-content: center;
+   margin-top: 5px;
+   border: 2px solid white;
+}
