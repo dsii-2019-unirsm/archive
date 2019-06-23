@@ -1,6 +1,6 @@
 // -
 // Pescatore biblico 0.1 by Daniele Cappai [processing, words]
-// 2018 © Nomestudente, Daniele @Fupete and the course DSII2019 at DESIGN.unirsm 
+// 2018 © Dani-CA, Daniele @Fupete and the course DSII2019 at DESIGN.unirsm 
 // github.com/dsii-2019-unirsm — github.com/fupete
 // Educational purposes, MIT License, 2019, San Marino
 // —
